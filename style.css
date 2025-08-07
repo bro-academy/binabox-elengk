@@ -1,0 +1,71 @@
+/* Style body */
+body{
+    font-family: 'poppins', sans-serif ;
+    background-color: rgba(13, 13, 21, 1) ;
+    color: rgba(245,248,251,1);
+    }
+
+h1,h2,h3{
+    font-family: 'bakbak one', sans-serif;
+} 
+
+/*Style a */
+a{
+    color: rgba(245,248,251,1);
+    text-decoration: none;
+}
+
+/* Style header */
+header {
+  padding: 32px;
+  background-color: rgba(13,13 21,1);
+  color: rgba(245,248,251,1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Style ul */
+ul {
+  list-style: none;
+}
+
+/* FAQ Section */
+details {
+  background-color: rgba(29, 28, 40, 1);
+  padding: 24px;
+}
+
+summary{
+    font-family: 'bakbak', sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(245, 248, 251, 1);
+}
+
+/* Footer */
+footer {
+  background-color:rgba(26, 25, 37, 1);
+  padding-inline: 64px;
+  padding-block: 64px 32;
+}
+
+footer nav ul {
+  list-style: none;
+}
+
+h4{
+    font-family: 'poppins',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(245, 248, 251, 1);
+}
+
+footer a {
+  color: rgba(245, 248, 251, 1);
+}
+
+
+
