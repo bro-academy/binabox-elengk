@@ -1,36 +1,44 @@
 /* Style body */
 body{
-    font-family: 'poppins', sans-serif ;
+    font-family: 'Poppins', sans-serif ;
+    font-size: 14px;
     background-color: rgba(13, 13, 21, 1) ;
     color: rgba(245,248,251,1);
+    letter-spacing: -0.5px;
     }
 
 h1,h2,h3{
-    font-family: 'bakbak one', sans-serif;
+    font-family: 'Bakbak One', sans-serif;
+    letter-spacing: -0.5px;
 } 
-h4{
-  color:red;
-}
-
-/*Style a */
-a{
-    color: rgba(245,248,251,1);
-    text-decoration: none;
-}
 
 /* Style header */
 header {
   padding: 32px;
-  background-color: rgba(13,13 21,1);
+  background-color: rgba(13,13,21,1);
   color: rgba(245,248,251,1);
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0px;
 }
 
 /* Style ul */
 ul {
   list-style: none;
+}
+
+/*our blog read me link*/
+a{
+width: 161px;
+height: 40px;
+opacity: 1;
+padding-top: 8px;
+padding-right: 20px;
+padding-bottom: 8px;
+padding-left: 20px;
+border: 2px solid rgba(208,215,251,0.17);
+border-radius: 0px;
 }
 
 /* FAQ Section */
@@ -40,18 +48,19 @@ details {
 }
 
 summary{
-    font-family: 'bakbak', sans-serif;
-    font-weight: 400px;
+    font-family: 'Bakbak One', sans-serif;
+    font-weight: 400;
     font-size: 24px;
     line-height: 32px;
     color: rgba(245, 248, 251, 1);
+    letter-spacing: 0px;
 }
 
 /* Footer */
 footer {
   background-color:rgba(26, 25, 37, 1);
   padding-inline: 64px;
-  padding-block: 64px 32;
+  padding-block: 64px 32px;
 }
 
 footer nav ul {
@@ -59,11 +68,12 @@ footer nav ul {
 }
 
 h4{
-    font-family: 'poppins',sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     color: rgba(245, 248, 251, 1);
+    letter-spacing: 0px;
 }
 
 footer a {
