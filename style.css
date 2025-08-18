@@ -1,4 +1,4 @@
-/* Style body */
+/* General Styles*/
 body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -6,14 +6,17 @@ body {
   color: rgba(245, 248, 251, 1);
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-family: "Bakbak One", sans-serif;
   letter-spacing: -0.5px;
 }
 
-/* Style header */
+ul {
+  list-style: none;
+}
+
+
+/* Header Block */
 header {
   padding: 32px;
   background-color: rgba(13, 13, 21, 1);
@@ -22,7 +25,6 @@ header {
 .header__navigation-link {
   color: rgba(245, 248, 251, 1);
   line-height: 24px;
-  letter-spacing: 0px;
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
@@ -35,98 +37,85 @@ header {
 .header__button {
   opacity: 1;
   border-width: 2px;
-  padding-top: 10px;
-  padding-right: 24px;
-  padding-bottom: 10px;
-  padding-left: 24px;
+  padding: 10px 24px;
   color: rgba(245, 248, 251, 1);
+}
+
+
+/* Buttons*/
+.button--primary {
+  background-color: rgba(2, 101, 220, 1);
+  border: 2px solid rgba(2, 101, 220, 1);
+  color: rgba(245, 248, 251, 1);
+  padding: 10px 24px;
 }
 
 .button--secondary {
   background-color: transparent;
-  text-decoration: none;
-  opacity: 1;
-  border-width: 2px;
-  padding-top: 10px;
-  padding-right: 24px;
-  padding-bottom: 10px;
-  padding-left: 24px;
   border: 2px solid rgba(208, 215, 251, 0.17);
-}
-
-.banner__button {
-  opacity: 1;
-  padding-top: 10px;
-  padding-right: 24px;
-  padding-bottom: 10px;
-  padding-left: 24px;
+  padding: 10px 24px;
   color: rgba(245, 248, 251, 1);
 }
-.button--primary {
-  background-color: rgba(2, 101, 220, 1);
-  border: 2px solid rgba(2, 101, 220, 1);
-}
-/* Style ul */
-ul {
-  list-style: none;
+
+.button--tertiary {
+  border: 2px solid rgba(208, 215, 251, 0.17);
+  padding: 8px 20px;
+  text-align: center;
+  color: rgba(245, 248, 251, 1);
+  text-decoration: none;
 }
 
-/*main section*/
+.banner__button,
+.blog__cta-button-link {
+  border: 2px solid rgba(208, 215, 251, 0.17);
+  padding: 10px 24px;
+  color: rgba(245, 248, 251, 1);
+}
 
+
+/* Banner Block*/
 .banner__section-brand {
   color: rgba(2, 101, 220, 1);
 }
 
 .banner__section-description {
-  font-style: Medium;
   font-size: 20px;
   line-height: 28px;
   color: rgba(217, 217, 217, 1);
 }
 
 .banner__label {
-  font-style: Regular;
   font-size: 16px;
   line-height: 24px;
-  vertical-align: bottom;
   color: rgba(239, 245, 250, 0.82);
 }
 
 .banner__value {
-  font-style: Regular;
   font-size: 52px;
   line-height: 62px;
   letter-spacing: -0.5px;
-  vertical-align: bottom;
   color: rgba(245, 248, 251, 1);
 }
 
-/*catalog*/
 
+/*Catalog Block*/
 .catalog__link {
-  opacity: 1;
-  padding-top: 10px;
-  padding-right: 24px;
-  padding-bottom: 10px;
-  padding-left: 24px;
+  padding: 10px 24px;
   text-decoration: none;
   border: 2px solid rgba(208, 215, 251, 0.17);
   background-color: transparent;
   color: rgba(245, 248, 251, 1);
 }
 
+
+/* Product Card Block */
 .product-card {
-  opacity: 1;
   padding: 24px;
   background-color: rgba(29, 28, 40, 1);
 }
 
-.product__card__label {
-  opacity: 1;
-  padding-top: 8px;
-  padding-right: 10px;
-  padding-bottom: 8px;
-  padding-left: 10px;
+.product-card__label {
+  padding: 8px 10px;
   background-color: rgba(245, 248, 251, 1);
   font-family: Poppins;
   font-weight: 600;
@@ -141,97 +130,63 @@ ul {
   color: rgba(245, 248, 251, 1);
 }
 
-.product__card__value {
-  font-family: Bakbak One, sans-serif;
-  font-weight: 400;
-  font-style: Regular;
+.product-card__value {
+  font-family: "Bakbak One", sans-serif;
   font-size: 36px;
   line-height: 48px;
   letter-spacing: -0.5px;
   color: rgba(245, 248, 251, 1);
 }
 
-.product__card__name {
+.product-card__name {
   font-family: Poppins, sans-serif;
   font-weight: 500;
-  font-style: Medium;
   font-size: 20px;
   line-height: 28px;
   color: rgba(239, 245, 250, 0.82);
 }
 
-/*our blog*/
 
+/* Blog Homepage block */
 .blog-card--large {
-  width: 784;
-  height: 900;
+  width: 784px;
+  height: 900px;
   min-width: 512px;
-  opacity: 1;
   padding: 24px;
   background-color: rgba(29, 28, 40, 1);
 }
 
 .blog-card--small {
-  width: 784;
-  height: 434;
-  opacity: 1;
+  width: 784px;
+  height: 434px;
   padding: 24px;
   background-color: rgba(29, 28, 40, 1);
 }
 
-.button--tertiary {
-  opacity: 1;
-  border-width: 2px;
-  padding-top: 8px;
-  padding-right: 20px;
-  padding-bottom: 8px;
-  padding-left: 20px;
-  text-decoration: none;
-  line-height: 24px;
-  text-align: center;
-  vertical-align: middle;
-  color: rgba(245, 248, 251, 1);
-  border: 2px solid rgba(208, 215, 251, 0.17);
-  text-decoration: none;
-}
 
-.blog__cta-button-link {
-  opacity: 1;
-  border-width: 2px;
-  padding-top: 10px;
-  padding-right: 24px;
-  padding-bottom: 10px;
-  padding-left: 24px;
-  border: 2px solid rgba(208, 215, 251, 0.17);
-  color: rgba(245, 248, 251, 1);
-}
-
-/*about us*/
-
+/* About Us Block */
 .about__list-item {
   text-decoration: none;
   background: rgba(26, 25, 37, 1);
 }
 
-/* FAQ Section */
-details {
+
+/* FAQ Block */
+.faqs__item {
   background-color: rgba(29, 28, 40, 1);
   padding: 24px;
 }
 
-summary {
+.faqs__question {
   font-family: "Bakbak One", sans-serif;
-  font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   color: rgba(245, 248, 251, 1);
-  letter-spacing: 0px;
 }
 
-/*blog page*/
 
+/* Blog Page Block */
 .blog-article__quote {
-  opacity: 1;
   padding: 16px;
   border-radius: 16px;
   background-color: rgba(0, 39, 84, 1);
@@ -239,68 +194,48 @@ summary {
 }
 
 .blog-article__tag-link {
-  text-decoration: none;
-  opacity: 1;
-  border-width: 2px;
-  padding-top: 6px;
-  padding-right: 12px;
-  padding-bottom: 6px;
-  padding-left: 12px;
+  padding: 6px 12px;
   border: 2px solid rgba(208, 215, 251, 0.17);
-  background-color: transparent;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  vertical-align: middle;
-  color: rgba(245, 248, 251, 1);
-}
-
-.blog-article__share-link {
-  opacity: 1;
-  padding: 8px;
-  border-width: 2px;
   color: rgba(245, 248, 251, 1);
   text-decoration: none;
 }
 
-.aside {
-  opacity: 1;
-  gap: 16;
+.blog-article__share-link {
+  padding: 8px;
+  color: rgba(245, 248, 251, 1);
+  text-decoration: none;
+}
+
+
+/* Aside Blog Block */
+.aside-blog {
+  gap: 16px;
   padding: 24px;
   background-color: rgba(29, 28, 40, 1);
 }
 
-.aside__link {
+.aside-blog__link {
   text-decoration: none;
   color: rgba(245, 248, 251, 1);
 }
-.aside__tags-item {
-  opacity: 1;
-  border-width: 2px;
-  padding-top: 6px;
-  padding-right: 12px;
-  padding-bottom: 6px;
-  padding-left: 12px;
-}
 
-.aside__tags-link {
-  opacity: 1;
-  border-width: 2px;
-  padding-top: 6px;
-  padding-right: 12px;
-  padding-bottom: 6px;
-  padding-left: 12px;
+.aside-blog__tags-item,
+.aside-blog__tags-link {
+  padding: 6px 12px;
   border: 2px solid rgba(208, 215, 251, 0.17);
-  text-decoration: none;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  vertical-align: middle;
   color: rgba(245, 248, 251, 1);
+  text-decoration: none;
 }
 
-/* Footer */
-footer {
+
+/* Footer Block */
+.footer {
   background-color: rgba(26, 25, 37, 1);
   padding-inline: 64px;
   padding-block: 64px 32px;
@@ -310,7 +245,7 @@ footer nav ul {
   list-style: none;
 }
 
-h4 {
+.footer__title {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -321,6 +256,7 @@ h4 {
 .copyrights__text {
   color: rgba(2, 101, 220, 1);
 }
-footer a {
+
+.footer__Social-link {
   color: rgba(245, 248, 251, 1);
 }
