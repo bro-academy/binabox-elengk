@@ -240,6 +240,10 @@ header {
   padding: 24px;
 }
 
+.faqs__term {
+  color: rgba(2, 101, 220, 1);
+}
+
 .faqs__question {
   font-family: "Bakbak One", sans-serif;
   font-size: 24px;
@@ -275,6 +279,10 @@ header {
   border-radius: 16px;
   background-color: rgba(0, 39, 84, 1);
   color: rgba(248, 247, 255, 1);
+}
+
+.blog-article__subtitle-link {
+  color: rgba(120, 187, 250, 1);
 }
 
 .blog-article__tag-link {
