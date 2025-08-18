@@ -6,7 +6,9 @@ body {
   color: rgba(245, 248, 251, 1);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Bakbak One", sans-serif;
   letter-spacing: -0.5px;
 }
@@ -14,7 +16,6 @@ h1, h2, h3 {
 ul {
   list-style: none;
 }
-
 
 /* Header Block */
 header {
@@ -40,7 +41,6 @@ header {
   padding: 10px 24px;
   color: rgba(245, 248, 251, 1);
 }
-
 
 /* Buttons*/
 .button--primary {
@@ -72,8 +72,15 @@ header {
   color: rgba(245, 248, 251, 1);
 }
 
-
 /* Banner Block*/
+
+.banner__section-title {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .banner__section-brand {
   color: rgba(2, 101, 220, 1);
 }
@@ -97,8 +104,15 @@ header {
   color: rgba(245, 248, 251, 1);
 }
 
-
 /*Catalog Block*/
+
+.catalog__title {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .catalog__link {
   padding: 10px 24px;
   text-decoration: none;
@@ -106,7 +120,6 @@ header {
   background-color: transparent;
   color: rgba(245, 248, 251, 1);
 }
-
 
 /* Product Card Block */
 .product-card {
@@ -146,8 +159,22 @@ header {
   color: rgba(239, 245, 250, 0.82);
 }
 
-
 /* Blog Homepage block */
+
+.blog__title {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.blog-card__title {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .blog-card--large {
   width: 784px;
   height: 900px;
@@ -163,15 +190,51 @@ header {
   background-color: rgba(29, 28, 40, 1);
 }
 
-
 /* About Us Block */
+
+.about__title {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.about__item-title {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .about__list-item {
   text-decoration: none;
   background: rgba(26, 25, 37, 1);
 }
+/*Our team Block */
 
+.team__title {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.team-member__name {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
 
 /* FAQ Block */
+
+.faqs__title {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .faqs__item {
   background-color: rgba(29, 28, 40, 1);
   padding: 24px;
@@ -184,8 +247,29 @@ header {
   color: rgba(245, 248, 251, 1);
 }
 
-
 /* Blog Page Block */
+
+.blog-banner__title {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.blog-article__title {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.blog-article__subtitle {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .blog-article__quote {
   padding: 16px;
   border-radius: 16px;
@@ -209,8 +293,22 @@ header {
   text-decoration: none;
 }
 
-
 /* Aside Blog Block */
+
+.aside-blog__title {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.aside-blog__tags-title {
+  font-family: Bakbak One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .aside-blog {
   gap: 16px;
   padding: 24px;
@@ -232,7 +330,6 @@ header {
   color: rgba(245, 248, 251, 1);
   text-decoration: none;
 }
-
 
 /* Footer Block */
 .footer {
