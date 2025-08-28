@@ -1,0 +1,13 @@
+{% macro buttonDiscord(class , value , palette, icon , alt , text ) %}
+<button class='button button--{{ palette }} {{ class }}' type='button' value='{{ value }}'>
+  <img class='header__button-icon' src='{{ icon }}' alt='{{ alt }}'>
+  <span class='header__button-text'>{{ text }}</span>
+</button>
+{% endmacro %}
+
+{% macro buttonConnect(class , value , palette , icon , alt , text ) %}
+<button class='button button--{{ palette }} {{ class }}' type='button' value='{{ value }}'>
+  <img class='header__button-icon' src='{{ icon }}' alt='{{ alt }}'>
+  <span class='header__button-text'>{{ text }}</span>
+</button>
+{% endmacro %}

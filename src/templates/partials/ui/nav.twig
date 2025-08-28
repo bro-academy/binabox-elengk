@@ -1,0 +1,14 @@
+<nav class='header__navigation'>
+  <ul class='header__navigation-list'>
+    {% for item in index.navigation %}
+      <li class='header__navigation-item'>
+        <a
+          class='header__navigation-link {% if item.href == page %}header__navigation-link--actie{% endif %}'
+          href='{{item.href}}'
+        >
+          {{- item.name -}}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

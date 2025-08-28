@@ -7,14 +7,16 @@
       {% block title %}{{ common.siteTitle }}{% endblock %}
     </title>
     <link rel='stylesheet' href='/src/styles/main.scss'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link
+      href='https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;500;600&display=swap'
+      rel='stylesheet'
+    >
   </head>
   <body>
     <header>
-      <div class='container'>
-        <h1>
-          {% block header %}<img src='/src/assets/images/logo.svg' alt=''>{% endblock %}
-        </h1>
-      </div>
+      {% include 'src/templates/partials/ui/header.twig' %}
     </header>
 
     <main>
@@ -25,10 +27,7 @@
 
     <footer>
       <div class='container'>
-        <p>
-          &copy; {% block year %}2024{% endblock %}
-          {{ common.siteTitle }}. All rights reserved.
-        </p>
+        {% include 'src/templates/partials/ui/footer.twig' %}
       </div>
     </footer>
   </body>

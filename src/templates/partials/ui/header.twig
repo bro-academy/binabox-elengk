@@ -1,0 +1,9 @@
+<header class='header'>
+  <a class='header__logo' href='{{ index.html }}'>
+    <img class='header__logo-image' src='{{ # }}' alt='{{ BINABOX logo }}'>
+  </a>
+  {% include 'src/templates/partials/ui/nav.twig' %}
+  {% from 'src/templates/partials/ui/button.twig'import button %}
+  {{ button('header__button','button','primary') }}
+  {{ button('header__button','button','secondary') }}
+</header>

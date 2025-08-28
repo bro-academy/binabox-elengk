@@ -1,0 +1,13 @@
+<section class='banner'>
+  <h1 class='banner__section-title'>
+    {{ banner_text_first -}}
+    <span class='banner__section-brand'>{{ banner_brand }}</span>{{ banner_text_second }}
+  </h1>
+  <p class='banner__section-description'>{{ banner_description }}</p>
+
+  {% include 'src/templates/partials/ui/banner-stats.twig' %}
+
+  {% from 'src/templates/partials/ui/banner-button.twig'import button %}
+  {{ Walletbutton('Wallet-button', 'Connect wallet', 'primary') }}
+  {{ Whitelistbutton('Whitelist-button', 'Whitelist now', 'secondary') }}
+</section>

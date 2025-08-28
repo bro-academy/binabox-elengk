@@ -3,7 +3,8 @@
 {% from 'src/templates/partials/ui/icon.twig' import icon %}
 
 {% block content %}
-  <h1>{{ index.title }}</h1>
-
-  {% include 'src/templates/partials/welcome-section.twig' %}
+  {% include 'src/templates/partials/ui/nav.twig' %}
+  {% from 'src/templates/partials/ui/header-button.twig'import button %}
+  {{ Didscordbutton('discord-button', 'discord', 'primary') }}
+  {{ Connectbutton('connect-button', 'connect', 'secondary') }}
 {% endblock %}
