@@ -1,20 +1,20 @@
 <section class='catalog'>
-  <img class='catalog__image' src='{{ catalog_image.src }}' alt='{{ catalog_image.alt }}'>
-  <h2 class='catalog__title'>{{ catalog_title }}</h2>
-  <a class='catalog__link' href='{{ catalog_see_all_href }}'>See all</a>
+  <img class='catalog__image' src='{{ catalogImage.src }}' alt='{{ catalogImage.alt }}'>
+  <h2 class='catalog__title'>{{ catalogTitle }}</h2>
+  <a class='catalog__link' href='{{ catalogSeeAllHref }}'>See all</a>
 
   <div class='catalog__controls'>
     <button class='catalog__button button button--secondary' type='button'>
-      <img class='catalog__button-image' src='{{ previous_arrow.src }}' alt='{{ previous_arrow.alt }}'>
+      <img class='catalog__button-image' src='{{ previousArrow.src }}' alt='{{ previousArrow.alt }}'>
     </button>
     <button class='catalog__button button button--primary' type='button'>
-      <img class='catalog__button-image' src='{{ next_arrow.src }}' alt='{{ next_arrow.alt }}'>
+      <img class='catalog__button-image' src='{{ nextArrow.src }}' alt='{{ nextArrow.alt }}'>
     </button>
   </div>
 
   <ul class='catalog__list'>
     {% for product in catalog_products %}
-      {{ product_card(product.label, product.status, product.image.src, product.image.alt, product.value, product.name) }}
+      {{ productCard(product.label, product.status, product.image.src, product.image.alt, product.value, product.name) }}
     {% endfor %}
   </ul>
 </section>
