@@ -1,0 +1,77 @@
+<section class='blog'>
+  {% for article in blogArticles %}
+    <article class='blogArticle'>
+      {% for figure in article.figures %}
+        <figure class='blogArticle__figure'>
+          <img class='blogArticle__image' src='{{ figure.src }}' alt='{{ figure.alt }}'>
+          <figcaption class='blogArticle__caption'>{{ figure.caption }}</figcaption>
+        </figure>
+      {% endfor %}
+
+      <h2 class='blogArticle__title'>{{ article.title }}</h2>
+      <p class='blogArticle__label'>{{ article.label }}</p>
+
+      <img class='blogArticle__authorIcon' src='{{ article.author.icon.src }}' alt='{{ article.author.icon.alt }}'>
+      <address class='blogArticle__authorInfo'>
+        <p class='blogArticle__author'>{{ article.author.name }}</p>
+        <img class='blogArticle__dateIcon' src='{{ article.date.icon.src }}' alt='{{ article.date.icon.alt }}'>
+        <time class='blogArticle__time' datetime='{{ article.date.datetime }}'>{{ article.date.text }}</time>
+      </address>
+
+      <p class='blogArticle__text'>{{ article.text }}</p>
+
+      <ul class='blogArticle__bulletList'>
+        {% for bullet in article.bulletList %}
+          <li class='blogArticle__bulletItem'>{{ bullet }}</li>
+        {% endfor %}
+      </ul>
+
+      <ul class='blogArticle__list'>
+        {% for item in article.itemList %}
+          <li class='blogArticle__item'>{{ item }}</li>
+        {% endfor %}
+      </ul>
+
+      <blockquote class='blogArticle__quote'>
+        {{ article.quote.text }}
+        <p class='blogArticle__quoteValue'>{{ article.quote.value }}</p>
+        <p class='blogArticle__quoteAuthor'>{{ article.quote.author }}</p>
+      </blockquote>
+
+      {% for figure in article.additionalFigures %}
+        <figure class='blogArticle__figure'>
+          <img class='blogArticle__image' src='{{ figure.src }}' alt='{{ figure.alt }}'>
+          <figcaption class='blogArticle__caption'>{{ figure.caption }}</figcaption>
+        </figure>
+      {% endfor %}
+
+      {% for section in article.subsections %}
+        <h3 class='blogArticle__subtitle'>{{ section.title }}</h3>
+        {% for text in section.texts %}
+          <p class='blogArticle__subtitleText'>{{ text }}</p>
+        {% endfor %}
+      {% endfor %}
+
+      <p class='blogArticle__tagText'>{{ article.tagsLabel }}</p>
+      <ul class='blogArticle__tagList'>
+        {% for tag in article.tags %}
+          <li class='blogArticle__tagItem'>
+            <a class='blogArticle__tagLink' href='{{ tag.href }}'>{{ tag.label }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p class='blogArticle__shareText'>{{ article.shareLabel }}</p>
+      <ul class='blogArticle__shareList'>
+        {% for share in article.shares %}
+          <li class='blogArticle__shareItem'>
+            <a class='blogArticle__shareLink' href='{{ share.href }}'>
+              <img class='blogArticle__shareImage' src='{{ share.icon.src }}' alt='{{ share.icon.alt }}'>
+              {{ share.label }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </article>
+  {% endfor %}
+</section>

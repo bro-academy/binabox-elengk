@@ -1,0 +1,20 @@
+<aside class='asideBlog'>
+  <h2 class='asideBlog__title'>{{ aside.title }}</h2>
+  <nav class='asideBlog__navigation'>
+    <ul class='asideBlog__list'>
+      {% for category in aside.categories %}
+        <li class='asideBlog__item'>
+          <a class='asideBlog__link' href='{{ category.href }}'>({{ category.text }})</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <h3 class='asideBlog__tagsTitle'>{{ asideTags.title }}</h3>
+  <ul class='asideBlog__navigation'>
+    {% for tag in asideTags.tags %}
+      <li class='asideBlog__tagsItem'>
+        <a class='asideBlog__tagsLink' href='{{ tag.href }}'>{{ tag.label }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
