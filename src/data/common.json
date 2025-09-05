@@ -1,5 +1,110 @@
 {
   "common": {
     "siteTitle": "Binabox"
-  }
+  },
+
+  "page": "index.html",
+  "index": {
+    "navigation": [
+      {
+        "name": "Home",
+        "href": "index.html"
+      },
+      {
+        "name": "Blog",
+        "href": "blog-page.html"
+      },
+      {
+        "name": "Catalog",
+        "href": "#"
+      },
+      {
+        "name": "Contact Us",
+        "href": "#"
+      }
+    ]
+  },
+  "header": {
+    "href": "index.html",
+    "logo_href": "#",
+    "logo_alt": "BINABOX logo"
+  },
+
+  "headerButtons": [
+    {
+      "class": "button",
+      "value": "Discord",
+      "palette": "secondary",
+      "href": "#",
+      "icon_alt": "Discord icon",
+      "text": "Discord",
+      "type": "Discord"
+    },
+
+    {
+      "class": "button",
+      "value": "Connect",
+      "palette": "primary",
+      "href": "#",
+      "icon_alt": "Connect icon",
+      "text": "Connect",
+      "type": "connect"
+    }
+  ],
+
+  "footer": {
+    "href": "index.html",
+    "logo_href": "#",
+    "logo_alt": " BINABOX logo",
+    "footer_description": " We are the best way to check the rarity of NFT collections."
+  },
+
+  "footerNavigation": {
+    "title": "Navigation",
+    "links": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Blog", "href": "blog-page.html" },
+      { "label": "Catalog", "href": "#" },
+      { "label": "Contact Us", "href": "#" },
+      { "label": "Terms & Conditions", "href": "#" },
+      { "label": "Privacy Policy", "href": "#" },
+      { "label": "Whitepaper", "href": "#" },
+      { "label": "Help Center", "href": "#" }
+    ]
+  },
+
+  "copyrights": {
+    "text": "We are the best way to check the rarity of NFT collection.",
+    "company": "BINABOX",
+    "year": "2025-ALL rights reserved"
+  },
+
+  "footerSocials": [
+    {
+      "label": "Twitter",
+      "href": "#",
+      "icon": "#"
+    },
+    {
+      "label": "Facebook",
+      "href": "#",
+      "icon": "#"
+    },
+    {
+      "label": "Telegram",
+      "href": "#",
+      "icon": "#"
+    },
+    {
+      "label": "YouTube",
+      "href": "#",
+      "icon": "#"
+    },
+    { "label": "TikTok", "href": "#", "icon": "#" },
+    {
+      "label": "Discord",
+      "href": "#",
+      "icon": "#"
+    }
+  ]
 }
