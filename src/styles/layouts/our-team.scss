@@ -1,0 +1,8 @@
+@use "../abstract/variables.scss" as *;
+
+.team__title,
+.team-member__name {
+  font-family: $ff-heading;
+  font-size: $fz-ml;
+  line-height: $lh-me;
+}

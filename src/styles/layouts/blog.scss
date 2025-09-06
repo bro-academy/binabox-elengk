@@ -1,0 +1,30 @@
+@use "../abstract/variables.scss" as *;
+@use "../abstract/mixins.scss" as *;
+
+.blog__title,
+.blog-card__title {
+  font-family: $ff-heading;
+  font-weight: $fw-regular;
+  font-size: $fz-ml;
+  line-height: $lh-me;
+}
+
+.blog-card--large {
+  width: 784px;
+  height: 900px;
+  min-width: 512px;
+  padding: $space-lg;
+  background-color: $alternative2;
+}
+
+.blog-card--small {
+  width: 784px;
+  height: 434px;
+  padding: $space-lg;
+  background-color: $alternative2;
+}
+
+.button {
+  @include button-base;
+  @include button-tertiary;
+}

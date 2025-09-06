@@ -1,0 +1,33 @@
+@use "../abstract/variables.scss" as *;
+
+.product-card {
+  padding: $space-lg;
+  background-color: $alternative2;
+}
+
+.product-card__label {
+  padding: $space-s $space-2s;
+  background-color: $primary;
+  line-height: $lh-m;
+  text-align: right;
+  color: $marina800;
+}
+
+.product-card__label--updated {
+  background-color: $negative;
+  color: $primary;
+}
+
+.product-card__value {
+  font-family: $ff-heading;
+  font-size: $fz-xl;
+  line-height: $lh-xl;
+  letter-spacing: $ls-xs;
+  color: $primary;
+}
+
+.product-card__name {
+  font-size: $fz-m;
+  line-height: $lh-md;
+  color: $secondary;
+}

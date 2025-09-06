@@ -1,0 +1,15 @@
+@use "../abstract/variables.scss" as *;
+@use "../abstract/mixins.scss" as *;
+
+.button {
+  @include button-base;
+  &--primary {
+    @include button-primary;
+  }
+  &--secondary {
+    @include button-secondary;
+  }
+  &--tertiary {
+    @include button-tertiary;
+  }
+}

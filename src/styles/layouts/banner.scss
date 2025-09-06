@@ -1,0 +1,33 @@
+@use "../abstract/variables.scss" as *;
+
+.banner__section-title {
+  font-family: $ff-heading;
+  font-weight: $fw-regular;
+  font-size: $fz-2xl;
+  line-height: $lh-2xl;
+  letter-spacing: $ls-xs;
+}
+.banner__section-brand {
+  color: $marina800;
+}
+
+.banner__description {
+  font-size: $fz-m;
+  line-height: $lh-md;
+  color: rgba(217, 217, 217, 1);
+}
+
+.banner__label {
+  font-size: $fz-sm;
+  line-height: $lh-base;
+  color: $secondary;
+}
+
+.banner-list__value {
+  font-family: $ff-heading;
+  font-weight: $fw-regular;
+  font-size: $fz-2xl;
+  line-height: $lh-2xl;
+  letter-spacing: $ls-xs;
+  color: $primary;
+}

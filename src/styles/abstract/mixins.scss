@@ -1,0 +1,36 @@
+@use "./variables.scss" as *;
+
+@mixin button-base($border: 2px solid) {
+  opacity: 1;
+  border: $border transparent;
+  padding: $space-2s $space-lg;
+  color: $primary;
+  text-decoration: none;
+  text-align: center;
+}
+
+@mixin button-primary {
+  background-color: $marina800;
+  border: $border $marina800;
+}
+
+@mixin button-secondary {
+  background-color: transparent;
+  border-color: $seporatorbold;
+}
+
+@mixin button-tertiary {
+  border: $border $seporatorbold;
+  padding: $space-s $space-m;
+  color: $primary;
+}
+
+@mixin blog__cta-link {
+  border: $border $seporatorbold;
+  padding: $padding;
+  color: $primary;
+}
+
+@mixin catalog__button {
+  padding: $space-base;
+}
