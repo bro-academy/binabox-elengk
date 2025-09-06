@@ -5,9 +5,9 @@
   </h1>
   <p class='banner__section-description'>{{ bannerDescription }}</p>
 
-  {% include 'src/templates/partials/ui/banner-stats.twig' %}
+  {% include 'partials/ui/banner-stats.twig' %}
 
-  {% from 'src/templates/partials/ui/banner-button.twig'import button %}
+  {% from 'partials/ui/banner-button.twig'import button %}
   {{ Walletbutton('Wallet-button', 'Connect wallet', 'primary') }}
   {{ Whitelistbutton('Whitelist-button', 'Whitelist now', 'secondary') }}
 </section>
