@@ -1,16 +1,14 @@
-{% extends 'layouts/base.twig' %}
-
-{% from 'partials/ui/icon.twig' import icon %}
+{% extends '../templates/layouts/base.twig' %}
 
 {% block content %}
-  {% include 'partials/ui/nav.twig' %}
-  {% from 'partials/ui/header-button.twig' import button %}
+  {% include '../templates/partials/ui/nav.twig' %}
+  {% from '../templates/partials/ui/header-button.twig' import button %}
   {{ button('discord-button', 'discord', 'primary') }}
   {{ button('connect-button', 'connect', 'secondary') }}
-  {% include 'partials/ui/banner.twig' %}
-  {% include 'partials/ui/catalog-section.twig' %}
-  {% include 'partials/ui/blog-section.twig' %}
-  {% include 'partials/ui/about-us.twig' %}
-  {% include 'partials/ui/our-team.twig' %}
-  {% include 'partials/ui/faqs.twig' %}
+  {% include '../templates/partials/ui/banner.twig' %}
+  {% include '../templates/partials/ui/catalog-section.twig' %}
+  {% include '../templates/partials/ui/blog-section.twig' %}
+  {% include '../templates/partials/ui/about-us.twig' %}
+  {% include '../templates/partials/ui/our-team.twig' %}
+  {% include '../templates/partials/ui/faqs.twig' %}
 {% endblock %}
