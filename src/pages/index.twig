@@ -1,14 +1,17 @@
-{% extends '../templates/layouts/base.twig' %}
+{% set currentPage = "Home" %}
+{% extends 'src/templates/layouts/base.twig' %}
+{%
+  set title =
+  "BINABOX - NFT Rarity Checker"
+%}
+{% set description = "BINABOX - The best way to check the rarity of NFT collections. Discover, explore, and analyze NFTs easily." %}
+{% set page = "home" %}
 
 {% block content %}
-  {% include '../templates/partials/ui/nav.twig' %}
-  {% from '../templates/partials/ui/header-button.twig' import button %}
-  {{ button('discord-button', 'discord', 'primary') }}
-  {{ button('connect-button', 'connect', 'secondary') }}
-  {% include '../templates/partials/ui/banner.twig' %}
-  {% include '../templates/partials/ui/catalog-section.twig' %}
-  {% include '../templates/partials/ui/blog-section.twig' %}
-  {% include '../templates/partials/ui/about-us.twig' %}
-  {% include '../templates/partials/ui/our-team.twig' %}
-  {% include '../templates/partials/ui/faqs.twig' %}
+  {% include 'src/templates/partials/ui/banner.twig' %}
+  {% include 'src/templates/partials/ui/catalog-section.twig' %}
+  {% include 'src/templates/partials/ui/blog-section.twig' %}
+  {% include 'src/templates/partials/ui/about-us.twig' %}
+  {% include 'src/templates/partials/ui/our-team.twig' %}
+  {% include 'src/templates/partials/ui/faqs.twig' %}
 {% endblock %}

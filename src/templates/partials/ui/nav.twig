@@ -3,7 +3,7 @@
     {% for item in index.navigation %}
       <li class='header__navigation-item'>
         <a
-          class='header__navigation-link {% if item.href == page %}header__navigation-link--actie{% endif %}'
+          class='header__navigation-link {% if item.href == page %}header__navigation-link--active{% endif %}'
           href='{{item.href}}'
         >
           {{- item.name -}}

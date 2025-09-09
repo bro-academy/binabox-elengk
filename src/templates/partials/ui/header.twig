@@ -1,9 +1,30 @@
 <header class='header'>
   <a class='header__logo' href='{{ index.html }}'>
-    <img class='header__logo-image' src='{{ # }}' alt='{{ BINABOX logo }}'>
+    <img class='header__logo-image' src='{{ }}' alt=' BINABOX logo '>
   </a>
-  {% include '../templates/partials/ui/nav.twig' %}
-  {% from '../templates/partials/ui/button.twig' import button %}
-  {{ button('header__button','button','primary') }}
-  {{ button('header__button','button','secondary') }}
+
+  {% include './nav.twig' %}
+  {% import 'buttons.twig' as macros %}
+
+  <div class='header__buttons'>
+    {# Primary Connect button #}
+    {{
+      macros.button(
+      'header__btn',
+      'Log In-primary',
+      'primary',
+      'Log In'
+      )
+    }}
+
+    {# Secondary Discord button #}
+    {{
+      macros.button(
+      'header__btn',
+      'Discord-secondary',
+      'secondary',
+      'Discord'
+      )
+    }}
+  </div>
 </header>

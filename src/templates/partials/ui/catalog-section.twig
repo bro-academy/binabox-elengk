@@ -1,5 +1,5 @@
 <section class='catalog'>
-  <img class='catalog__image' src='{{ catalogImage.src }}' alt='{{ catalogImage.alt }}'>
+  {#}<img class='catalog__image' src='{{ catalogImage.src }}' alt='{{ catalogImage.alt }}'>
   <h2 class='catalog__title'>{{ catalogTitle }}</h2>
   <a class='catalog__link' href='{{ catalogSeeAllHref }}'>See all</a>
 
@@ -10,11 +10,11 @@
     <button class='catalog__button button button--primary' type='button'>
       <img class='catalog__button-image' src='{{ nextArrow.src }}' alt='{{ nextArrow.alt }}'>
     </button>
-  </div>
+  </div>{#}
 
-  <ul class='catalog__list'>
-    {% for product in catalog_products %}
-      {{ productCard(product.label, product.status, product.image.src, product.image.alt, product.value, product.name) }}
+ <ul class="catalog__list">
+    {% for product in catalogProducts %}
+      {% include './product-card.twig' %}
     {% endfor %}
   </ul>
 </section>

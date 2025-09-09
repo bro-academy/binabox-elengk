@@ -6,7 +6,7 @@
     <title>
       {% block title %}{{ common.siteTitle }}{% endblock %}
     </title>
-    <link rel='stylesheet' href='/src/styles/main.scss'>
+    <link rel='stylesheet' href='/src/styles/style.scss'>
     <link rel='preconnect' href='https://fonts.googleapis.com'>
     <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
     <link
@@ -16,18 +16,16 @@
   </head>
   <body>
     <header>
-      {% include 'partials/ui/header.twig' %}
+      {% include '../partials/ui/header.twig' %}
     </header>
-
     <main>
       <div class='container'>
         {% block content %}{% endblock %}
       </div>
     </main>
-
     <footer>
       <div class='container'>
-        {% include 'partials/ui/footer.twig' %}
+        {% include '../partials/ui/footer.twig' %}
       </div>
     </footer>
   </body>

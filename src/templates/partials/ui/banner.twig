@@ -5,9 +5,12 @@
   </h1>
   <p class='banner__section-description'>{{ bannerDescription }}</p>
 
-  {% include '../partials/ui/banner-stats.twig' %}
+  {% include './banner-stats.twig' %}
 
-  {% from '../partials/ui/banner-button.twig' import button %}
-  {{ Walletbutton('Wallet-button', 'Connect wallet', 'primary') }}
-  {{ Whitelistbutton('Whitelist-button', 'Whitelist now', 'secondary') }}
+  {% import 'buttons.twig' as macros %}
+
+  <div class='banner__buttons'>
+    {{ macros.button('Wallet-button', 'wallet-connect', 'primary', 'Connect wallet') }}
+    {{ macros.button('Whitelist-button', 'whitelist-now', 'secondary','Whitelist now') }}
+  </div>
 </section>
