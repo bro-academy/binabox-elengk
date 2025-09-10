@@ -47,7 +47,7 @@
         "alt": "Next"
       }
     },
-    "catalogProducts": [
+    "products": [
       {
         "label": "New",
         "status": "Available",
