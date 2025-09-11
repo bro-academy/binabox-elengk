@@ -1,20 +1,24 @@
-<aside class='asideBlog'>
-  <h2 class='asideBlog__title'>{{ aside.title }}</h2>
-  <nav class='asideBlog__navigation'>
-    <ul class='asideBlog__list'>
-      {% for category in aside.categories %}
-        <li class='asideBlog__item'>
-          <a class='asideBlog__link' href='{{ category.href }}'>({{ category.text }})</a>
+<aside class='aside-blog'>
+  <h2 class='aside-blog__title'>{{ aside.title }}</h2>
+  <nav class='aside-blog__navigation'>
+    {% if aside.categories %}
+      <ul class='aside-blog__list'>
+        {% for category in aside.categories %}
+          <li class='aside-blog__item'>
+            <a class='aside-blog__link' href='{{ category.href }}'>({{ category.text }})</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </nav>
+  <h3 class='aside-blog__tags-title'>{{ asideTags.title }}</h3>
+  {% if asideTags.tags %}
+    <ul class='aside-blog__navigation'>
+      {% for tag in asideTags.tags %}
+        <li class='aside-blog__tags-item'>
+          <a class='aside-blog__tags-link' href='{{ tag.href }}'>{{ tag.label }}</a>
         </li>
       {% endfor %}
     </ul>
-  </nav>
-  <h3 class='asideBlog__tagsTitle'>{{ asideTags.title }}</h3>
-  <ul class='asideBlog__navigation'>
-    {% for tag in asideTags.tags %}
-      <li class='asideBlog__tagsItem'>
-        <a class='asideBlog__tagsLink' href='{{ tag.href }}'>{{ tag.label }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+  {% endif %}
 </aside>

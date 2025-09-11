@@ -1,12 +1,12 @@
-<section class='blogBanner'>
-  <h1 class='blogBanner__title'>{{ blogBannerTitle }}</h1>
+<section class='blog-banner'>
+  <h1 class='blog-banner__title'>{{ blogBannerTitle }}</h1>
 
-  <nav class='blogBanner__navigation'>
-    <ul class='blogBanner__navigationList'>
+  <nav class='blog-banner__navigation'>
+    <ul class='blog-banner__navigation-list'>
       {% for navItem in blogBannerNavigation %}
-        <li class='blogBanner__navigationItem'>
+        <li class='blog-banner__navigation-item'>
           {% if navItem.href is defined %}
-            <a class='blogBanner__navigationLink' href='{{ navItem.href }}'>
+            <a class='blog-banner__navigation-link' href='{{ navItem.href }}'>
               {{ navItem.label }}
             </a>
           {% else %}

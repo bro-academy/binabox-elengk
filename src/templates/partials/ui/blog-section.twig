@@ -7,7 +7,7 @@
       <img class='blog-card__image' src='{{ blogPost.image }}' alt='{{ blogPost.imageAlt }}'>
 
       <img class='blog-card__author-icon' src='#' alt='small human icon'>
-      <address class='blog-card__authorInfo'>
+      <address class='blog-card__author-info'>
         <p class='blog-card__author'>{{ blogPost.author }}</p>
         <img class='blog-card__date-icon' src='#' alt='calendar'>
         <time class='blog-card__time' datetime='{{ blogPost.date }}'>{{ blogPost.dateText }}</time>
@@ -17,15 +17,15 @@
       <p class='blog-card__text'>{{ blogPost.text }}</p>
 
       <div class='blog-card__button'>
-        <a class='blog-card__buttonLink button button--tertiary' href='{{ blogPost.link }}'>
+        <a class='blog-card__button-link button button--tertiary' href='{{ blogPost.link }}'>
           Read more
-          <img class='blog-card__linkImage' src='#' alt='next arrow'>
+          <img class='blog-card__link-image' src='#' alt='next arrow'>
         </a>
       </div>
     </article>
   {% endfor %}
 
-  <div class='blog__ctaButton'>
-    <a class='blog__ctaLink button button--secondary' href='#'>Read more</a>
+  <div class='blog__cta-button'>
+    <a class='blog__cta-link button button--secondary' href='#'>Read more</a>
   </div>
 </section>
