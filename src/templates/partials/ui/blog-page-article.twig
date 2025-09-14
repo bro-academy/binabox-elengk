@@ -1,80 +1,74 @@
 <section class='blog'>
-  {% for article in blogArticles %}
-    <article class='blog-article'>
-      {% for figure in article.figures %}
-        <figure class='blog-article__figure'>
-          <img class='blog-article__image' src='{{ figure.src }}' alt='{{ figure.alt }}'>
-          <figcaption class='blog-article__caption'>{{ figure.caption }}</figcaption>
-        </figure>
+  <article class='blog-article'>
+    <figure class='blog-article__figure'>
+      <img class='blog-article__image' src='{{  }}' alt='{{ blogArticles.figure.alt }}'>
+      <figcaption class='blog-article__caption'>{{ blogArticles.figure.caption }}</figcaption>
+    </figure>
+
+    <h2 class='blog-article__title'>{{ blogArticles.title }}</h2>
+    <p class='blog-article__label'>{{ blogArticles.label }}</p>
+
+    <img class='blog-article__author-icon' src='{{  }}' alt='{{ blogArticles.author.icon.alt }}'>
+    <address class='blog-article__author-info'>
+      <p class='blog-article__author'>{{ blogArticles.author.name }}</p>
+      <img class='blog-article__date-icon' src='{{  }}' alt='{{ blogArticles.date.icon.alt }}'>
+      <time class='blog-article__time' datetime='{{ blogArticles.date.datetime }}'>{{ blogArticles.date.text }}</time>
+    </address>
+
+    <p class='blog-article__text'>{{ blogArticles.text }}</p>
+
+    <ul class='blog-article__bullet-list'>
+      {% for bullet in blogArticles.bulletList %}
+        <li class='blog-article__bullet-item'>{{ bullet }}</li>
       {% endfor %}
+    </ul>
 
-      <h2 class='blog-article__title'>{{ article.title }}</h2>
-      <p class='blog-article__label'>{{ article.label }}</p>
-
-      <img class='blog-article__author-icon' src='{{ article.author.icon.src }}' alt='{{ article.author.icon.alt }}'>
-      <address class='blog-article__author-info'>
-        <p class='blog-article__author'>{{ article.author.name }}</p>
-        <img class='blog-article__date-icon' src='{{ article.date.icon.src }}' alt='{{ article.date.icon.alt }}'>
-        <time class='blog-article__time' datetime='{{ article.date.datetime }}'>{{ article.date.text }}</time>
-      </address>
-
-      <p class='blog-article__text'>{{ article.text }}</p>
-
-      <ul class='blog-article__bullet-list'>
-        {% for bullet in article.bulletList %}
-          <li class='blog-article__bullet-item'>{{ bullet }}</li>
-        {% endfor %}
-      </ul>
-
-      <ul class='blog-article__list'>
-        {% for item in article.itemList %}
-          <li class='blog-article__item'>{{ item }}</li>
-        {% endfor %}
-      </ul>
-
-      <blockquote class='blog-article__quote'>
-        {{ article.quote.text }}
-        <p class='blog-article__quote-value'>{{ article.quote.value }}</p>
-        <p class='blog-article__quote-author'>{{ article.quote.author }}</p>
-      </blockquote>
-
-      {% for figure in article.additionalFigures %}
-        <figure class='blog-article__figure'>
-          <img class='blog-article__image' src='{{ figure.src }}' alt='{{ figure.alt }}'>
-          <figcaption class='blog-article__caption'>{{ figure.caption }}</figcaption>
-        </figure>
+    <ul class='blog-article__list'>
+      {% for item in blogArticles.itemList %}
+        <li class='blog-article__item'>{{ item }}</li>
       {% endfor %}
+    </ul>
 
-      {% for section in article.subsections %}
-        <h3 class='blog-article__subtitle'>{{ section.title }}</h3>
-        {% for text in section.texts %}
-          <p class='blog-article__subtitle-text'>{{ text }}</p>
-        {% endfor %}
+    <blockquote class='blog-article__quote'>
+      {{ blogArticles.quote.text }}
+      <p class='blog-article__quote-value'>{{ blogArticles.quote.value }}</p>
+      <p class='blog-article__quote-author'>{{ blogArticles.quote.author }}</p>
+    </blockquote>
+
+    {% for figure in blogArticles.additionalFigures %}
+      <figure class='blog-article__figure'>
+        <img class='blog-article__image' src='{{  }}' alt='{{ figure.alt }}'>
+        <figcaption class='blog-article__caption'>{{ figure.caption }}</figcaption>
+      </figure>
+    {% endfor %}
+
+    <h3 class='blog-article__subtitle'>{{ blogArticles.subtitles.upperTitle }}</h3>
+    <p class='blog-article__subtitle-text'>{{ blogArticles.subtitles.upperText }}</p>
+    <p class='blog-article__subtitle-text'>{{ blogArticles.subtitles.text }}</p>
+    <h3 class='blog-article__subtitle'>{{ blogArticles.subtitles.lowerTitle }}</h3>
+    <p class='blog-article__subtitle-text'>{{ blogArticles.subtitles.lowerText }}</p>
+
+    <p class='blog-article__tag-text'>{{ blogArticles.article.label }}</p>
+
+    <p class='blog-article__tags-title'>{{ blogArticles.article.tagsTitle }}</p>
+    <ul class='blog-article__tag-list'>
+      {% for tag in blogArticles.article.tags %}
+        <li class='blog-article__tag-item'>
+          <a class='blog-article__tag-link' href='{{ tag.href }}'>{{ tag.label }}</a>
+        </li>
       {% endfor %}
+    </ul>
 
-      <p class='blog-article__tag-text'>{{ article.tagsLabel }}</p>
-      {% if article.tags is defined %}
-        <ul class='blog-article__tag-list'>
-          {% for tag in article.tags %}
-            <li class='blog-article__tag-item'>
-              {% if tag.href is defined %}
-                <a class='blog-article__tag-link' href='{{ tag.href }}'>{{ tag.label }}</a>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-      <p class='blog-article__share-text'>{{ article.shareLabel }}</p>
-      <ul class='blog-article__share-list'>
-        {% for share in article.shares %}
-          <li class='blog-article__share-item'>
-            <a class='blog-article__share-link' href='{{ share.href }}'>
-              <img class='blog-article__share-image' src='{{ share.icon.src }}' alt='{{ share.icon.alt }}'>
-              {{ share.label }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </article>
-  {% endfor %}
+    <p class='blog-article__share-text'>{{ blogArticles.article.sharesTitle }}</p>
+    <ul class='blog-article__share-list'>
+      {% for share in blogArticles.article.shares %}
+        <li class='blog-article__share-item'>
+          <a class='blog-article__share-link' href='{{ share.href }}'>
+            <img class='blog-article__share-image' src='{{  }}' alt='{{ share.icon.alt }}'>
+            {{ share.label }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </article>
 </section>
