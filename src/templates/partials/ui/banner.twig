@@ -1,0 +1,16 @@
+<section class='banner'>
+  <h1 class='banner__section-title'>
+    {{ banner.bannerTextFirst}}
+    <span class='banner__section-brand'>{{ banner.bannerBrand }}</span>{{ banner.bannerTextSecond }}
+  </h1>
+  <p class='banner__section-description'>{{ banner.bannerDescription }}</p>
+
+  {% include './banner-stats.twig' %}
+
+  {% import 'buttons.twig' as macros %}
+
+  <div class='banner__buttons'>
+    {{ macros.button('Wallet-button', 'wallet-connect', 'primary','','', 'Connect wallet') }}
+    {{ macros.button('Whitelist-button', 'whitelist-now', 'secondary','','','Whitelist now') }}
+  </div>
+</section>

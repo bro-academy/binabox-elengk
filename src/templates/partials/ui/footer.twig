@@ -1,0 +1,40 @@
+<footer class='footer'>
+  <a class='footer__logo' href='{{ index.navigation }} '>
+    <img class='footer__image' src='{{ }}' alt='BINABOX logo'>
+  </a>
+  <p class='footer__description'>{{ footer.description }}</p>
+
+  <h4 class='footer__title'>{{ footer_navigation.title }}</h4>
+  <nav class='footer__navigation'>
+    <ul class='footer-navigation__list'>
+      {% for link in footerNavigation.links %}
+        <li class='footer-navigation__list-item'>
+          <a
+            class='footer-navigation__list-link'
+            href='{{ link.href }}'
+          >
+            {{- link.label -}}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class='copyrights'>
+    <p class='copyrights__text'>{{ copyright.text }}</p>
+    <p class='copyrights__text'>
+      {{ copyright.company }}
+      {{ copyright.year }} – ALL rights reserved
+    </p>
+  </div>
+
+  <ul class='footer__social-list'>
+    {% for social in footerSocials %}
+      <li class='footer__social-item'>
+        <a class='footer__social-link' href='{{ social.url }}'>
+          <img class='footer__social-image' src='{{ social.icon }}' alt='{{ social.label }} logo'> {{ social.label }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</footer>

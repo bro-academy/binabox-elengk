@@ -1,0 +1,19 @@
+<section class='blog-banner'>
+  <h1 class='blog-banner__title'>{{ blogBannerTitle }}</h1>
+
+  <nav class='blog-banner__navigation'>
+    <ul class='blog-banner__navigation-list'>
+      {% for navItem in blogBannerNavigation %}
+        <li class='blog-banner__navigation-item'>
+          {% if navItem.href is defined %}
+            <a class='blog-banner__navigation-link' href='{{ navItem.href }}'>
+              {{ navItem.label }}
+            </a>
+          {% else %}
+            {{ navItem.label }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</section>

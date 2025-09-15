@@ -1,5 +1,526 @@
 {
-  "index": {
-    "title": "Hello World!"
-  }
+  "banner": {
+    "bannerTextFirst": "WITH ",
+    "bannerBrand": "BINABOX",
+    "bannerTextSecond": " EXPLORE NFT COLLECTION",
+    "bannerDescription": "We are the best way to check the rarity of NFT collection"
+  },
+
+  "bannerStats": [
+    {
+      "label": "UseTotal It eamrs",
+      "value": "2240+"
+    },
+    {
+      "label": "Profiles Whitelisted",
+      "value": "1000+"
+    }
+  ],
+
+  "bannerButtons": [
+    {
+      "type": "primary",
+      "href": "#",
+      "text": "Connect wallet"
+    },
+    {
+      "type": "secondary",
+      "href": "#",
+      "text": "Whitelist now"
+    }
+  ],
+
+  "catalog": {
+    "catalogImage": {
+      "src": "#",
+      "alt": "Catalog"
+    },
+    "catalogTitle": "Products",
+    "catalogSeeAllHref": "#",
+    "controls": {
+      "previousArrow": {
+        "src": "#",
+        "alt": "Previous"
+      },
+      "nextArrow": {
+        "src": "#",
+        "alt": "Next"
+      }
+    },
+    "products": [
+      {
+        "label": "New",
+        "status": "Available",
+        "image": {
+          "src": "#",
+          "alt": "Skeleton"
+        },
+        "value": "$1990",
+        "name": "Echo of bones"
+      },
+      {
+        "label": "new",
+        "status": "Available",
+        "image": {
+          "src": "#",
+          "alt": "Cat"
+        },
+        "value": "$299,99",
+        "name": "Nyx the Watcher"
+      },
+      {
+        "label": "Sold out",
+        "status": "Out of Stock",
+        "image": {
+          "src": "#",
+          "alt": "scissor"
+        },
+        "value": "$20",
+        "name": "Blade of Silence"
+      },
+      {
+        "label": "new",
+        "status": "Available",
+        "image": {
+          "src": "#",
+          "alt": "core"
+        },
+        "value": "$1,000,000",
+        "name": "Data Core:Aplha"
+      },
+      {
+        "label": "new",
+        "status": "Available",
+        "image": {
+          "src": "#",
+          "alt": "Consol"
+        },
+        "value": "$199,5",
+        "name": "Phantom Console"
+      }
+    ]
+  },
+
+  "blogPosts": [
+    {
+      "size": "large",
+      "label": "NFT",
+      "src": "#",
+      "image": "people face",
+      "author": "NOVA RIVEN",
+      "date": "2022-12-04",
+      "dateText": "04 Dec 2022",
+      "title": "Neural Drift",
+      "text": "I woke up inside the void. My body stayed in the past — only thoughts were allowed through."
+    },
+    {
+      "size": "small",
+      "label": "DROP",
+      "src": "#",
+      "image": "skeleton skull",
+      "author": "Kairo Null",
+      "date": "2022-12-06",
+      "dateText": "06 Dec 2022",
+      "title": "Deadframe",
+      "text": "He just stood there, waiting. Not for a person — for a signal. Like the memory of the network."
+    },
+    {
+      "size": "small",
+      "label": "NFT",
+      "image": "#",
+      "imageAlt": "black cat green eyes",
+      "author": "Synthya Void",
+      "date": "2022-12-07",
+      "dateText": "07 Dec 2022",
+      "title": "Glitch Panther",
+      "text": "ECats always knew more than they showed. Especially the ones that vanish into code."
+    },
+    {
+      "size": "small",
+      "label": "RARE",
+      "image": "#",
+      "imageAlt": "black ape",
+      "author": "Dr.Wex Omega",
+      "date": "2022-12-08",
+      "dateText": "08 Dec 2022",
+      "title": "Primal.exe",
+      "text": "We tried to resurrect the past. What we got was rage compressed into an algorithm."
+    },
+    {
+      "size": "large",
+      "label": "ARTIFACT",
+      "image": "#",
+      "imageAlt": "green core",
+      "author": "Echo Zero",
+      "date": "2022-12-09",
+      "dateText": "09 Dec 2022",
+      "title": "Retrocore",
+      "text": " This console comes from a game no one remembers how to play. But it's still powered on."
+    },
+    {
+      "size": "small",
+      "label": "NFT",
+      "image": "#",
+      "imageAlt": "white duck",
+      "author": "Tony Nguyen",
+      "date": "2022-01-20",
+      "dateText": "20 Jun 2022",
+      "title": "White Protocol",
+      "text": " At first, it was just a signal — clean, white, hypnotic. We didn't know it was alive."
+    }
+  ],
+
+  "ctaButton": {
+    "text": "Read more",
+    "link": "#"
+  },
+
+  "aboutTitle": "About Us",
+  "aboutDescription": "We craft digital artifacts for those who live between worlds.Our space is built for creators, collectors, and the quietly obsessed.",
+
+  "aboutItems": [
+    {
+      "title": "Crystal Clear Quality",
+      "description": "Every NFT we drop is razor-sharp, high-res, and glitch-free. Art that hits hard and stays clean."
+    },
+    {
+      "title": "Curated Depth",
+      "description": "Not just big-meaningful. Each piece tells a story, every collection builds a universe.."
+    },
+    {
+      "title": "Rare Sourse Access",
+      "description": "TEarly drops. Backstage peeks. Our members don’t scroll — they unlock."
+    },
+    {
+      "title": "Rare Sourse Access",
+      "description": "Our community isn't a list — it's a force. Artists, rebels,dreamers."
+    }
+  ],
+
+  "aboutLink": {
+    "text": "Learn more",
+    "href": "#"
+  },
+
+  "teamTitle": "Meet Our Team",
+  "teamMembers": [
+    {
+      "name": "Nova Riven",
+      "role": "Creative Architect",
+      "image": {
+        "src": "#",
+        "alt": "Nova Riven photo"
+      },
+      "socials": [
+        {
+          "label": "Facebook",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Facebook logo"
+          }
+        },
+        {
+          "label": "Telegram",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Telegram logo"
+          }
+        },
+        {
+          "label": "LinkedIn",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "LinkedIn logo"
+          }
+        },
+        {
+          "label": "Instagram",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Instagram logo"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Echo Zero",
+      "role": "Tech Whisperer",
+      "image": {
+        "src": "#",
+        "alt": "Echo Zero photo"
+      },
+      "socials": [
+        {
+          "label": "Twitter",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Twitter logo"
+          }
+        },
+        {
+          "label": "Telegram",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Telegram logo"
+          }
+        },
+        {
+          "label": "LinkedIn",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "LinkedIn logo"
+          }
+        },
+        {
+          "label": "Instagram",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Instagram logo"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Kairo Null",
+      "role": "Lore Engineer",
+      "image": {
+        "src": "#",
+        "alt": "Kairo Null photo"
+      },
+      "socials": [
+        {
+          "label": "Twitter",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Twitter logo"
+          }
+        },
+        {
+          "label": "Facebook",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Facebook logo"
+          }
+        },
+        {
+          "label": "Telegram",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Telegram logo"
+          }
+        },
+        {
+          "label": "LinkedIn",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "LinkedIn logo"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Dr. Wex Omega",
+      "role": "Visual Disruptor",
+      "image": {
+        "src": "#",
+        "alt": "Dr.Wex Omega photo"
+      },
+      "socials": [
+        {
+          "label": "Twitter",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Twitter logo"
+          }
+        },
+        {
+          "label": "Facebook",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Facebook logo"
+          }
+        },
+        {
+          "label": "Telegram",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Telegram logo"
+          }
+        },
+        {
+          "label": "LinkedIn",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "LinkedIn logo"
+          }
+        },
+        {
+          "label": "Instagram",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Instagram logo"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Synthya Void",
+      "role": "UX Seer",
+      "image": {
+        "src": "#",
+        "alt": "Synthya Void photo"
+      },
+      "socials": [
+        {
+          "label": "Twitter",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Twitter logo"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mirlo Drift",
+      "role": "Community Catalyst",
+      "image": {
+        "src": "#",
+        "alt": "Mirlo Drift photo"
+      },
+      "socials": [
+        {
+          "label": "Twitter",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Twitter logo"
+          }
+        },
+        {
+          "label": "Facebook",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Facebook logo"
+          }
+        },
+        {
+          "label": "Telegram",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Telegram logo"
+          }
+        },
+        {
+          "label": "LinkedIn",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "LinkedIn logo"
+          }
+        },
+        {
+          "label": "Instagram",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Instagram logo"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Axon Rune",
+      "role": "Security Ghost",
+      "image": {
+        "src": "#",
+        "alt": "Axon Rune photo"
+      },
+      "socials": [
+        {
+          "label": "Twitter",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Twitter logo"
+          }
+        },
+        {
+          "label": "Facebook",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Facebook logo"
+          }
+        },
+        {
+          "label": "Telegram",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Telegram logo"
+          }
+        },
+        {
+          "label": "LinkedIn",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "LinkedIn logo"
+          }
+        },
+        {
+          "label": "Instagram",
+          "href": "#",
+          "icon": {
+            "src": "#",
+            "alt": "Instagram logo"
+          }
+        }
+      ]
+    }
+  ],
+
+  "faqsTitle": "FAQs",
+  "faqsItems": [
+    {
+      "question": "What are the NFTs?",
+      "answer": "NFTs (non-fungible tokens)</span> are unique digital objects stored on the blockchain. They can be art, music, code, memes, memories — anything that can be owned and verified.No copies. No fakes. Just you and the chain."
+    },
+    {
+      "question": "How do i get NFTs?",
+       "answer": ""
+    },
+    {
+      "question": "How can we buy your NFTs?",
+       "answer": ""
+    },
+    {
+      "question": " Who are the team behind the project?",
+       "answer": ""
+    }
+  ]
 }
