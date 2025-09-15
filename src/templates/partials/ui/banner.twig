@@ -1,9 +1,9 @@
 <section class='banner'>
   <h1 class='banner__section-title'>
-    {{ bannerTextFirst -}}
-    <span class='banner__section-brand'>{{ bannerBrand }}</span>{{ bannerTextSecond }}
+    {{ banner.bannerTextFirst}}
+    <span class='banner__section-brand'>{{ banner.bannerBrand }}</span>{{ banner.bannerTextSecond }}
   </h1>
-  <p class='banner__section-description'>{{ bannerDescription }}</p>
+  <p class='banner__section-description'>{{ banner.bannerDescription }}</p>
 
   {% include './banner-stats.twig' %}
 

@@ -1,9 +1,9 @@
 {
   "banner": {
-    "banner_text_first": "WITH ",
-    "banner_brand": "BINABOX",
-    "banner_text_second": " EXPLORE NFT COLLECTION",
-    "banner_description": "We are the best way to check the rarity of NFT collection"
+    "bannerTextFirst": "WITH ",
+    "bannerBrand": "BINABOX",
+    "bannerTextSecond": " EXPLORE NFT COLLECTION",
+    "bannerDescription": "We are the best way to check the rarity of NFT collection"
   },
 
   "bannerStats": [
@@ -511,13 +511,16 @@
       "answer": "NFTs (non-fungible tokens)</span> are unique digital objects stored on the blockchain. They can be art, music, code, memes, memories — anything that can be owned and verified.No copies. No fakes. Just you and the chain."
     },
     {
-      "question": "How do i get NFTs?"
+      "question": "How do i get NFTs?",
+       "answer": ""
     },
     {
-      "question": "How can we buy your NFTs?"
+      "question": "How can we buy your NFTs?",
+       "answer": ""
     },
     {
-      "question": " Who are the team behind the project?"
+      "question": " Who are the team behind the project?",
+       "answer": ""
     }
   ]
 }
