@@ -1,0 +1,22 @@
+<section class='catalog'>
+  <img class='catalog__image' src='{{ catalog.image.src }}' alt='{{ catalog.image.alt }}'>
+  <h2 class='catalog__title'>{{ catalog.title }}</h2>
+  <a class='catalog__link' href='{{ catalog.seeAllHref }}'>See all</a>
+
+  <div class='catalog__controls'>
+    <button class='catalog__button button button--secondary' type='button'>
+      <img class='catalog__button-image' src='{{ catalog.previousArrow.src }}' alt='{{ catalog.previousArrow.alt }}'>
+    </button>
+    <button class='catalog__button button button--primary' type='button'>
+      <img class='catalog__button-image' src='{{ catalog.nextArrow.src }}' alt='{{ catalog.nextArrow.alt }}'>
+    </button>
+  </div>
+
+  <ul class='catalog__list'>
+    {% for product in catalog.products %}
+      <li>
+        {% include './product-card.twig' with { product: product } %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>

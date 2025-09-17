@@ -1,9 +1,16 @@
+{% set currentPage = "Home" %}
 {% extends 'src/templates/layouts/base.twig' %}
-
-{% from 'src/templates/partials/ui/icon.twig' import icon %}
+{%
+  set title =
+  "BINABOX - NFT Rarity Checker"
+%}
+{% set description = "BINABOX - The best way to check the rarity of NFT collections. Discover, explore, and analyze NFTs easily." %}
 
 {% block content %}
-  <h1>{{ index.title }}</h1>
-
-  {% include 'src/templates/partials/welcome-section.twig' %}
+  {% include 'src/templates/partials/ui/banner.twig' %}
+  {% include 'src/templates/partials/ui/catalog-section.twig' %}
+  {% include 'src/templates/partials/ui/blog-section.twig' %}
+  {% include 'src/templates/partials/ui/about-us.twig' %}
+  {% include 'src/templates/partials/ui/our-team.twig' %}
+  {% include 'src/templates/partials/ui/faqs.twig' %}
 {% endblock %}

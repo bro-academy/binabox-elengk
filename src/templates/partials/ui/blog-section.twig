@@ -1,0 +1,31 @@
+<section class='blog'>
+  <h2 class='blog__title'>Our blog</h2>
+
+  {% for blogPost in blogPosts %}
+    <article class='blog-card blog-card--{{ blogPost.size }}'>
+      <p class='blog-card__label'>{{ blogPost.label }}</p>
+      <img class='blog-card__image' src='{{ blogPost.image }}' alt='{{ blogPost.imageAlt }}'>
+
+      <img class='blog-card__author-icon' src='#' alt='small human icon'>
+      <address class='blog-card__author-info'>
+        <p class='blog-card__author'>{{ blogPost.author }}</p>
+        <img class='blog-card__date-icon' src='#' alt='calendar'>
+        <time class='blog-card__time' datetime='{{ blogPost.date }}'>{{ blogPost.dateText }}</time>
+      </address>
+
+      <h3 class='blog-card__title'>{{ blogPost.title }}</h3>
+      <p class='blog-card__text'>{{ blogPost.text }}</p>
+
+      <div class='blog-card__button'>
+        <a class='blog-card__button-link button button--tertiary' href='{{ blogPost.link }}'>
+          Read more
+          <img class='blog-card__link-image' src='#' alt='next arrow'>
+        </a>
+      </div>
+    </article>
+  {% endfor %}
+
+  <div class='blog__cta-button'>
+    <a class='blog__cta-link button button--secondary' href='#'>Read more</a>
+  </div>
+</section>

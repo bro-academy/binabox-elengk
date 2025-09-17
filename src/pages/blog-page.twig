@@ -1,0 +1,15 @@
+{% set currentPage = "Blog" %}
+{% extends 'src/templates/layouts/base.twig' %}
+{%
+  set title =
+  "BINABOX - The Basilisks NFT & Crypto Gaming Insights"
+%}
+{% set description = "Explore the latest insights on NFTs, blockchain gaming, and metaverse trends. Learn about The Basilisks NFT, digital assets, and how they shape the future of gaming and crypto." %}
+
+{% block content %}
+  <main class='main'>
+    {% include 'src/templates/partials/ui/blog-page-banner.twig' %}
+    {% include 'src/templates/partials/ui/blog-page-article.twig' %}
+    {% include 'src/templates/partials/ui/blog-page-aside.twig' %}
+  </main>
+{% endblock %}
