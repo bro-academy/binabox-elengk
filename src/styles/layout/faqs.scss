@@ -1,10 +1,11 @@
-@use "../abstract/variables.scss" as *;
+@use "../base/variables.scss" as *;
 
 .faqs__title {
   font-family: $ff-heading;
   font-weight: $fw-regular;
   font-size: $fz-ml;
   line-height: $lh-me;
+  color: $grey1;
 }
 
 .faqs__item {

@@ -1,13 +1,13 @@
 @use "./variables.scss" as *;
 @use "./mixins.scss" as *;
 
-.body {
+body {
   font-family: $ff-body;
   font-size: $fz-xs;
   background-color: $base;
   color: $primary;
 }
 
-.ul {
+ul {
   list-style: none;
 }

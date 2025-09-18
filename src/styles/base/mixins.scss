@@ -1,6 +1,6 @@
 @use "./variables.scss" as *;
 
-@mixin button-base($border: 2px solid) {
+@mixin button-base {
   opacity: 1;
   border: $border transparent;
   padding: $space-2s $space-lg;
@@ -16,18 +16,18 @@
 
 @mixin button-secondary {
   background-color: transparent;
-  border-color: $seporatorbold;
+  border-color: $separatorbold;
 }
 
 @mixin button-tertiary {
-  border: $border $seporatorbold;
+  border: $border $separatorbold;
   padding: $space-s $space-m;
   color: $primary;
 }
 
 @mixin blog__cta-link {
-  border: $border $seporatorbold;
-  padding: $padding;
+  border: $border $separatorbold;
+  padding: $space-s $space-m;
   color: $primary;
 }
 

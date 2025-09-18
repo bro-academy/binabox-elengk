@@ -1,4 +1,4 @@
-@use "../abstract/variables.scss" as *;
+@use "../base/variables.scss" as *;
 
 .product-card {
   padding: $space-lg;
@@ -14,7 +14,7 @@
 }
 
 .product-card__label--updated {
-  background-color: $negative;
+  background-color: $negative !important ;
   color: $primary;
 }
 

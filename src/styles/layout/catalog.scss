@@ -1,5 +1,5 @@
-@use "../abstract/variables.scss" as *;
-@use "../abstract/mixins.scss" as *;
+@use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
 
 .catalog__title {
   font-family: $ff-heading;
@@ -9,9 +9,9 @@
 }
 
 .catalog__link {
-  padding: $padding;
+  padding: $space-2s $space-lg;
   text-decoration: none;
-  border: $border $seporatorbold;
+  border: $border $separatorbold;
   background-color: transparent;
   color: $primary;
 }

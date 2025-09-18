@@ -1,4 +1,4 @@
-@use "../abstract/variables.scss" as *;
+@use "../base/variables.scss" as *;
 
 .blog-article__title {
   font-family: $ff-heading;
@@ -54,7 +54,7 @@
 
 .blog-article__tag-link {
   padding: $space-1xs $space-md;
-  border: 2px solid $seporatorbold;
+  border: 2px solid $separatorbold;
   font-size: $fz-xs;
   line-height: $lh-m;
   text-align: center;

@@ -1,4 +1,4 @@
-@use "../abstract/variables.scss" as *;
+@use "../base/variables.scss" as *;
 
 .footer {
   background-color: $alternative;
@@ -18,7 +18,12 @@
   text-decoration: none;
 }
 .copyrights__text {
-  color: $accent-link-invert;
+font-family: $ff-body;
+font-weight: $fw-regular;
+font-size: $fz-xs;
+line-height: $lh-m;
+letter-spacing: $ls-0;
+  color: $primary;
 }
 
 .footer__social-link {

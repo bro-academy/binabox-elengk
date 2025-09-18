@@ -1,0 +1,23 @@
+@use "../base/variables.scss" as *;
+
+.blog__title,
+.blog-card__title {
+  font-family: $ff-heading;
+  font-weight: $fw-regular;
+  font-size: $fz-ml;
+  line-height: $lh-me;
+}
+
+.blog-card--large {
+  width: $width;
+  height: $height-l;
+  padding: $space-lg;
+  background-color: $alternative2;
+}
+
+.blog-card--small {
+  width: $width;
+  height: $height-s;
+  padding: $space-lg;
+  background-color: $alternative2;
+}

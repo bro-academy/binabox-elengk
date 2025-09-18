@@ -1,9 +1,10 @@
-@use "../abstract/variables.scss" as *;
+@use "../base/variables.scss" as *;
 
 .banner__section-title {
   font-family: $ff-heading;
   font-weight: $fw-regular;
   font-size: $fz-2xl;
+  color: $primary;
   line-height: $lh-2xl;
   letter-spacing: $ls-xs;
 }
@@ -11,13 +12,13 @@
   color: $marina800;
 }
 
-.banner__description {
+.banner__section-description {
   font-size: $fz-m;
   line-height: $lh-md;
-  color: rgba(217, 217, 217, 1);
+  color: $grey;
 }
 
-.banner__label {
+.banner-list__label {
   font-size: $fz-sm;
   line-height: $lh-base;
   color: $secondary;

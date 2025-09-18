@@ -1,21 +1,20 @@
+@use "./base/global.scss";
+@use "./base/variables.scss";
+@use "./base/mixins.scss";
 
-@use "./abstract/global.scss";
-@use "./abstract/mixins.scss";
-@use "./abstract/variables.scss";
-
-@use "./general/buttons.scss";
+@use "./components/buttons.scss";
 //homepage
-@use "./layouts/header.scss";
-@use "./layouts/banner.scss";
-@use "./layouts/catalog.scss";
-@use "./layouts/product-card.scss";
-@use "./layouts/blog.scss";
-@use "./layouts/about-us.scss";
-@use "./layouts/our-team.scss";
-@use "./layouts/faqs.scss";
+@use "./layout/header.scss";
+@use "./layout/banner.scss";
+@use "./layout/catalog.scss";
+@use "./layout/product-card.scss";
+@use "./layout/blog.scss";
+@use "./layout/about-us.scss";
+@use "./layout/our-team.scss";
+@use "./layout/faqs.scss";
 //blog page
-@use "./layouts/blog-banner.scss";
-@use "./layouts/blog-article.scss";
-@use "./layouts/aside-blog.scss";
+@use "./layout/blog-banner.scss";
+@use "./layout/blog-article.scss";
+@use "./layout/aside-blog.scss";
 //footer
-@use "./layouts/footer.scss";
+@use "./layout/footer.scss";
