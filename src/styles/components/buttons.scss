@@ -3,6 +3,7 @@
 
 .button {
   @include button-base;
+
   &--primary {
     @include button-primary;
   }

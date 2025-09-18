@@ -16,12 +16,13 @@
   border-bottom: $border $marina800;
 }
 
-.button--primary {
+.header__button{
   @include button-base;
+}
+.button--primary {
   @include button-primary;
 }
 
 .button--secondary {
-  @include button-base;
   @include button-secondary;
 }

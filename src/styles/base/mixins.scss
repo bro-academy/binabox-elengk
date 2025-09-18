@@ -11,7 +11,8 @@
 
 @mixin button-primary {
   background-color: $marina800;
-  border: $border $marina800;
+  border: $border ;
+  border-color: $marina800;
 }
 
 @mixin button-secondary {
@@ -20,13 +21,15 @@
 }
 
 @mixin button-tertiary {
-  border: $border $separatorbold;
+  border: $border ;
+  border-color: $separatorbold;
   padding: $space-s $space-m;
   color: $primary;
 }
 
 @mixin blog__cta-link {
-  border: $border $separatorbold;
+  border: $border ;
+  border-color : $separatorbold;
   padding: $space-s $space-m;
   color: $primary;
 }

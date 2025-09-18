@@ -7,14 +7,17 @@
 
 .product-card__label {
   padding: $space-s $space-2s;
-  background-color: $primary;
   line-height: $lh-m;
   text-align: right;
+}
+
+.product-card__label--new {
+  background-color: $primary;
   color: $marina800;
 }
 
 .product-card__label--updated {
-  background-color: $negative !important ;
+  background-color: $negative;
   color: $primary;
 }
 

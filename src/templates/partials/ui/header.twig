@@ -7,6 +7,17 @@
   {% import 'buttons.twig' as macros %}
 
   <div class='header__buttons'>
+      {# Secondary Discord button #}
+    {{
+      macros.button(
+      'header__btn',
+      'Discord-secondary',
+      'secondary',
+      '',
+      '',
+      'Discord'
+      )
+    }}
     {# Primary Connect button #}
     {{
       macros.button(
@@ -16,18 +27,6 @@
       '',
       '',
       'Log In'
-      )
-    }}
-
-    {# Secondary Discord button #}
-    {{
-      macros.button(
-      'header__btn',
-      'Discord-secondary',
-      'secondary',
-      '',
-      '',
-      'Discord'
       )
     }}
   </div>
