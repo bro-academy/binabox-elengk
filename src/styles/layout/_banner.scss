@@ -1,0 +1,22 @@
+@use "../base/variables.scss" as *;
+
+.banner {
+  &__section-title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-2xl;
+    color: $primary;
+    line-height: $lh-2xl;
+    letter-spacing: $ls-xs;
+  }
+  &__section-brand {
+    color: $marina800;
+  }
+
+  &__section-description {
+    font-family: $ff-body;
+    font-size: $fz-m;
+    line-height: $lh-md;
+    color: $grey;
+  }
+}

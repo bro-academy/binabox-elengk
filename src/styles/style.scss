@@ -9,12 +9,12 @@
 @use "./layout/catalog.scss";
 @use "./layout/product-card.scss";
 @use "./layout/blog.scss";
-@use "./layout/about-us.scss";
-@use "./layout/our-team.scss";
+@use "./layout/about.scss";
+@use "./layout/team.scss";
 @use "./layout/faqs.scss";
 //blog page
-@use "./layout/blog-page-banner.scss";
-@use "./layout/blog-page-article.scss";
-@use "./layout/blog-page-aside.scss";
+@use "./layout/blog-banner.scss";
+@use "./layout/blog-article.scss";
+@use "./layout/aside-blog.scss";
 //footer
 @use "./layout/footer.scss";

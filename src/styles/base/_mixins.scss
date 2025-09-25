@@ -1,6 +1,6 @@
 @use "../base/variables.scss" as *;
 
-@mixin button-base ($border:2px, $padding:10px 24px) {
+@mixin button-base($border: 2px, $padding: 10px 24px) {
   opacity: 1;
   border: $border transparent;
   padding: $space-2s $space-lg;
@@ -9,32 +9,32 @@
   text-align: center;
 }
 
-@mixin button-primary ($border:2px){
+@mixin button-primary($border: 2px) {
   background-color: $marina800;
-  border: $border solid ;
+  border: $border solid;
   border-color: $marina800;
 }
 
-@mixin button-secondary($border:2px) {
+@mixin button-secondary($border: 2px) {
   background-color: transparent;
   border: $border solid;
   border-color: $separatorbold;
 }
 
-@mixin button-tertiary ($border:2px, $padding:8px 20px) {
-  border: $border solid ;
+@mixin button-tertiary($border: 2px, $padding: 8px 20px) {
+  border: $border solid;
   border-color: $separatorbold;
   padding: $space-s $space-m;
   color: $primary;
 }
 
-@mixin blog__cta-link ( $border:2px, $padding:8px 20px) {
-  border: $border ;
-  border-color : $separatorbold;
+@mixin blog__cta-link($border: 2px, $padding: 8px 20px) {
+  border: $border;
+  border-color: $separatorbold;
   padding: $space-s $space-m;
   color: $primary;
 }
 
-@mixin catalog__button ($padding:16px) {
+@mixin catalog__button($padding: 16px) {
   padding: $space-base;
 }

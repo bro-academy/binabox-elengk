@@ -1,0 +1,32 @@
+@use "../base/variables.scss" as *;
+
+.aside-blog {
+  &__title,
+  &__tags-title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-ml;
+    line-height: $lh-me;
+    gap: $space-base;
+    padding: $space-lg;
+    background-color: $alternative2;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $primary;
+  }
+
+  &__tags-item {
+    font-size: $fz-xs;
+    line-height: $lh-m;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  &__tags-link {
+    padding: $space-1xs $space-md;
+    border: $border $separatorbold;
+    color: $primary;
+  }
+}

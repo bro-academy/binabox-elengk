@@ -1,0 +1,12 @@
+@use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
+
+.blog {
+  &__title,
+  &-card__title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-ml;
+    line-height: $lh-me;
+  }
+}

@@ -1,0 +1,33 @@
+@use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
+
+.header {
+  padding: $space-1xl;
+
+  &__navigation {
+    &-link {
+      color: $primary;
+      line-height: $lh-base;
+      text-align: center;
+      vertical-align: middle;
+      text-decoration: none;
+    }
+
+    &-item {
+      &--active {
+        border-bottom: $border $marina800;
+      }
+    }
+  }
+
+  &__button {
+    @include button-base;
+  }
+  &--primary {
+    @include button-primary;
+  }
+
+  &--secondary {
+    @include button-secondary;
+  }
+}

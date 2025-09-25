@@ -1,0 +1,16 @@
+.banner-list {
+  &__label {
+    font-size: $fz-sm;
+    line-height: $lh-base;
+    color: $secondary;
+  }
+
+  &__value {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-2xl;
+    line-height: $lh-2xl;
+    letter-spacing: $ls-xs;
+    color: $primary;
+  }
+}
