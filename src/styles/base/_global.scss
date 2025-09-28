@@ -1,0 +1,13 @@
+@use "./variables.scss" as *;
+@use "./mixins.scss" as *;
+
+body {
+  font-family: $ff-body;
+  font-size: $fz-xs;
+  background-color: $base;
+  color: $primary;
+}
+
+ul {
+  list-style: none;
+}

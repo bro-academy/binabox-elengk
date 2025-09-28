@@ -33,22 +33,22 @@
   "headerButtons": [
     {
       "class": "button",
-      "value": "Discord",
-      "palette": "secondary",
-      "href": "#",
-      "icon_alt": "Discord icon",
-      "text": "Discord",
-      "type": "Discord"
-    },
-
-    {
-      "class": "button",
       "value": "Connect",
       "palette": "primary",
       "href": "#",
       "icon_alt": "Connect icon",
       "text": "Connect",
       "type": "connect"
+    },
+
+    {
+      "class": "button",
+      "value": "Discord",
+      "palette": "secondary",
+      "href": "#",
+      "icon_alt": "Discord icon",
+      "text": "Discord",
+      "type": "Discord"
     }
   ],
 
@@ -73,7 +73,7 @@
     ]
   },
 
-  "copyrights": {
+  "copyright": {
     "text": "We are the best way to check the rarity of NFT collection.",
     "company": "BINABOX",
     "year": "2025-ALL rights reserved"

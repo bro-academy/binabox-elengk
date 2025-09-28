@@ -1,0 +1,132 @@
+//text icon elements
+$primary: rgba(245 248 251 /1);
+$secondary: rgba(239 245 250 /0.82);
+$secondary2: rgba(231 238 247 /0.66);
+$baseIcon: rgba(231 241 253 /0.49);
+$disabled: rgba(229 236 251 /0.36);
+$grey: rgba(217 217 217 /1);
+$grey1: rgba(248 247 255 /1);
+$primary-invert: rgba(13 13 21 /1);
+$secondary-invert: rgba(42 53 65 /0.85);
+$secondary2-invert: rgba(42 53 65 /0.7);
+$baseIcon-invert: rgba(39 53 68 /0.55);
+$disabled-invert: rgba(34 52 73 /0.4);
+
+//background colors
+$base: rgba(13 13 21 /1);
+$alternative: rgba(26 25 37 /1);
+$alternative2: rgba(29 28 40 /1);
+$baseIcon1: rgba(255 255 255 /1);
+$alternative-invert: rgba(248 250 252 /1);
+$alternative2-invert: rgba(244 247 250 /1);
+
+//elements
+$accent-link: rgba(120 187 250 /1);
+$line: rgba(212 217 242 /0.26);
+$separator: rgba(191 197 238 /0.12);
+$separatorbold: rgba(208 215 251 /0.17);
+$focus: rgba(150 206 253 /1);
+$accent-link-invert: rgba(2 101 220 /1);
+$line-invert: rgba(31 50 71 /0.27);
+$separator-invert: rgba(41 77 117 /0.09);
+$separatorbold-invert: rgba(29 54 83 /0.17);
+$focus-invert: rgba(56 146 243 /1);
+
+//static palette
+$marina1200: rgba(0 39 84 /1);
+$marina1100: rgba(0 53 113 /1);
+$marina1000: rgba(0 68 145 /1);
+$marina900: rgba(0 84 182 /1);
+$marina800: rgba(2 101 220 /1);
+$marina700: rgba(20 122 243 /1);
+$marina600: rgba(56 146 243 /1);
+$marina500: rgba(89 167 246 /1);
+$marina400: rgba(120 187 250 /1);
+$marina300: rgba(150 206 253 /1);
+$marina200: rgba(181 222 255 /1);
+$marina100: rgba(202 232 255 /1);
+$marina50: rgba(224 242 255 /1);
+
+//cretical statuses
+$neutral: rgba(137 144 153 /1);
+$negative: rgba(234 56 41 /1);
+$high: rgba(203 93 0 /1);
+$medium: rgba(248 217 4 /1);
+$info: rgba(157 87 244 /1);
+$positive: rgba(0 143 93 /1);
+
+//
+
+//typografy
+$text-primary: rgba(191 197 238 /0.12);
+
+//font family
+$ff-heading: "Bakbak one", sans-serif;
+$ff-body: "Poppins", sans-serif;
+
+//font weight
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+
+//font size
+$fz-3xs: 11px;
+$fz-2xs: 12px;
+$fz-xs: 14px;
+$fz-sm: 16px;
+$fz-md: 18px;
+$fz-m: 20px;
+$fz-ml: 24px;
+$fz-lg: 28px;
+$fz-xl: 36px;
+$fz-2xl: 52px;
+
+// Line Height
+$lh-sm: 16px;
+$lh-m: 20px;
+$lh-base: 24px;
+$lh-md: 28px;
+$lh-me: 32px;
+$lh-lg: 36px;
+$lh-ml: 40px;
+$lh-xl: 48px;
+$lh-2xl: 62px;
+
+// padding
+$space-0: 0;
+
+// Small sizes
+$space-xs: 4px;
+$space-1xs: 6px;
+$space-s: 8px;
+$space-2s: 10px;
+
+// Medium sizes
+$space-md: 12px;
+$space-base: 16px;
+$space-m: 20px;
+$space-lg: 24px;
+
+// Large sizes
+$space-xl: 32px;
+$space-1xl: 40px;
+$space-2xl: 48px;
+$space-3xl: 56px;
+$space-4xl: 64px;
+
+//letter-spacing
+$ls-0: 0;
+$ls-xs: -0.5px;
+
+//border
+$border: 2px solid;
+
+//width
+$width: 784px;
+
+//height
+$height-s: 434px;
+$height-l: 900px;
+
+//mid-width
+$midwidth: 512px;

@@ -1,0 +1,19 @@
+@use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
+
+.catalog {
+  &__title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-ml;
+    line-height: $lh-me;
+  }
+
+  &__link {
+    padding: $space-2s $space-lg;
+    text-decoration: none;
+    border: $border $separatorbold;
+    background-color: transparent;
+    color: $primary;
+  }
+}

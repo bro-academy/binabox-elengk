@@ -50,7 +50,6 @@
     "products": [
       {
         "label": "New",
-        "status": "Available",
         "image": {
           "src": "#",
           "alt": "Skeleton"
@@ -60,7 +59,6 @@
       },
       {
         "label": "new",
-        "status": "Available",
         "image": {
           "src": "#",
           "alt": "Cat"
@@ -70,7 +68,6 @@
       },
       {
         "label": "Sold out",
-        "status": "Out of Stock",
         "image": {
           "src": "#",
           "alt": "scissor"
@@ -80,7 +77,6 @@
       },
       {
         "label": "new",
-        "status": "Available",
         "image": {
           "src": "#",
           "alt": "core"
@@ -90,7 +86,6 @@
       },
       {
         "label": "new",
-        "status": "Available",
         "image": {
           "src": "#",
           "alt": "Consol"
@@ -512,15 +507,15 @@
     },
     {
       "question": "How do i get NFTs?",
-       "answer": ""
+      "answer": ""
     },
     {
       "question": "How can we buy your NFTs?",
-       "answer": ""
+      "answer": ""
     },
     {
       "question": " Who are the team behind the project?",
-       "answer": ""
+      "answer": ""
     }
   ]
 }

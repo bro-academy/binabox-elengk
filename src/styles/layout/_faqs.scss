@@ -1,0 +1,31 @@
+@use "../base/variables.scss" as *;
+
+.faqs {
+  &__title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-ml;
+    line-height: $lh-me;
+    color: $grey1;
+  }
+
+  &__item {
+    background-color: $alternative2;
+    padding: $space-lg;
+  }
+
+  &__answer {
+    background-color: $alternative2;
+  }
+
+  &__term {
+    color: $marina800;
+  }
+
+  &__question {
+    font-family: $ff-heading;
+    font-size: $fz-ml;
+    line-height: $lh-me;
+    color: $primary;
+  }
+}

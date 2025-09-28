@@ -1,0 +1,31 @@
+@use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
+
+.about {
+  &__title,
+  &__item-title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-ml;
+    line-height: $lh-me;
+    color: $primary;
+  }
+
+  &__description {
+    font-family: $ff-body;
+    font-weight: $fw-medium;
+    font-size: $fz-m;
+    line-height: $lh-md;
+    letter-spacing: $ls-0;
+    text-align: center;
+    color: $secondary;
+  }
+
+  &__list {
+    &__item {
+      text-decoration: none;
+      background: $alternative;
+      color: $primary;
+    }
+  }
+}

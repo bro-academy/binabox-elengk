@@ -1,0 +1,24 @@
+@use "../base/variables.scss" as *;
+
+.blog-banner {
+  &__title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-2xl;
+    line-height: $lh-2xl;
+    letter-spacing: $ls-xs;
+    text-align: center;
+  }
+
+  &__navigation-item {
+    font-size: $fz-xs;
+    line-height: $lh-m;
+    text-align: center;
+    color: $secondary2;
+  }
+
+  &__navigation-link {
+    color: $primary;
+    text-decoration: none;
+  }
+}

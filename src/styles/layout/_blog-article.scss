@@ -1,0 +1,71 @@
+@use "../base/variables.scss" as *;
+
+.blog-article {
+  &__title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-xl;
+    line-height: $lh-xl;
+    letter-spacing: $ls-xs;
+  }
+
+  &__label {
+    opacity: 1;
+    padding-top: $space-2s;
+    padding-right: $space-lg;
+    padding-bottom: $space-2s;
+    padding-left: $space-lg;
+    background-color: $marina800;
+  }
+
+  &__subtitle {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-lg;
+    line-height: $lh-lg;
+  }
+
+  &__bullet-item {
+    font-size: $fz-md;
+    line-height: $lh-md;
+  }
+
+  &__quote {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-lg;
+    line-height: $lh-lg;
+    padding: $space-base;
+    border-radius: 16px;
+    background-color: $marina1200;
+    color: rgba(248, 247, 255, 1);
+  }
+
+  &-value,
+  &-author {
+    font-family: $ff-body;
+    font-weight: $fw-semibold;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+  }
+
+  &__subtitle-link {
+    color: $marina400;
+  }
+
+  &__tag-link {
+    padding: $space-1xs $space-md;
+    border: 2px solid $separatorbold;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+    text-align: center;
+    color: $primary;
+    text-decoration: none;
+  }
+
+  &__share-link {
+    padding: $space-s;
+    color: $primary;
+    text-decoration: none;
+  }
+}

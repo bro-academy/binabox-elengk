@@ -1,11 +1,10 @@
 <article class='product-card'>
   {% if product.label %}
-    <span class='product-card__label {% if product.label == 'Sold out' %}sold-out{% else %}new{% endif %}'>
+    <span class='product-card__label product-card__label{% if product.label == 'Sold out' %}--updated{% else %}--new{% endif %}'>
       {{ product.label }}
     </span>
   {% endif %}
 
   <h3 class='product-card__name'>{{ product.name }}</h3>
   <p class='product-card__value'>{{ product.value }}</p>
-  <p class='product-card__status'>{{ product.status }}</p>
 </article>
