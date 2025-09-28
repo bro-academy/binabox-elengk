@@ -1,4 +1,5 @@
 @use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
 
 .blog-banner {
   &__title {
@@ -20,5 +21,6 @@
   &__navigation-link {
     color: $primary;
     text-decoration: none;
+    @include button-secondary-style;
   }
 }
