@@ -14,6 +14,26 @@
   border: $border solid;
   border-color: $marina800;
 }
+@mixin button-primary-style {
+  &:hover {
+    background-color: $marina600;
+    border: $marina600;
+  }
+
+  &:focus {
+    background-color: $marina800;
+    box-shadow: 0 0 0 4px $marina600;
+    outline: none;
+  }
+
+  &:active {
+    background-color: $marina2000;
+  }
+
+  &:disabled {
+    background-color: $alternative3;
+  }
+}
 
 @mixin button-secondary($border: 2px) {
   background-color: transparent;
@@ -21,6 +41,26 @@
   border-color: $separatorbold;
 }
 
+@mixin button-secondary-style {
+  &:hover {
+    background-color: $separator;
+  }
+
+  &:focus {
+    background-color: $separator;
+    box-shadow: 0 0 0 4px $marina600;
+    outline: none;
+  }
+
+  &:active {
+    background-color: $separator;
+  }
+
+  &:disabled {
+    background-color: $separatorbold;
+    border: 2px $disabled;
+  }
+}
 @mixin button-tertiary($border: 2px, $padding: 8px 20px) {
   border: $border solid;
   border-color: $separatorbold;
@@ -37,4 +77,24 @@
 
 @mixin catalog__button($padding: 16px) {
   padding: $space-base;
+}
+
+@mixin link-style {
+  &:hover {
+    color: $marina600;
+  }
+
+  &:focus {
+    color: $marina400;
+    box-shadow: 0 0 0 4px $marina600;
+    outline: none;
+  }
+
+  &:active {
+    color: $marina2000;
+  }
+
+  &:disabled {
+    color: $disabled;
+  }
 }
