@@ -20,6 +20,7 @@
 }
 
 @mixin button-primary-style {
+  cursor: pointer;
   &:hover {
     background-color: $marina600;
     border-color: $marina600;
@@ -47,6 +48,7 @@
 }
 
 @mixin button-secondary-style {
+  cursor: pointer;
   &:hover {
     background-color: $separator;
   }
@@ -84,6 +86,7 @@
 }
 
 @mixin link-style {
+  cursor: pointer;
   &:hover {
     color: $marina600;
   }
