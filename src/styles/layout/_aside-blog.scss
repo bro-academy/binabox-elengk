@@ -1,6 +1,9 @@
 @use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
 
 .aside-blog {
+  background-color: $alternative2;
+
   &__title,
   &__tags-title {
     font-family: $ff-heading;
@@ -9,18 +12,17 @@
     line-height: $lh-me;
     gap: $space-base;
     padding: $space-lg;
-    background-color: $alternative2;
   }
 
   &__link {
     text-decoration: none;
     color: $primary;
+    @include button-secondary-style;
   }
 
   &__tags-item {
     font-size: $fz-xs;
     line-height: $lh-m;
-    text-align: center;
     text-decoration: none;
   }
 
@@ -28,5 +30,6 @@
     padding: $space-1xs $space-md;
     border: $border $separatorbold;
     color: $primary;
+    @include button-secondary-style;
   }
 }

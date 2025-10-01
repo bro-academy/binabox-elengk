@@ -1,4 +1,5 @@
 @use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
 
 .footer {
   background-color: $alternative;
@@ -16,11 +17,13 @@
       line-height: $lh-sm;
       color: $primary;
       text-decoration: none;
+      @include link-style;
     }
+  }
 
-    &__social-link {
-      color: $primary;
-      text-decoration: none;
-    }
+  &__social-link {
+    color: $primary;
+    text-decoration: none;
+    @include link-style;
   }
 }

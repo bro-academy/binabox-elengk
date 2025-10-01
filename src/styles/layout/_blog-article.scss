@@ -1,4 +1,5 @@
 @use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
 
 .blog-article {
   &__title {
@@ -61,11 +62,13 @@
     text-align: center;
     color: $primary;
     text-decoration: none;
+    @include button-secondary-style;
   }
 
   &__share-link {
     padding: $space-s;
     color: $primary;
     text-decoration: none;
+    @include button-secondary-style;
   }
 }

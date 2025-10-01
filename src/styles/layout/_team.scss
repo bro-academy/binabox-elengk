@@ -1,21 +1,29 @@
 @use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
 
 .team {
-  &__title-member {
-    &__name {
-      font-family: $ff-heading;
-      font-size: $fz-ml;
-      line-height: $lh-me;
-      color: $grey1;
+  &__title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-xl;
+    line-height: $lh-xl;
+    letter-spacing: $ls-xs;
+    text-align: center;
+  }
 
-      &__role {
-        font-family: $ff-body;
-        font-weight: $fw-regular;
-        font-size: $fz-md;
-        line-height: $lh-md;
-        letter-spacing: $ls-0;
-        color: $secondary;
-      }
-    }
+  &-member__name {
+    font-family: $ff-heading;
+    font-size: $fz-ml;
+    line-height: $lh-me;
+    color: $grey1;
+  }
+
+  &-member__role {
+    font-family: $ff-body;
+    font-weight: $fw-regular;
+    font-size: $fz-md;
+    line-height: $lh-md;
+    letter-spacing: $ls-0;
+    color: $secondary;
   }
 }

@@ -23,11 +23,4 @@
   &__button {
     @include button-base;
   }
-  &--primary {
-    @include button-primary;
-  }
-
-  &--secondary {
-    @include button-secondary;
-  }
 }

@@ -11,12 +11,12 @@
       </ul>
     {% endif %}
   </nav>
-  <h3 class='aside-blog__tags-title'>{{ asideTags.title }}</h3>
-  {% if asideTags.tags %}
+  <h3 class='aside-blog__tags-title'>{{ aside.asideTags.title }}</h3>
+  {% if aside.asideTags.tags %}
     <ul class='aside-blog__navigation'>
-      {% for tag in asideTags.tags %}
+      {% for tags in aside.asideTags.tags %}
         <li class='aside-blog__tags-item'>
-          <a class='aside-blog__tags-link' href='{{ tag.href }}'>{{ tag.label }}</a>
+          <a class='aside-blog__tags-link' href='{{ tags.href }}'>{{ tags.label }}</a>
         </li>
       {% endfor %}
     </ul>

@@ -10,12 +10,12 @@
     text-align: right;
   }
 
-  &--new {
+  &__label--new {
     background-color: $primary;
     color: $marina800;
   }
 
-  &--updated {
+  &__label--updated {
     background-color: $negative;
     color: $primary;
   }
