@@ -1,0 +1,26 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+
+.catalog-categories {
+  &__item {
+    font-family: $ff-body;
+    font-weight: $fw-semibold;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+    border: $border;
+    padding-block: $space-1xs;
+    padding-inline: $space-md;
+    border-color: $separatorbold;
+  }
+
+  &__button {
+    font-family: $ff-body;
+    font-weight: $fw-semibold;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+    letter-spacing: $ls-0;
+    text-align: center;
+    vertical-align: middle;
+    background-color: $baseIcon1;
+  }
+}

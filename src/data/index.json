@@ -55,7 +55,8 @@
           "alt": "Skeleton"
         },
         "value": "$1990",
-        "name": "Echo of bones"
+        "name": "Echo of bones",
+        "section": "homepage"
       },
       {
         "label": "new",
@@ -64,7 +65,8 @@
           "alt": "Cat"
         },
         "value": "$299,99",
-        "name": "Nyx the Watcher"
+        "name": "Nyx the Watcher",
+        "section": "homepage"
       },
       {
         "label": "Sold out",
@@ -73,7 +75,8 @@
           "alt": "scissor"
         },
         "value": "$20",
-        "name": "Blade of Silence"
+        "name": "Blade of Silence",
+        "section": "homepage"
       },
       {
         "label": "new",
@@ -82,7 +85,8 @@
           "alt": "core"
         },
         "value": "$1,000,000",
-        "name": "Data Core:Aplha"
+        "name": "Data Core:Aplha",
+        "section": "homepage"
       },
       {
         "label": "new",
@@ -91,7 +95,102 @@
           "alt": "Consol"
         },
         "value": "$199,5",
-        "name": "Phantom Console"
+        "name": "Phantom Console",
+        "section": "homepage"
+      },
+
+      {
+        "label": "New",
+        "imgage": {
+          "src": "#",
+          "alt": "Medusa face"
+        },
+        "value": "$199",
+        "name": "Name Product",
+        "section": "catalog"
+      },
+
+      {
+        "label": "New",
+        "imgage": {
+          "src": "#",
+          "alt": "Medusa face "
+        },
+        "value": "$199",
+        "name": "Name Product",
+        "section": "catalog"
+      },
+
+      {
+        "label": "Sold out",
+        "imgage": {
+          "src": "#",
+          "alt": "Medusa face"
+        },
+        "value": "$199",
+        "name": "Name Product",
+        "section": "catalog"
+      },
+
+      {
+        "label": "New",
+        "imgage": {
+          "src": "#",
+          "alt": "Medusa face"
+        },
+        "value": "$199",
+        "name": "Name Product",
+        "section": "catalog"
+      },
+      {
+        "label": "New",
+        "imgage": {
+          "src": "#",
+          "alt": "Medusa face"
+        },
+        "value": "$199",
+        "name": "Name Product",
+        "section": "catalog"
+      },
+      {
+        "label": "New",
+        "imgage": {
+          "src": "#",
+          "alt": "Medusa face"
+        },
+        "value": "$199",
+        "name": "Name Product",
+        "section": "catalog"
+      },
+      {
+        "label": "New",
+        "imgage": {
+          "src": "#",
+          "alt": "Medusa face"
+        },
+        "value": "$199",
+        "name": "Name Product",
+        "section": "catalog"
+      },
+      {
+        "label": "New",
+        "imgage": {
+          "src": "#",
+          "alt": "Medusa face"
+        },
+        "value": "$199",
+        "name": "Name Product",
+        "section": "catalog"
+      },
+      {
+        "label": "New",
+        "imgage": {
+          "src": "#",
+          "alt": "Medusa face"
+        },
+        "value": "$199",
+        "name": "Name Product",
+        "section": "catalog"
       }
     ]
   },

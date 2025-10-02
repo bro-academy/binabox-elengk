@@ -1,0 +1,79 @@
+<section class='contact-banner'>
+  <h1>{{ contactBanner.title }}</h1>
+  <nav>
+    <ul>
+      {% for item in contactBanner.navigation %}
+        <li>
+          <a href='{{ }}'>{{ item.label }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</section>
+
+<section class='contact-section'>
+  <div class='contact-info'>
+    <div class='info-block'>
+      <h2>{{ contactSection.location.title }}</h2>
+      <p>{{ contactSection.location.description }}</p>
+    </div>
+
+    <div class='info-block'>
+      <h2>{{ contactSection.Email.title }}</h2>
+      <p>{{ contactSection.Email.description }}</p>
+    </div>
+
+    <div class='info-block'>
+      <h2>{{ contactSection.Phone.title }}</h2>
+      <p>{{ contactSection.Phone.description }}</p>
+    </div>
+
+    <div class='info-block'>
+      <h2>{{ contactSection.info.title }}</h2>
+      <p>{{ contactSection.info.description }}</p>
+    </div>
+  </div>
+
+  <form
+    action='{{ contactSection.contactForm.action }}'
+    method='{{ contactSection.contactForm.method }}'
+    class='contact-form'
+  >
+    {% for field in contactSection.contactForm.fields %}
+      <div class='form-group'>
+        <label for='{{ field.id }}'>{{ field.label }}</label>
+
+        {% if field.type == 'textarea' %}
+          <textarea
+            id='{{ field.id }}'
+            name='{{ field.name }}'
+            class='{{ field.class }}'
+          ></textarea>
+
+          {% elseif field.type == 'radio' %}
+          <select
+            id='{{ field.id }}'
+            name='{{ field.name }}'
+            class='{{ field.class }}'
+          >
+            {% for option in field.options %}
+              <option value='{{ option.value }}'>{{ option.label }}</option>
+            {% endfor %}
+          </select>
+
+        {% else %}
+          <input
+            type='{{ field.type }}'
+            id='{{ field.id }}'
+            name='{{ field.name }}'
+            class='{{ field.class }}'
+          >
+        {% endif %}
+      </div>
+    {% endfor %}
+
+    <button type='submit' class='{{ contactSection.contactForm.submit.class }}'>
+      {{ contactSection.contactForm.submit.label }}
+    </button>
+  </form>
+</section>

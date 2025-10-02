@@ -1,0 +1,40 @@
+{
+  "catalogFormBanner": {
+    "title": "Explore catalog",
+    "navigation": [
+      {
+        "label": "home",
+        "link": "/"
+      },
+      {
+        "label": "catalog",
+        "link": "/catalog"
+      },
+
+      { "label": "The Basilisks NFT" }
+    ]
+  },
+  "sections": {
+    "title": "All item",
+    "list": {
+      "label": "Sort by",
+      "options": [
+        "Newest",
+        "Most popular",
+        "Increasing in price",
+        "Lowering the price"
+      ]
+    }
+  },
+
+  "categories": [{ "label": "NFT" }, { "label": "ICO" }, { "label": "Crypto" }],
+
+  "clearButton": {
+    "type": "button",
+    "alt": "Clear all"
+  },
+
+  "catalogFormSearch": {
+    "catalogPlaceholder": "Search NFT"
+  }
+}

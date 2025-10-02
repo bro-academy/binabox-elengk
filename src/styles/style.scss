@@ -16,5 +16,10 @@
 @use "./layout/blog-banner.scss";
 @use "./layout/blog-article.scss";
 @use "./layout/aside-blog.scss";
+//catalog page
+@use "./layout/catalog-banner.scss";
+@use "./layout/catalog-categories.scss";
+@use "./layout/catalog-forms.scss";
+@use "./layout/catalog-section.scss";
 //footer
 @use "./layout/footer.scss";

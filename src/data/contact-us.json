@@ -1,0 +1,100 @@
+{
+  "contactBanner": {
+    "title": "Contact us",
+    "navigation": [
+      {
+        "label": "home",
+        "link": "/"
+      },
+      {
+        "label": "contact us",
+        "link": "/contact"
+      }
+    ]
+  },
+  "contactSection": {
+    "location": {
+      "title": "Location",
+      "description": "2163 Phillips Gap Rd"
+    },
+
+    "Email": {
+      "title": "Email",
+      "description": "Info.avitex@gmail.com"
+    },
+
+    "Phone": {
+      "title": "Phone",
+      "description": "+1 666 8888"
+    },
+
+    "info": {
+      "title": "Get in touch",
+      "description": "Browse through the most frequently asked questions"
+    },
+
+    "contactForm": {
+      "action": "#",
+      "method": "POST",
+      "fields": [
+        {
+          "type": "text",
+          "id": "first_name",
+          "name": "first_name",
+          "label": "First Name",
+          "class": "text-input__field"
+        },
+        {
+          "type": "text",
+          "id": "last_name",
+          "name": "last_name",
+          "label": "Last Name",
+          "class": "text-input__field"
+        },
+        {
+          "type": "date",
+          "id": "date_of_birth",
+          "name": "date_of_bith",
+          "label": "Date of Birth",
+          "class": "text-input__field"
+        },
+        {
+          "type": "radio",
+          "id": "sex",
+          "name": "sex",
+          "label": "Sex",
+          "class": "text-input__field",
+          "options": [
+            { "value": "male", "label": "Male" },
+            { "value": "female", "label": "Female" }
+          ]
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "class": "text-input__field"
+        },
+        {
+          "type": "tel",
+          "id": "phone",
+          "name": "phone",
+          "label": "Phone Number",
+          "class": "text-input__field"
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Message",
+          "class": "text-input__field"
+        }
+      ],
+      "submit": {
+        "label": "Send message",
+        "class": "contact-form__submit"
+      }
+    }
+  }
+}

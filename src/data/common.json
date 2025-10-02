@@ -16,11 +16,11 @@
       },
       {
         "name": "Catalog",
-        "href": "#"
+        "href": "catalog.html"
       },
       {
         "name": "Contact Us",
-        "href": "#"
+        "href": "contact.html"
       }
     ]
   },
@@ -28,6 +28,10 @@
     "href": "index.html",
     "logo_href": "#",
     "logo_alt": "BINABOX logo"
+  },
+
+  "headerSearch": {
+    "headerPlaceholder": "Search"
   },
 
   "headerButtons": [
