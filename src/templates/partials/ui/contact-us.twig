@@ -41,7 +41,7 @@
   >
     {% for field in contactSection.contactForm.fields %}
       <div class='form-group'>
-        <label for='{{ field.id }}'>{{ field.label }}</label>
+        <span>{{ field.label }}</span>
 
         {% if field.type == 'textarea' %}
           <textarea
@@ -50,17 +50,15 @@
             class='{{ field.class }}'
           ></textarea>
 
-          {% elseif field.type == 'radio' %}
-          <select
-            id='{{ field.id }}'
-            name='{{ field.name }}'
-            class='{{ field.class }}'
-          >
-            {% for option in field.options %}
-              <option value='{{ option.value }}'>{{ option.label }}</option>
-            {% endfor %}
-          </select>
-
+        {% elseif field.type == 'radio' %}
+          {% for option in field.options %}
+            <label
+              class='{{ field.class }}'
+            >
+              <input name='{{field.name}}' type='{{field.type}}' value='{{ option.value }}'>{{ option.label }}</input>
+              {{ field.name }}
+            </label>
+          {% endfor %}
         {% else %}
           <input
             type='{{ field.type }}'
