@@ -42,55 +42,70 @@
           "id": "first_name",
           "name": "first_name",
           "label": "First Name",
-          "class": "text-input__field"
+          "placeholder": "Enter your first name"
         },
         {
           "type": "text",
           "id": "last_name",
           "name": "last_name",
           "label": "Last Name",
-          "class": "text-input__field"
+          "placeholder": "Enter your last name"
         },
         {
           "type": "date",
           "id": "date_of_birth",
           "name": "date_of_bith",
-          "label": "Date of Birth",
-          "class": "text-input__field"
+          "label": "Date of Birth"
         },
         {
           "type": "radio",
-          "id": "sex",
-          "name": "sex",
+          "id": "gender",
+          "name": "male",
           "label": "Sex",
-          "class": "text-input__field",
-          "options": [
-            { "value": "male", "label": "Male" },
-            { "value": "female", "label": "Female" }
-          ]
+          "options": [{ "value": "gender", "label": "Male" }]
         },
+
+        {
+          "type": "radio",
+          "id": "gender",
+          "name": "female",
+          "options": [{ "value": "gender", "label": "Female" }]
+        },
+
         {
           "type": "email",
           "id": "email",
           "name": "email",
           "label": "Email",
-          "class": "text-input__field"
+          "placeholder": "Enter your email"
         },
         {
           "type": "tel",
           "id": "phone",
           "name": "phone",
           "label": "Phone Number",
-          "class": "text-input__field"
+          "placeholder": "Enter your number"
         },
         {
           "type": "textarea",
           "id": "message",
           "name": "message",
           "label": "Message",
-          "class": "text-input__field"
+          "placeholder": "text your message here"
         }
       ],
+
+      "terms": {
+        "type": "checkbox",
+        "id": "terms",
+        "name": "terms",
+        "label": "By clicking on the ‘Send Message’ button I agree to ",
+        "link": {
+          "url": "/privacy-policy",
+          "text": "all the terms of the security policy"
+        }
+      },
+
       "submit": {
         "label": "Send message",
         "class": "contact-form__submit"

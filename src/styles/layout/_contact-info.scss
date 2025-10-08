@@ -1,0 +1,23 @@
+@use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
+
+.contact-info {
+  border: $border1;
+
+  &__title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-xl;
+    line-height: $lh-xl;
+    letter-spacing: $ls-xs;
+    text-align: center;
+  }
+
+  &__subtitle {
+    font-family: $ff-body;
+    font-weight: $fw-regular;
+    font-size: $fz-sm;
+    line-height: $lh-base;
+    text-align: center;
+  }
+}

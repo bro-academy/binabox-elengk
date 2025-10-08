@@ -123,13 +123,40 @@ $ls-xs: -0.5px;
 
 //border
 $border: 2px solid;
+$border1: 1px solid;
+$border2: 5px solid;
 
 //width
+$width-s: 6px;
+$width-me:13px;
+$width-m: 16px;
 $width: 784px;
 
 //height
+$height-xxs: 6px;
+$height-me:13px;
+$height-xs: 16px;
 $height-s: 434px;
 $height-l: 900px;
 
 //mid-width
 $midwidth: 512px;
+
+//top
+$top:0px;
+$top-xs:1px;
+$top-s: 4px;
+
+//left
+$left-xs:0px;
+$left-s:1px;
+$left: 4px;
+
+
+//border-radius
+$br:4px;
+$br1:8px;
+
+
+//border-width
+$bw:2px;

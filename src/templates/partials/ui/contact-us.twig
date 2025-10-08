@@ -1,76 +1,106 @@
 <section class='contact-banner'>
-  <h1>{{ contactBanner.title }}</h1>
-  <nav>
-    <ul>
+  <h1 class='contact-banner__title'>{{ contactBanner.title }}</h1>
+  <nav class='contact-banner__navigation'>
+    <ul class='contact-banner__navigation-list'>
       {% for item in contactBanner.navigation %}
-        <li>
-          <a href='{{ }}'>{{ item.label }}</a>
+        <li class='contact-banner__navigation-item'>
+          <a class='contact-banner__navigation-link' href='{{ }}'>{{ item.label }}</a>
         </li>
       {% endfor %}
     </ul>
   </nav>
 </section>
 
-<section class='contact-section'>
+<section class='contact'>
   <div class='contact-info'>
-    <div class='info-block'>
-      <h2>{{ contactSection.location.title }}</h2>
-      <p>{{ contactSection.location.description }}</p>
-    </div>
-
-    <div class='info-block'>
-      <h2>{{ contactSection.Email.title }}</h2>
-      <p>{{ contactSection.Email.description }}</p>
-    </div>
-
-    <div class='info-block'>
-      <h2>{{ contactSection.Phone.title }}</h2>
-      <p>{{ contactSection.Phone.description }}</p>
-    </div>
-
-    <div class='info-block'>
-      <h2>{{ contactSection.info.title }}</h2>
-      <p>{{ contactSection.info.description }}</p>
-    </div>
+    <h2 class='contact-info__title'>{{ contactSection.location.title }}</h2>
+    <p class='contact-info__subtitle'>{{ contactSection.location.description }}</p>
   </div>
 
+  <div class='contact-info'>
+    <h2 class='contact-info__title'>{{ contactSection.Email.title }}</h2>
+    <a class='contact-info__subtitle' href='mailto:{{ contactSection.Email.description }}'>
+      {{ contactSection.Email.description }}
+    </a>
+    {% if field.type == 'email' %}
+      pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" title="Please enter a valid email address."
+      {% elseif field.type == 'text' and field.onlyLetters %}
+      pattern="^[A-Za-z\s]+$" title="Only letters A–Z allowed."
+    {% endif %}
+  </div>
+
+  <div class='contact-info'>
+    <h2 class='contact-info__title'>{{ contactSection.Phone.title }}</h2>
+    <p class='contact-info__subtitle'>{{ contactSection.Phone.description }}</p>
+  </div>
+</section>
+<section class='contact-form'>
+  <h2 class='contact-form__title'>{{ contactSection.info.title }}</h2>
+  <p class='contact-form__subtitle'>{{ contactSection.info.description }}</p>
+
   <form
+    class='contact-form__form'
     action='{{ contactSection.contactForm.action }}'
     method='{{ contactSection.contactForm.method }}'
-    class='contact-form'
   >
     {% for field in contactSection.contactForm.fields %}
-      <div class='form-group'>
-        <span>{{ field.label }}</span>
-
-        {% if field.type == 'textarea' %}
-          <textarea
-            id='{{ field.id }}'
-            name='{{ field.name }}'
-            class='{{ field.class }}'
-          ></textarea>
-
-        {% elseif field.type == 'radio' %}
+      <div class='contact-form__group'>
+        {% if field.type == 'radio' %}
+          {% if field.label is defined %}
+        
+            <label class='contact-form__label'>{{ field.label }}</label>
+          {% endif %}
           {% for option in field.options %}
-            <label
-              class='{{ field.class }}'
-            >
-              <input name='{{field.name}}' type='{{field.type}}' value='{{ option.value }}'>{{ option.label }}</input>
-              {{ field.name }}
+            <label class='contact-form__radio-label' for='{{ field.id }}_{{ option.value }}'>
+              <input
+                class='contact-form__input contact-form__input--radio'
+                type='radio'
+                id='{{ field.id }}_{{ option.value }}'
+                name='gender'
+                value='{{ option.label }}'
+              >
+
+              {{ option.label }}
             </label>
           {% endfor %}
+          {% elseif field.type == 'textarea' %}
+          <label class='contact-form__label' for='{{ field.id }}'>{{ field.label }} </label>
+          <textarea
+            class='contact-form__input'
+            id='{{ field.id }}'
+            name='{{ field.name }}'
+            placeholder='{{ field.placeholder }}'
+          >
+          </textarea>
         {% else %}
+          <label class='contact-form__label' for='{{ field.id }}'>{{ field.label }}</label>
           <input
+            class='contact-form__input'
             type='{{ field.type }}'
             id='{{ field.id }}'
             name='{{ field.name }}'
-            class='{{ field.class }}'
+            placeholder='{{ field.placeholder|default('') }}'
           >
         {% endif %}
       </div>
     {% endfor %}
 
-    <button type='submit' class='{{ contactSection.contactForm.submit.class }}'>
+    <div class='contact-form__checkbox'>
+      <input
+        class='contact-form__checkbox-input'
+        type='checkbox'
+        id='{{ contactSection.contactForm.terms.id }}'
+        name='{{ contactSection.contactForm.terms.name }}'
+      >
+      <label class='contact-form__checkbox-label' for='{{ contactSection.contactForm.terms.id }}'>
+        {{ contactSection.contactForm.terms.label }}
+        <a href='{{ contactSection.contactForm.terms.link.url }}' target='_blank'>
+          {{ contactSection.contactForm.terms.link.text }}
+        </a>
+      </label>
+    </div>
+
+    <button class='contact-form__button button--primary' type='submit'>
       {{ contactSection.contactForm.submit.label }}
     </button>
   </form>

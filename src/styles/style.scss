@@ -21,5 +21,12 @@
 @use "./layout/catalog-categories.scss";
 @use "./layout/catalog-forms.scss";
 @use "./layout/catalog-section.scss";
+@use "./layout/catalog-aside.scss";
+
+//contact
+@use "./layout/contact-banner.scss";
+@use "./layout/contact-info.scss";
+@use "./layout/contact-form.scss";
+
 //footer
 @use "./layout/footer.scss";
