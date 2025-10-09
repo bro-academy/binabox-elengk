@@ -47,7 +47,6 @@
       <div class='contact-form__group'>
         {% if field.type == 'radio' %}
           {% if field.label is defined %}
-        
             <label class='contact-form__label'>{{ field.label }}</label>
           {% endif %}
           {% for option in field.options %}
@@ -79,7 +78,7 @@
             type='{{ field.type }}'
             id='{{ field.id }}'
             name='{{ field.name }}'
-            placeholder='{{ field.placeholder|default('') }}'
+            placeholder='{{ field.placeholder| default('') }}'
           >
         {% endif %}
       </div>
