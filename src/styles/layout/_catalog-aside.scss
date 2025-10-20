@@ -108,23 +108,21 @@
     }
   }
   &__filter-radio:checked {
-  
-  background-color: transparent;
-  box-shadow: 0 0 0 4px inset $accent-link-invert; 
-  border-color: $accent-link-invert;
-
+    background-color: transparent;
+    box-shadow: 0 0 0 4px inset $accent-link-invert;
+    border-color: $accent-link-invert;
 
     &:hover {
-     box-shadow:  0 0 0 4px inset   $marina600; 
-  border-color: $marina600;
+      box-shadow: 0 0 0 4px inset $marina600;
+      border-color: $marina600;
     }
     &:active {
-         box-shadow:  0 0 0 4px inset $marina200; 
-  border-color: $marina200;
+      box-shadow: 0 0 0 4px inset $marina200;
+      border-color: $marina200;
     }
     &:focus {
-        box-shadow:  0 0 0 4px inset $marina600; 
-  border-color: $marina600;
+      box-shadow: 0 0 0 4px inset $marina600;
+      border-color: $marina600;
     }
     &:disabled {
       background-color: $separatorbold;

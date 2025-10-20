@@ -54,22 +54,18 @@
         {
           "type": "date",
           "id": "date_of_birth",
-          "name": "date_of_bith",
+          "name": "date_of_birth",
           "label": "Date of Birth"
         },
         {
           "type": "radio",
           "id": "gender",
-          "name": "male",
+          "name": "gender",
           "label": "Sex",
-          "options": [{ "value": "gender", "label": "Male" }]
-        },
-
-        {
-          "type": "radio",
-          "id": "gender",
-          "name": "female",
-          "options": [{ "value": "gender", "label": "Female" }]
+          "options": [
+            { "value": "gender", "label": "Male" },
+           { "value": "gender", "label": "Female" }
+          ]
         },
 
         {

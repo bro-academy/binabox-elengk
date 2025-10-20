@@ -22,11 +22,6 @@
     <a class='contact-info__subtitle' href='mailto:{{ contactSection.Email.description }}'>
       {{ contactSection.Email.description }}
     </a>
-    {% if field.type == 'email' %}
-      pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" title="Please enter a valid email address."
-      {% elseif field.type == 'text' and field.onlyLetters %}
-      pattern="^[A-Za-z\s]+$" title="Only letters A–Z allowed."
-    {% endif %}
   </div>
 
   <div class='contact-info'>
@@ -46,24 +41,28 @@
     {% for field in contactSection.contactForm.fields %}
       <div class='contact-form__group'>
         {% if field.type == 'radio' %}
-          {% if field.label is defined %}
-            <label class='contact-form__label'>{{ field.label }}</label>
-          {% endif %}
-          {% for option in field.options %}
-            <label class='contact-form__radio-label' for='{{ field.id }}_{{ option.value }}'>
-              <input
-                class='contact-form__input contact-form__input--radio'
-                type='radio'
-                id='{{ field.id }}_{{ option.value }}'
-                name='gender'
-                value='{{ option.label }}'
-              >
+          <fieldset class='contact-form__fieldset'>
+            {% if field.label is defined %}
+              <legend class='contact-form__label'>{{ field.label }}</legend>
+            {% endif %}
+            {% for option in field.options %}
+              <label class='contact-form__radio-label' for='{{ field.id }}_{{ option.value }}'>
+                <input
+                  class='contact-form__input contact-form__input--radio'
+                  type='radio'
+                  id='{{ field.id }}_{{ option.value }}'
+                  name='gender'
+                  value='{{ option.label }}'
+                >
 
-              {{ option.label }}
-            </label>
-          {% endfor %}
+                {{ option.label }}
+              </label>
+            {% endfor %}
+          </fieldset>
+
           {% elseif field.type == 'textarea' %}
           <label class='contact-form__label' for='{{ field.id }}'>{{ field.label }} </label>
+
           <textarea
             class='contact-form__input'
             id='{{ field.id }}'
@@ -71,6 +70,7 @@
             placeholder='{{ field.placeholder }}'
           >
           </textarea>
+          <span class='contact-form__error-message'></span>
         {% else %}
           <label class='contact-form__label' for='{{ field.id }}'>{{ field.label }}</label>
           <input
@@ -79,7 +79,18 @@
             id='{{ field.id }}'
             name='{{ field.name }}'
             placeholder='{{ field.placeholder| default('') }}'
+            {% if field.name in ['first_name', 'last_name', 'email', 'phone'] %}
+              required
+            {% endif %}
+            {% if field.type == 'email' %}
+              pattern='^[^@\s]+@[^@\s]+\.[^@\s]+$'
+              title='Please enter a valid email address.'
+              {% elseif field.name == 'phone' %}
+              pattern='^\+?[0-9\s\-]{7,15}$'
+              title='Please enter a valid phone number.'
+            {% endif %}
           >
+          <span class='contact-form__error-message'></span>
         {% endif %}
       </div>
     {% endfor %}
@@ -97,6 +108,7 @@
           {{ contactSection.contactForm.terms.link.text }}
         </a>
       </label>
+      <span class='contact-form__error-message'></span>
     </div>
 
     <button class='contact-form__button button--primary' type='submit'>
