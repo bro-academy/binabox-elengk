@@ -63,8 +63,8 @@
           "name": "gender",
           "label": "Sex",
           "options": [
-            { "value": "gender", "label": "Male" },
-           { "value": "gender", "label": "Female" }
+            { "value": "male", "label": "Male" },
+            { "value": "female", "label": "Female" }
           ]
         },
 
