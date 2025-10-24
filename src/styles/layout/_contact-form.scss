@@ -33,6 +33,12 @@
 
 
   &__input {
+     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: $border1 $line; 
+    
+    box-shadow: none;
     font-family: $ff-body;
     font-weight: $fw-regular;
     font-size: $fz-xs;
@@ -40,16 +46,15 @@
     color: $alternative3-invert;
     background-color: transparent;
 
-       &:checked {
-      border-color: $separatorbold;
-    }
 
     &:hover {
       border-color: $marina600;
     }
 
     &:focus {
-      border-color: $focus-invert;
+      border-color: $marina600;
+        outline: none;
+      box-shadow: none;
     }
 
  
@@ -70,7 +75,7 @@
     padding-left: $space-l;
   }
 
-  &__input--radio {
+  &__input-radio {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -107,6 +112,8 @@
       border-radius: 50%;
       border: $border $line;
       box-sizing: border-box;
+      box-shadow: none;
+      
     }
 
     &:hover::after {
@@ -117,11 +124,13 @@
     &:active::after {
       background-color: transparent;
       box-shadow: inset 0 0 0 4px $marina200;
+      border-color: $marina200;
     }
 
     &:focus::after {
       box-shadow: inset 0 0 0 4px  $alternative3-invert;
       border-color: $focus-invert;
+      
     }
 
     &:disabled::after {
@@ -130,7 +139,7 @@
 
   
   }
-  &__input--radio:checked::before {
+  &__input-radio:checked::before {
     
     border-color: $accent-link-invert;
 
@@ -140,6 +149,7 @@
     }
     &:active::before {
       box-shadow: inset 0 0 0 4px $marina200;
+      border-color: $marina200;
     }
     &:focus::before {
       box-shadow: inset 0 0 0 4px  $marina600;
