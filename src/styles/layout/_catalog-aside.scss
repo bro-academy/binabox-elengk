@@ -1,0 +1,135 @@
+@use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
+
+.catalog-aside {
+  &__filter {
+    background-color: $separator;
+  }
+
+  &__filter-title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-ml;
+    line-height: $lh-me;
+  }
+
+  &__filter-item {
+    font-family: $ff-body;
+    font-weight: $fw-regular;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+  }
+
+  &__filter-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    width: $width-m;
+    height: $height-xs;
+    top: $top;
+    left: $left;
+    border-radius: $br;
+    border-width: $bw;
+    border: $border;
+    border-color: $line;
+    background-color: $base;
+
+    &:hover {
+      background-color: $alternative2;
+      border-color: $line;
+    }
+
+    &:active {
+      background-color: $marina200;
+      border-color: $marina200;
+    }
+
+    &:focus {
+      background-color: $alternative;
+      border-color: $focus-invert;
+    }
+
+    &:disabled {
+      background-color: $separatorbold;
+      border-color: $separatorbold;
+    }
+  }
+
+  &__filter-checkbox:checked {
+    background-color: $marina800;
+    border-color: $marina800;
+
+    &:hover {
+      background-color: $marina600;
+      border-color: $marina600;
+    }
+    &:active {
+      background-color: $marina200;
+      border-color: $marina200;
+    }
+    &:focus {
+      background-color: $marina800;
+      border-color: $marina600;
+    }
+    &:disabled {
+      background-color: $separatorbold;
+      border-color: $separatorbold;
+    }
+  }
+
+  &__filter-radio {
+    appearance: none;
+    -webkit-appearance: none;
+    width: $width-m;
+    height: $height-xs;
+    top: $top-s;
+    left: $left;
+    border-radius: 50%;
+    border-width: $bw;
+    border: $border3;
+    border-color: $line;
+    background-color: $base;
+
+    &:hover {
+      background-color: $line;
+    }
+
+    &:active {
+      background-color: transparent;
+      box-shadow: inset 0 0 0 4px $marina200;
+    }
+
+    &:focus {
+      background-color: $alternative3-invert;
+      border-color: $focus-invert;
+    }
+
+    &:disabled {
+      background-color: $separatorbold;
+    }
+  }
+  &__filter-radio:checked {
+    background-color: transparent;
+    border-color: $accent-link-invert;
+
+    &:hover {
+      box-shadow: inset 0 0 0 4px  $marina600;
+      border-color: $marina600;
+    }
+    &:active {
+      box-shadow: inset 0 0 0 4px  $marina200;
+      border-color: $marina200;
+    }
+    &:focus {
+      box-shadow:inset 0 0 0 4px  $marina600;
+      border-color: $marina600;
+    }
+    &:disabled {
+      background-color: $separatorbold;
+      box-shadow:inset 0 0 0 4px  $alternative3-invert;
+    }
+  }
+
+  &__button {
+    @include button-primary-style;
+  }
+}

@@ -1,0 +1,22 @@
+@use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
+
+.contact-banner {
+  &__title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-2xl;
+    line-height: $lh-2xl;
+    letter-spacing: $ls-xs;
+    text-align: center;
+  }
+  &__navigation-link {
+    font-family: $ff-body;
+    font-weight: $fw-semibold;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+    text-align: center;
+
+    @include link-style;
+  }
+}

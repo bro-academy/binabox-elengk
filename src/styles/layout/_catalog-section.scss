@@ -1,0 +1,12 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+
+.catalog-section {
+  &__title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-xl;
+    line-height: $lh-xl;
+    letter-spacing: $ls-xs;
+  }
+}

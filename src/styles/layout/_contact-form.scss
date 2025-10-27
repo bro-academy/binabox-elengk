@@ -1,0 +1,237 @@
+@use "../base/variables.scss" as *;
+@use "../base/mixins.scss" as *;
+
+.contact-form {
+  &__form {
+    text-align: center;
+  }
+  &__title {
+    font-family: $ff-heading;
+    font-weight: $fw-regular;
+    font-size: $fz-xl;
+    line-height: $lh-xl;
+    letter-spacing: $ls-xs;
+    text-align: center;
+  }
+
+  &__subtitle {
+    font-family: $ff-body;
+    font-weight: $fw-medium;
+    font-size: $fz-m;
+    line-height: $lh-md;
+    text-align: center;
+  }
+
+  &__label {
+    font-family: $ff-body;
+    font-weight: $fw-regular;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+
+ 
+  }
+
+
+  &__input {
+     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: $border $line; 
+    
+    box-shadow: none;
+    font-family: $ff-body;
+    font-weight: $fw-regular;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+    color: $alternative3-invert;
+    background-color: transparent;
+
+
+    &:hover {
+      border-color: $marina600;
+    }
+
+    &:focus {
+        outline: none;
+      box-shadow: none;
+      border: $border0 $marina600;
+    }
+
+ 
+  }
+
+  &__input[id='message'] {
+     resize: vertical;
+     }
+
+
+  &__fieldset{
+    border: none;
+  }
+
+  &__radio-label {
+    position: relative;
+    display: inline-block;
+    padding-left: $space-l;
+  }
+
+  &__input-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: absolute;
+    top: $top;
+    left: $left-xs;
+    
+
+    &:checked {
+      &::before {
+        content: "";
+        display: block;
+        border-radius: 50%;
+        width: $width-xs;
+        height: $height-xxxs;
+        top: $top;
+        left: $left-xs;
+        border-width: $bw;
+        border: $border3;
+        border-color: $line;
+        background-color: $base;
+        position: absolute;
+        z-index: 1;
+      }
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: $top;
+      left: $left-xs;
+      width: $width-m;
+      height: $height-xs;
+      border-radius: 50%;
+      border: $border $line;
+      box-sizing: border-box;
+      box-shadow: none;
+      
+    }
+
+    &:hover::after {
+      background-color:  $separatorbold-invert;
+      border-color: $line;
+    }
+
+    &:active::after {
+      background-color: transparent;
+      box-shadow: inset 0 0 0 4px $marina200;
+      border-color: $marina200;
+    }
+
+    &:focus::after {
+      box-shadow: inset 0 0 0 4px  $alternative3-invert;
+      border-color: $focus-invert;
+      
+    }
+
+    &:disabled::after {
+      background-color: $separatorbold;
+    }
+
+  
+  }
+  &__input-radio:checked::before {
+    
+    border-color: $accent-link-invert;
+
+     &:hover::before {
+      box-shadow:inset 0 0 0 4px  $marina600;
+      border-color: $marina600;
+    }
+    &:active::before {
+      box-shadow: inset 0 0 0 4px $marina200;
+      border-color: $marina200;
+    }
+    &:focus::before {
+      box-shadow: inset 0 0 0 4px  $marina600;
+      border-color: $marina600;
+    }
+    &:disabled::before {
+      background-color: $separatorbold;
+      box-shadow: inset 0 0 0 4px $alternative3-invert;
+    }
+  }
+
+  &__checkbox-input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: $width-m;
+    height: $height-xs;
+    top: $top-s;
+    left: $left;
+    border-radius: $br;
+    border-width: $bw;
+    border: $border;
+    border-color: $line;
+    background-color: $base;
+
+    &:hover {
+      background-color: $alternative2;
+      border-color: $line;
+    }
+
+    &:active {
+      background-color: $marina200;
+      border-color: $marina200;
+    }
+
+    &:focus {
+      background-color: $alternative;
+      border-color: $focus-invert;
+    }
+
+    &:disabled {
+      background-color: $separatorbold;
+      border-color: $separatorbold;
+    }
+  }
+  &__checkbox-input:checked {
+    background-color: $marina800;
+    border-color: $marina800;
+
+    &:hover {
+      background-color: $marina600;
+      border-color: $marina600;
+    }
+    &:active {
+      background-color: $marina200;
+      border-color: $marina200;
+    }
+    &:focus {
+      background-color: $marina800;
+      border-color: $marina600;
+    }
+    &:disabled {
+      background-color: $separatorbold;
+      border-color: $separatorbold;
+    }
+  }
+   &__terms-link {
+      color: $accent-link;
+      text-decoration: none;
+      &:hover {
+        color: $marina600;
+      }
+    }
+
+    &__error-message {
+      display: none;
+      color: $negative;
+      font-size: $fz-2xs;
+      margin-top: $space-xs;
+    }
+    &__input:user-invalid,
+    &__checkbox-input:user-invalid {
+      border-color: $negative;
+    }
+  }
+

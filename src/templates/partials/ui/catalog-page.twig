@@ -1,0 +1,65 @@
+<div class='catalog-banner'>
+  <h1 class='catalog-banner__title'>{{ catalogFormBanner.title }}</h1>
+  <nav class='catalog-banner__navigation'>
+    <ul class='catalog-banner__navigation-list'>
+      {% for nav in catalogFormBanner.navigation %}
+        <li class='catalog-banner__navigation-item'>
+          {% if nav.link is defined %}
+            <a class='catalog-banner__navigation-link' href='{{ nav.link }}'>{{ nav.label }}</a>
+          {% else %}
+            {{ nav.label }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
+
+<section class='catalog-section'>
+  <h2 class='catalog-section__title'>{{ sections.title }}</h2>
+
+  <div class='catalog-forms'>
+    <label class='catalog-forms__label'>{{ sections.list.label }}</label>
+    <select class='catalog-forms__list' name='list'>
+      {% for option in sections.list.options %}
+        <option
+          class='catalog-forms__list-option'
+          value='{{ option }}'
+        >
+          {{ option }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+</section>
+
+<div class='catalog-categories'>
+  <ul class='catalog-categories__list'>
+    {% for category in categories %}
+      <li class='catalog-categories__item'>{{ category.label }}</li>
+    {% endfor %}
+  </ul>
+</div>
+
+<button class='catalog-categories__button' type='{{ clearButton.type }}'>
+  <span class='catalog-categories__button-title'>{{ clearButton.alt }}</span>
+</button>
+
+<form class='catalog-forms__search' method='get'>
+  <input
+    class='catalog-forms__search-bar'
+    type='search'
+    name='search'
+    placeholder='{{ catalogFormSearch.catalogPlaceholder }}'
+  >
+</form>
+
+{% for product in catalog.products %}
+  {% if product.section == 'catalog' %}
+    {% include './product-card.twig' %}
+  {% endif %}
+{% endfor %}
+
+<button class='catalog-forms__button button button--secondary'>
+  <span class='catalog-forms__button-text'>Load more</span>
+</button>

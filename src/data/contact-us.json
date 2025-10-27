@@ -1,0 +1,111 @@
+{
+  "contactBanner": {
+    "title": "Contact us",
+    "navigation": [
+      {
+        "label": "home",
+        "link": "/"
+      },
+      {
+        "label": "contact us",
+        "link": "/contact"
+      }
+    ]
+  },
+  "contactSection": {
+    "location": {
+      "title": "Location",
+      "description": "2163 Phillips Gap Rd"
+    },
+
+    "Email": {
+      "title": "Email",
+      "description": "Info.avitex@gmail.com"
+    },
+
+    "Phone": {
+      "title": "Phone",
+      "description": "+1 666 8888"
+    },
+
+    "info": {
+      "title": "Get in touch",
+      "description": "Browse through the most frequently asked questions"
+    },
+
+    "contactForm": {
+      "action": "#",
+      "method": "POST",
+      "fields": [
+        {
+          "type": "text",
+          "id": "first_name",
+          "name": "first_name",
+          "label": "First Name",
+          "placeholder": "Enter your first name"
+        },
+        {
+          "type": "text",
+          "id": "last_name",
+          "name": "last_name",
+          "label": "Last Name",
+          "placeholder": "Enter your last name"
+        },
+        {
+          "type": "date",
+          "id": "date_of_birth",
+          "name": "date_of_birth",
+          "label": "Date of Birth"
+        },
+        {
+          "type": "radio",
+          "id": "gender",
+          "name": "gender",
+          "label": "Sex",
+          "options": [
+            { "value": "male", "label": "Male" },
+            { "value": "female", "label": "Female" }
+          ]
+        },
+
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "Enter your email"
+        },
+        {
+          "type": "tel",
+          "id": "phone",
+          "name": "phone",
+          "label": "Phone Number",
+          "placeholder": "Enter your number"
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Message",
+          "placeholder": "text your message here"
+        }
+      ],
+
+      "terms": {
+        "type": "checkbox",
+        "id": "terms",
+        "name": "terms",
+        "label": "By clicking on the ‘Send Message’ button I agree to ",
+        "link": {
+          "url": "/privacy-policy",
+          "text": "all the terms of the security policy"
+        }
+      },
+
+      "submit": {
+        "label": "Send message",
+        "class": "contact-form__submit"
+      }
+    }
+  }
+}

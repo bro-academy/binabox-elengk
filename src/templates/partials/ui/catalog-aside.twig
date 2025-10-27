@@ -1,0 +1,36 @@
+<aside class='catalog-aside'>
+  {% for filter in aside.filters %}
+    <details class='catalog-aside__filter'>
+      <summary class='catalog-aside__filter-title'>{{ filter.title }}</summary>
+
+      <ul class='catalog-aside__filter-list'>
+        {% for option in filter.options %}
+          <li class='catalog-aside__filter-item'>
+            <label class='catalog-aside__filter-label'>
+              {% if filter.title == 'Eyes' %}
+                <input
+                  class='catalog-aside__filter-radio'
+                  type='radio'
+                  name='{{ filter.title }}'
+                  value='{{ option.value }}'
+                >
+              {% else %}
+                <input
+                  class='catalog-aside__filter-checkbox'
+                  type='checkbox'
+                  name='{{ filter.title }}'
+                  value='{{ option.value }}'
+                >
+              {% endif %}
+              {{ option.label }}
+            </label>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+  {% endfor %}
+
+  <button class='catalog-aside__button button--primary'>
+    {{ aside.applyButton.label }}
+  </button>
+</aside>

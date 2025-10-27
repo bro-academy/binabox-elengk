@@ -20,6 +20,7 @@ $alternative3: rgba(0 0 0/ 1);
 $baseIcon1: rgba(255 255 255 /1);
 $alternative-invert: rgba(248 250 252 /1);
 $alternative2-invert: rgba(244 247 250 /1);
+$alternative3-invert: rgba(231 238 247/ 0.66);
 
 //elements
 $accent-link: rgba(120 187 250 /1);
@@ -110,6 +111,7 @@ $space-m: 20px;
 $space-lg: 24px;
 
 // Large sizes
+$space-l: 30px;
 $space-xl: 32px;
 $space-1xl: 40px;
 $space-2xl: 48px;
@@ -122,13 +124,45 @@ $ls-xs: -0.5px;
 
 //border
 $border: 2px solid;
+$border1: 1px solid;
+$border0: 3px solid;
+$border2: 5px solid;
+$border3: 6px solid;
 
 //width
+$width-xs: 5px;
+$width-s: 6px;
+$width-se: 8px;
+$width-me: 13px;
+$width-m: 16px;
 $width: 784px;
 
 //height
+$height-xxxs: 5px;
+$height-xxs: 6px;
+$height-xss: 8px;
+$height-me: 13px;
+$height-xs: 16px;
 $height-s: 434px;
 $height-l: 900px;
 
 //mid-width
 $midwidth: 512px;
+
+//top
+$top: 0px;
+$top-xs: 1px;
+$top-s: 4px;
+
+//left
+$left-xs: 0px;
+$left-s: 1px;
+$left: 4px;
+
+//border-radius
+$br: 4px;
+$br1: 8px;
+
+//border-width
+$bw-xs: 1.5;
+$bw: 2px;

@@ -1,0 +1,39 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+
+.catalog-forms {
+  &__label {
+    font-family: $ff-body;
+    font-weight: $fw-semibold;
+    font-size: $fz-md;
+    line-height: $lh-md;
+    letter-spacing: $ls-0;
+    vertical-align: middle;
+    @include button-secondary-style;
+  }
+  &__list-option {
+    font-family: $ff-body;
+    font-weight: $fw-regular;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+    letter-spacing: $ls-0;
+  }
+
+  &__search-bar {
+    font-family: $ff-body;
+    font-weight: $fw-regular;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+    letter-spacing: $ls-0;
+    background-color: $alternative;
+  }
+
+  &__text {
+    font-family: $ff-body;
+    font-weight: $fw-semibold;
+    font-size: $fz-md;
+    line-height: $lh-md;
+    letter-spacing: $ls-0;
+    vertical-align: middle;
+  }
+}

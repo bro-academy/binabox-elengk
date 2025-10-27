@@ -1,0 +1,100 @@
+{
+  "catalogFormBanner": {
+    "title": "Explore catalog",
+    "navigation": [
+      {
+        "label": "home",
+        "link": "/"
+      },
+      {
+        "label": "catalog",
+        "link": "/catalog"
+      },
+
+      { "label": "The Basilisks NFT" }
+    ]
+  },
+  "sections": {
+    "title": "All item",
+    "list": {
+      "label": "Sort by",
+      "options": [
+        "Newest",
+        "Most popular",
+        "Increasing in price",
+        "Lowering the price"
+      ]
+    }
+  },
+
+  "categories": [{ "label": "NFT" }, { "label": "ICO" }, { "label": "Crypto" }],
+
+  "clearButton": {
+    "type": "button",
+    "alt": "Clear all"
+  },
+
+  "catalogFormSearch": {
+    "catalogPlaceholder": "Search NFT"
+  },
+
+  "aside": {
+    "filters": [
+      {
+        "title": "Clothing",
+        "options": [
+          { "label": "Combatant", "value": "combatant" },
+          { "label": "Ninja", "value": "ninja" },
+          { "label": "King", "value": "king" },
+          { "label": "Queen", "value": "queen" },
+          { "label": "Robot", "value": "robot" }
+        ]
+      },
+      {
+        "title": "Eyes",
+        "options": [
+          { "label": "Yellow", "value": "yellow" },
+          { "label": "Green", "value": "green" },
+          { "label": "Mix", "value": "mix" },
+          { "label": "Orange", "value": "orange" }
+        ]
+      },
+      {
+        "title": "Face",
+
+        "options": [
+          { "label": "Option 1", "value": "option1" },
+          { "label": "Option 2", "value": "option2" }
+        ]
+      },
+      {
+        "title": "Skin",
+        "options": [
+          { "label": "option1", "value": "option1" },
+          { "label": "option2", "value": "option2" }
+        ]
+      },
+      {
+        "title": "Background",
+        "options": [
+          { "label": "option1", "value": "option1" },
+          { "label": "option1", "value": "option2" }
+        ]
+      },
+
+      {
+        "title": "Special",
+        "options": [
+          { "label": "Yellow", "value": "yellow" },
+          { "label": "Green", "value": "green" },
+          { "label": "Mix", "value": "mix" },
+          { "label": "Orange", "value": "orange" }
+        ]
+      }
+    ],
+    "applyButton": {
+      "label": "Apply",
+      "class": "button--primary"
+    }
+  }
+}
