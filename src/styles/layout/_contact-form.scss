@@ -36,7 +36,7 @@
      -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border: $border1 $line; 
+    border: $border $line; 
     
     box-shadow: none;
     font-family: $ff-body;
@@ -52,9 +52,9 @@
     }
 
     &:focus {
-      border-color: $marina600;
         outline: none;
       box-shadow: none;
+      border: $border0 $marina600;
     }
 
  
