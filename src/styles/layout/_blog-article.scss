@@ -2,6 +2,16 @@
 @use "../base/mixins.scss" as *;
 
 .blog-article {
+  &__image {
+    width: 1024px;
+    height: 559px;
+    gap: 10px;
+    opacity: 1;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+  }
   &__title {
     font-family: $ff-heading;
     font-weight: $fw-regular;

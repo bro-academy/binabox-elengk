@@ -5,6 +5,10 @@
     "bannerTextSecond": " EXPLORE NFT COLLECTION",
     "bannerDescription": "We are the best way to check the rarity of NFT collection"
   },
+  "bannerImage": {
+    "src": "src/assets/images/binabox-cube.webp",
+    "alt": "Binabox 3D glowing cube"
+  },
 
   "bannerStats": [
     {
@@ -51,7 +55,7 @@
       {
         "label": "New",
         "image": {
-          "src": "#",
+          "src": "src/assets/images/Skeleton.webp",
           "alt": "Skeleton"
         },
         "value": "$1990",
@@ -61,7 +65,7 @@
       {
         "label": "new",
         "image": {
-          "src": "#",
+          "src": "src/assets/images/Cat.webp",
           "alt": "Cat"
         },
         "value": "$299,99",
@@ -71,7 +75,7 @@
       {
         "label": "Sold out",
         "image": {
-          "src": "#",
+          "src": "src/assets/images/Scissor.webp",
           "alt": "scissor"
         },
         "value": "$20",
@@ -81,7 +85,7 @@
       {
         "label": "new",
         "image": {
-          "src": "#",
+          "src": "src/assets/images/Core.webp",
           "alt": "core"
         },
         "value": "$1,000,000",
@@ -91,7 +95,7 @@
       {
         "label": "new",
         "image": {
-          "src": "#",
+          "src": "src/assets/images/Consol.webp",
           "alt": "Consol"
         },
         "value": "$199,5",
@@ -101,8 +105,8 @@
 
       {
         "label": "New",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/Medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -112,8 +116,8 @@
 
       {
         "label": "New",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/Medusa.webp",
           "alt": "Medusa face "
         },
         "value": "$199",
@@ -123,8 +127,8 @@
 
       {
         "label": "Sold out",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/Medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -134,8 +138,28 @@
 
       {
         "label": "New",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/Medusa.webp",
+          "alt": "Medusa face"
+        },
+        "value": "$199",
+        "name": "Name Product",
+        "section": "catalog"
+      },
+      {
+        "label": "New",
+        "image": {
+          "src": "src/assets/images/Medusa.webp",
+          "alt": "Medusa face"
+        },
+        "value": "$199",
+        "name": "Name Product",
+        "section": "catalog"
+      },
+      {
+        "label": "New",
+        "image": {
+          "src": "src/assets/images/Medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -145,7 +169,7 @@
       {
         "label": "New",
         "imgage": {
-          "src": "#",
+          "src": "src/assets/images/Medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -155,7 +179,7 @@
       {
         "label": "New",
         "imgage": {
-          "src": "#",
+          "src": "src/assets/images/Medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -164,28 +188,8 @@
       },
       {
         "label": "New",
-        "imgage": {
-          "src": "#",
-          "alt": "Medusa face"
-        },
-        "value": "$199",
-        "name": "Name Product",
-        "section": "catalog"
-      },
-      {
-        "label": "New",
-        "imgage": {
-          "src": "#",
-          "alt": "Medusa face"
-        },
-        "value": "$199",
-        "name": "Name Product",
-        "section": "catalog"
-      },
-      {
-        "label": "New",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/Medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -199,8 +203,8 @@
     {
       "size": "large",
       "label": "NFT",
-      "src": "#",
-      "image": "people face",
+      "src": "src/assets/images/Medusa.webp",
+      "alt": "people face",
       "author": "NOVA RIVEN",
       "date": "2022-12-04",
       "dateText": "04 Dec 2022",
@@ -210,8 +214,8 @@
     {
       "size": "small",
       "label": "DROP",
-      "src": "#",
-      "image": "skeleton skull",
+      "src": "src/assets/images/Skeleton.webp",
+      "alt": "skeleton skull",
       "author": "Kairo Null",
       "date": "2022-12-06",
       "dateText": "06 Dec 2022",
@@ -221,8 +225,8 @@
     {
       "size": "small",
       "label": "NFT",
-      "image": "#",
-      "imageAlt": "black cat green eyes",
+      "src": "src/assets/images/Cat.webp",
+      "alt": "black cat green eyes",
       "author": "Synthya Void",
       "date": "2022-12-07",
       "dateText": "07 Dec 2022",
@@ -232,8 +236,8 @@
     {
       "size": "small",
       "label": "RARE",
-      "image": "#",
-      "imageAlt": "black ape",
+      "src": "src/assets/images/monkey.webp",
+      "alt": "black ape",
       "author": "Dr.Wex Omega",
       "date": "2022-12-08",
       "dateText": "08 Dec 2022",
@@ -243,8 +247,8 @@
     {
       "size": "large",
       "label": "ARTIFACT",
-      "image": "#",
-      "imageAlt": "green core",
+      "src": "src/assets/images/Core.webp",
+      "alt": "green core",
       "author": "Echo Zero",
       "date": "2022-12-09",
       "dateText": "09 Dec 2022",
@@ -254,8 +258,8 @@
     {
       "size": "small",
       "label": "NFT",
-      "image": "#",
-      "imageAlt": "white duck",
+      "src": "src/assets/images/duck.webp",
+      "alt": "white duck",
       "author": "Tony Nguyen",
       "date": "2022-01-20",
       "dateText": "20 Jun 2022",
@@ -302,7 +306,7 @@
       "name": "Nova Riven",
       "role": "Creative Architect",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/Nova-Riven.webp",
         "alt": "Nova Riven photo"
       },
       "socials": [
@@ -344,7 +348,7 @@
       "name": "Echo Zero",
       "role": "Tech Whisperer",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/Echo-Zero.webp",
         "alt": "Echo Zero photo"
       },
       "socials": [
@@ -387,7 +391,7 @@
       "name": "Kairo Null",
       "role": "Lore Engineer",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/Kairo-null.webp",
         "alt": "Kairo Null photo"
       },
       "socials": [
@@ -430,7 +434,7 @@
       "name": "Dr. Wex Omega",
       "role": "Visual Disruptor",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/Dr.Wex-omega.webp",
         "alt": "Dr.Wex Omega photo"
       },
       "socials": [
@@ -481,7 +485,7 @@
       "name": "Synthya Void",
       "role": "UX Seer",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/Synthya-Void.webp",
         "alt": "Synthya Void photo"
       },
       "socials": [
@@ -499,7 +503,7 @@
       "name": "Mirlo Drift",
       "role": "Community Catalyst",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/Mirlo-Drift.webp",
         "alt": "Mirlo Drift photo"
       },
       "socials": [
@@ -550,7 +554,7 @@
       "name": "Axon Rune",
       "role": "Security Ghost",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/Axon-Rune.webp",
         "alt": "Axon Rune photo"
       },
       "socials": [

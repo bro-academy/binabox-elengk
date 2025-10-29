@@ -4,8 +4,14 @@
   {% for blogPost in blogPosts %}
     <article class='blog-card blog-card--{{ blogPost.size }}'>
       <p class='blog-card__label'>{{ blogPost.label }}</p>
-      <img class='blog-card__image' src='{{ blogPost.image }}' alt='{{ blogPost.imageAlt }}'>
-
+      <picture>
+        {% if blogPost.src %}<source srcset='{{ blogPost.src }}' type='image/webp'>{% endif %}
+        <img
+          class='blog-card__image--{{ blogPost.size }}'
+          src='{{ blogPost.src }}'
+          alt='{{blogPost.alt }}'
+        >
+      </picture>
       <img class='blog-card__author-icon' src='#' alt='small human icon'>
       <address class='blog-card__author-info'>
         <p class='blog-card__author'>{{ blogPost.author }}</p>

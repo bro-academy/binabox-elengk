@@ -14,9 +14,9 @@
 
   <ul class='catalog__list'>
     {% for product in catalog.products %}
-      <li>
-        {% include './product-card.twig' with { product: product } %}
-      </li>
+      {% if product.section == 'homepage' %}
+        {% include './product-card.twig' %}
+      {% endif %}
     {% endfor %}
   </ul>
 </section>
