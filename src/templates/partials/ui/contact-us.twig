@@ -111,11 +111,13 @@
       >
       <label class='contact-form__checkbox-label' for='{{ contactSection.contactForm.terms.id }}'>
         {{ contactSection.contactForm.terms.label }}
-       <a class="contact-form__terms-link"
-   href="{{ contactSection.contactForm.terms.link.url }}"
-   target="_blank">
-  {{ contactSection.contactForm.terms.link.text }}
-</a>
+        <a
+          class='contact-form__terms-link'
+          href='{{ contactSection.contactForm.terms.link.url }}'
+          target='_blank'
+        >
+          {{ contactSection.contactForm.terms.link.text }}
+        </a>
       </label>
       <span class='contact-form__error-message'></span>
     </div>

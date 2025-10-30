@@ -5,7 +5,18 @@
       {% for member in teamMembers %}
         <li class='team__list-item'>
           <article class='team-member'>
-            <img class='team-member__image' src='{{}}' alt='{{ member.image.alt }}'>
+            <picture class='team-member__picture'>
+              {% if member.image.srcWebp is defined %}
+                <source srcset='{{ member.image.srcWebp }}' type='image/webp'>
+              {% endif %}
+              <source srcset='{{ member.image.src }}' type='image/{{ member.image.src}}'>
+              <img
+                class='team-member__image'
+                src='{{ member.image.src }}'
+                alt='{{ member.image.alt|default(member.name) }}'
+                loading='lazy'
+              >
+            </picture>
             <h3 class='team-member__name'>{{ member.name }}</h3>
             <p class='team-member__role'>{{ member.role }}</p>
 

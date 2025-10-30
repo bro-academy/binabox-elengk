@@ -2,6 +2,12 @@
 @use "../base/mixins.scss" as *;
 
 .contact-banner {
+  background-image: url("src/assets/images/big-lines.webp"); // change path if needed
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
   &__title {
     font-family: $ff-heading;
     font-weight: $fw-regular;

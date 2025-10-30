@@ -15,7 +15,7 @@
   ],
   "blogArticles": {
     "figure": {
-      "src": "#",
+      "src": "src/assets/images/Basilisk-arena.webp",
       "alt": "Basilisks in the arena",
       "caption": "A Basilisk enters the arena — its emerald scales shimmer with encoded rage."
     },
@@ -55,12 +55,12 @@
     },
     "additionalFigures": [
       {
-        "src": "#",
+        "src": "src/assets/images/Gen3-Basilisk.webp",
         "alt": "Gen-3 Basilisk",
         "caption": "RClose-up of a Gen-3 Basilisk. Eyes trained by code."
       },
       {
-        "src": "#",
+        "src": "src/assets/images/Bonded-Basilisk.webp",
         "alt": "Bonded Basilisk",
         "caption": "A bonded Basilisk with its summoner. Loyalty is minted — not earned."
       }

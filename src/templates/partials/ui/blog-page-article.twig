@@ -1,7 +1,10 @@
 <section class='blog'>
   <article class='blog-article'>
     <figure class='blog-article__figure'>
-      <img class='blog-article__image' src='{{  }}' alt='{{ blogArticles.figure.alt }}'>
+      <picture>
+        <source srcset='{{ blogArticles.figure.src }}' type='image/webp'>
+        <img class='blog-article__image' src='{{ blogArticles.figure.src }}' alt='{{ blogArticles.figure.alt }}'>
+      </picture>
       <figcaption class='blog-article__caption'>{{ blogArticles.figure.caption }}</figcaption>
     </figure>
 
@@ -37,7 +40,10 @@
 
     {% for figure in blogArticles.additionalFigures %}
       <figure class='blog-article__figure'>
-        <img class='blog-article__image' src='{{  }}' alt='{{ figure.alt }}'>
+        <picture>
+          <source srcset='{{ figure.src }}' type='image/webp'>
+          <img src='{{ figure.src }}' alt='{{ figure.alt }}'>
+        </picture>
         <figcaption class='blog-article__caption'>{{ figure.caption }}</figcaption>
       </figure>
     {% endfor %}

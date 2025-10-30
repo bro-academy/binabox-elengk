@@ -4,11 +4,14 @@
 .product-card {
   padding: $space-lg;
   background-color: $alternative2;
+  position: relative;
 
   &__label {
+    position: absolute;
     padding: $space-s $space-2s;
     line-height: $lh-m;
-    text-align: right;
+    top: $top-a;
+    right: 40px;
   }
 
   &__label--new {
@@ -19,6 +22,11 @@
   &__label--updated {
     background-color: $negative;
     color: $primary;
+  }
+
+  &__image {
+    width: $height-w;
+    height: $height-w;
   }
 
   &__value {
