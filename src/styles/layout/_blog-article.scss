@@ -3,14 +3,11 @@
 
 .blog-article {
   &__image {
-    width: 1024px;
-    height: 559px;
-    gap: 10px;
+    width: $width-n;
+    height: $height-m;
+    gap: $gap;
     opacity: 1;
-    padding-top: 16px;
-    padding-right: 24px;
-    padding-bottom: 16px;
-    padding-left: 24px;
+    padding-top: $space-base $space-lg;
   }
   &__title {
     font-family: $ff-heading;
@@ -47,9 +44,17 @@
     font-size: $fz-lg;
     line-height: $lh-lg;
     padding: $space-base;
-    border-radius: 16px;
+    border-radius: $br2;
     background-color: $marina1200;
-    color: rgba(248, 247, 255, 1);
+    color: $alternative-invert;
+  }
+
+  &__picture {
+    width: $width-r;
+    height: $height-r;
+    gap: $gap;
+    opacity: 1;
+    padding: $space-base;
   }
 
   &-value,

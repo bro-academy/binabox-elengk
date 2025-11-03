@@ -42,9 +42,8 @@
       <figure class='blog-article__figure'>
         <picture>
           <source srcset='{{ figure.src }}' type='image/webp'>
-          <img src='{{ figure.src }}' alt='{{ figure.alt }}'>
+          <img class='blog-article__picture' src='{{ figure.src }}' alt='{{ figure.alt }}'>
         </picture>
-        <figcaption class='blog-article__caption'>{{ figure.caption }}</figcaption>
       </figure>
     {% endfor %}
 

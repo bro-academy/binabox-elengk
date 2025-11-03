@@ -137,8 +137,11 @@ $width-me: 13px;
 $width-m: 16px;
 $width-g: 46px;
 $width-l: 135px;
-$width-w: 253;
+$width-w: 253px;
+$width-r: 500px;
+$width-mp: 736px;
 $width: 784px;
+$width-n: 1024px;
 
 //height
 $height-xxxs: 5px;
@@ -148,9 +151,13 @@ $height-me: 13px;
 $height-xs: 16px;
 $height-g: 36px;
 $height-c: 135px;
-$height-w: 324;
+$height-mm: 198px;
+$height-w: 324px;
+$height-r: 393px;
 $height-s: 434px;
+$height-mp: 664px;
 $height-l: 900px;
+$height-m: 559px;
 
 //mid-width
 $midwidth: 512px;
@@ -170,10 +177,11 @@ $left-a: -7px;
 //border-radius
 $br: 4px;
 $br1: 8px;
+$br2: 16px;
 
 //border-width
 $bw-xs: 1.5;
 $bw: 2px;
 
 //gap
-$gap:10px;
+$gap: 10px;

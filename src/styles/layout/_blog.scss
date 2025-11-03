@@ -12,7 +12,6 @@
   &-card {
     position: relative;
     background-color: $alternative2;
-      
   }
 
   &-card__label {
@@ -31,17 +30,17 @@
 
   &-card__image {
     &--large {
-      width: 736;
-      height: 664;
+      width: $width-mp;
+      height: $height-mp;
       opacity: 1;
       object-fit: cover;
     }
 
     &--small {
-      width: 736;
-      height: 198;
+      width: $width-mp;
+      height: $height-mm;
       opacity: 1;
-       object-fit: center;
+      object-fit: center;
     }
   }
 }
