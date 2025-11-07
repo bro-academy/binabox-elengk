@@ -4,6 +4,13 @@
 .header {
   padding: $space-1xl;
 
+  &__logo {
+    width: $width-p;
+    height: $height-p;
+    opacity: 1;
+    top: $top-b;
+    left: $left-b;
+  }
   &__navigation {
     &-link {
       color: $primary;
@@ -18,6 +25,17 @@
         border-bottom: $border $marina800;
       }
     }
+  }
+  
+  &__search-bar{
+      font-family: $ff-body;
+    font-weight: $fw-regular;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+    letter-spacing: $ls-0;
+    background-color: $alternative;
+    border: $border;
+    border-color: $separatorbold;
   }
 
   &__button {

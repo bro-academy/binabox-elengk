@@ -26,6 +26,8 @@
     line-height: $lh-m;
     letter-spacing: $ls-0;
     background-color: $alternative;
+    border: $border;
+    border-color: $separatorbold;
   }
 
   &__text {

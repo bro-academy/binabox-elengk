@@ -29,6 +29,33 @@
     line-height: $lh-m;
   }
 
+  &__icon {
+    width: 42;
+    height: 51.333335876464844;
+    angle: 0 deg;
+    opacity: 1;
+    top: 2.33px;
+    left: 7px;
+  }
+
+  &__img {
+    width: 51.33373260498047;
+    height: 42.00000762939453;
+    angle: 0 deg;
+    opacity: 1;
+    top: 7px;
+    left: 2.33px;
+  }
+
+  &__image {
+    width: 48.07939910888672;
+    height: 48.07940673828125;
+    angle: 0 deg;
+    opacity: 1;
+    top: 3.63px;
+    left: 4.5px;
+  }
+
   &__input {
     -webkit-appearance: none;
     -moz-appearance: none;

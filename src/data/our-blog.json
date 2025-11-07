@@ -94,19 +94,19 @@
       "shares": [
         {
           "href": "#",
-          "icon": "#",
+          "icon": "src/assets/icons/Twitter.svg",
           "alt": "Twitter logo",
           "label": "Twitter"
         },
         {
           "href": "#",
-          "icon": "#",
+          "icon": "src/assets/icons/Facebook.svg",
           "alt": "Facebook logo",
           "label": "Facebook"
         },
         {
           "href": "#",
-          "icon": "#",
+          "icon": "src/assets/icons/Instagram.svg",
           "alt": "Instagram logo",
           "label": "Instagram"
         }
