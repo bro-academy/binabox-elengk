@@ -24,8 +24,10 @@
               {% for social in member.socials %}
                 <li class='team-member__social-item'>
                   <a class='team-member__social-link' href='{{ social.href }}'>
-                    <img class='team-member__social-image' src='{{ social.icon.src }}' alt='{{ social.icon.alt }}'>
-                    {{ social.label }}
+                     <svg >
+          <use class='team-member__social-icon' href='{{ social.icon.src }}'></use>
+        </svg>
+        <span>{{ social.label }}</span>
                   </a>
                 </li>
               {% endfor %}

@@ -11,6 +11,24 @@
     top: $top-b;
     left: $left-b;
   }
+
+  &__logo-image{
+    width: $width-p;
+height: $height-p;
+opacity: 1;
+top: $top-b;
+left: $left-b;
+
+  }
+
+  &__search-icon{
+    width: $widht-v;
+height: $height-v;
+opacity: 1;
+top: $top-q;
+left: $left-q;
+
+  }
   &__navigation {
     &-link {
       color: $primary;

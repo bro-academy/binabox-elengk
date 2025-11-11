@@ -24,7 +24,7 @@
     "author": {
       "name": "Tony Nguyen",
       "icon": {
-        "src": "#",
+        "src": "src/assets/sprite.svg#icon-User",
         "alt": "small human icon"
       }
     },
@@ -32,7 +32,7 @@
       "datetime": "2022-01-20",
       "text": "20 Jun 2022",
       "icon": {
-        "src": "#",
+        "src": "src/assets/sprite.svg#icon-Calendar",
         "alt": "calendar"
       }
     },
@@ -94,19 +94,19 @@
       "shares": [
         {
           "href": "#",
-          "icon": "src/assets/icons/Twitter.svg",
+          "icon": "src/assets/sprite.svg#icon-Twitter",
           "alt": "Twitter logo",
           "label": "Twitter"
         },
         {
           "href": "#",
-          "icon": "src/assets/icons/Facebook.svg",
+          "icon": "src/assets/sprite.svg#icon-Facebook",
           "alt": "Facebook logo",
           "label": "Facebook"
         },
         {
           "href": "#",
-          "icon": "src/assets/icons/Instagram.svg",
+          "icon": "src/assets/sprite.svg#icon-Instagram",
           "alt": "Instagram logo",
           "label": "Instagram"
         }

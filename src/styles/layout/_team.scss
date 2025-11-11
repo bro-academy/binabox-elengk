@@ -39,4 +39,10 @@
     letter-spacing: $ls-0;
     color: $secondary;
   }
+
+  &-member__socila-icon {
+    width: $width-c;
+    height: $height-t;
+    opacity: 1;
+  }
 }

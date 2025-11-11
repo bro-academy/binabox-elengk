@@ -22,16 +22,18 @@
         "name": "Contact Us",
         "href": "contact.html"
       }
-    ]
+    ],
+    "navigationIcon":"src/assets/sprite.svg#icon-Icon"
   },
   "header": {
     "href": "index.html",
-    "logo_href": "src/assets/icons/Logo-white.svg",
+    "logo_href": "src/assets/sprite.svg#icon-Logo-white",
     "logo_alt": "BINABOX logo"
   },
 
   "headerSearch": {
-    "headerPlaceholder": "Search"
+    "headerPlaceholder": "Search",
+    "headerIcon":"src/assets/sprite.svg#icon-search"
   },
 
   "headerButtons": [
@@ -50,7 +52,7 @@
       "value": "Discord",
       "palette": "secondary",
       "href": "#",
-      "src": "src/assets/icons/Discord-white.svg",
+      "src": "src/assets/sprite.svg#icon-Discord-white",
       "icon_alt": "Discord icon",
       "text": "Discord",
       "type": "Discord"
@@ -59,7 +61,7 @@
 
   "footer": {
     "href": "index.html",
-    "logo_href": "src/assets/icons/Logo-blue.svg",
+    "logo_href": "src/assets/sprite.svg#icon-Logo-blue",
     "logo_alt": " BINABOX logo",
     "footer_description": " We are the best way to check the rarity of NFT collections."
   },
@@ -88,28 +90,28 @@
     {
       "label": "Twitter",
       "href": "#",
-      "icon": "src/assets/icons/Twitter.svg"
+      "icon": "src/assets/sprite.svg#icon-Twitter"
     },
     {
       "label": "Facebook",
       "href": "#",
-      "icon": "src/assets/icons/Facebook-white.svg"
+      "icon": "src/assets/sprite.svg#icon-Facebook-white"
     },
     {
       "label": "Telegram",
       "href": "#",
-      "icon": "src/assets/icons/Telegram.svg"
+      "icon": "src/assets/sprite.svg#icon-Telegram"
     },
     {
       "label": "YouTube",
       "href": "#",
-      "icon": "src/assets/icons/YouTube.svg"
+      "icon": "src/assets/sprite.svg#icon-YouTube"
     },
-    { "label": "TikTok", "href": "#", "icon": "src/assets/icons/TikTok.svg" },
+    { "label": "TikTok", "href": "#", "icon": "src/assets/sprite.svg#icon-TikTok" },
     {
       "label": "Discord",
       "href": "#",
-      "icon": "src/assets/icons/Discord-white.svg"
+      "icon": "src/assets/sprite.svg#icon-Discord-white"
     }
   ]
 }

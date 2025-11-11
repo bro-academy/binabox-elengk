@@ -12,10 +12,14 @@
           alt='{{blogPost.alt }}'
         >
       </picture>
-      <img class='blog-card__author-icon' src='#' alt='small human icon'>
+      <svg class="blog-card__author-icon">
+            <use href="{{ blogPost.author.icon.src }}"></use>
+          </svg>
       <address class='blog-card__author-info'>
         <p class='blog-card__author'>{{ blogPost.author }}</p>
-        <img class='blog-card__date-icon' src='#' alt='calendar'>
+          <svg class="blog-card__date-icon">
+            <use href="{{ blogPost.date.icon.src }}"></use>
+          </svg>
         <time class='blog-card__time' datetime='{{ blogPost.date }}'>{{ blogPost.dateText }}</time>
       </address>
 
@@ -25,7 +29,9 @@
       <div class='blog-card__button'>
         <a class='blog-card__button-link button button--tertiary' href='{{ blogPost.link }}'>
           Read more
-          <img class='blog-card__link-image' src='#' alt='next arrow'>
+           <svg class="blog-card__link-icon">
+            <use href="{{ blogPost.linkIcon.src }}"></use>
+          </svg>
         </a>
       </div>
     </article>

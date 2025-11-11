@@ -1,6 +1,8 @@
 <form class='header__search' method='get'>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill="#F5F8FB" fill-rule="evenodd" d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14Zm7.03 12.62a9 9 0 1 0-1.41 1.41l3.67 3.68a1 1 0 0 0 1.42-1.42l-3.68-3.67Z" clip-rule="evenodd"/>
-</svg>
+  <svg class="header__search-icon">
+    <use href="{{ headerSearch.headerIcon }}"></use>
+  </svg>
+
   <input
     class='header__search-bar'
     type='search'
