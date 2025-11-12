@@ -48,6 +48,9 @@
       "Permanent death mode",
       "Metaverse integration"
     ],
+
+    "icon": "src/assets/sprite.svg#icon-S-logo",
+
     "quote": {
       "text": "“The first huge metaverse arena to arrange live sports,hang out and even make bets and wagers.”",
       "value": "8.5/10",
@@ -100,7 +103,7 @@
         },
         {
           "href": "#",
-          "icon": "src/assets/sprite.svg#icon-Facebook",
+          "icon": "src/assets/sprite.svg#icon-FacebookWhite",
           "alt": "Facebook logo",
           "label": "Facebook"
         },

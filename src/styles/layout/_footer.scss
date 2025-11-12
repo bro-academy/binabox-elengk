@@ -6,7 +6,7 @@
   padding-inline: $space-4xl;
   padding-block: $space-4xl $space-xl;
 
-  &__image {
+  &__logo-image {
     width: $width-p;
     height: $height-p;
     opacity: 1;
@@ -35,7 +35,7 @@
     @include link-style;
   }
 
-  &__social-image {
+  &__social-icon {
     width: $width-q;
     height: $height-q;
     gap: $gap-q;

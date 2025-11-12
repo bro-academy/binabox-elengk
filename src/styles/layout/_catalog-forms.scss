@@ -30,6 +30,12 @@
     border-color: $separatorbold;
   }
 
+  &__icon {
+    width: $width-c;
+    height: $height-t;
+    opacity: 1;
+  }
+
   &__text {
     font-family: $ff-body;
     font-weight: $fw-semibold;

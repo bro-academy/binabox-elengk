@@ -16,4 +16,17 @@
     background-color: transparent;
     color: $primary;
   }
+
+  &__icon {
+    width: $width-m;
+    height: $height-xs;
+    opacity: 1;
+  }
+
+  &__icons{
+    width: $width-m;
+    height: $height-xs;
+    opacity: 1;
+    color: $base;
+  }
 }

@@ -23,17 +23,17 @@
         "href": "contact.html"
       }
     ],
-    "navigationIcon":"src/assets/sprite.svg#icon-Icon"
+    "navigationIcon": "src/assets/sprite.svg#icon-Icon"
   },
   "header": {
     "href": "index.html",
-    "logo_href": "src/assets/sprite.svg#icon-Logo-white",
+    "logo_href": "src/assets/sprite.svg#icon-LogoWhite",
     "logo_alt": "BINABOX logo"
   },
 
   "headerSearch": {
     "headerPlaceholder": "Search",
-    "headerIcon":"src/assets/sprite.svg#icon-search"
+    "headerIcon": "src/assets/sprite.svg#icon-search"
   },
 
   "headerButtons": [
@@ -52,7 +52,7 @@
       "value": "Discord",
       "palette": "secondary",
       "href": "#",
-      "src": "src/assets/sprite.svg#icon-Discord-white",
+      "src": "src/assets/sprite.svg#icon-DiscordWhite",
       "icon_alt": "Discord icon",
       "text": "Discord",
       "type": "Discord"
@@ -61,7 +61,7 @@
 
   "footer": {
     "href": "index.html",
-    "logo_href": "src/assets/sprite.svg#icon-Logo-blue",
+    "logo_href": "src/assets/sprite.svg#icon-LogoBlue",
     "logo_alt": " BINABOX logo",
     "footer_description": " We are the best way to check the rarity of NFT collections."
   },
@@ -95,7 +95,7 @@
     {
       "label": "Facebook",
       "href": "#",
-      "icon": "src/assets/sprite.svg#icon-Facebook-white"
+      "icon": "src/assets/sprite.svg#icon-FacebookWhite"
     },
     {
       "label": "Telegram",
@@ -107,11 +107,15 @@
       "href": "#",
       "icon": "src/assets/sprite.svg#icon-YouTube"
     },
-    { "label": "TikTok", "href": "#", "icon": "src/assets/sprite.svg#icon-TikTok" },
+    {
+      "label": "TikTok",
+      "href": "#",
+      "icon": "src/assets/sprite.svg#icon-TikTok"
+    },
     {
       "label": "Discord",
       "href": "#",
-      "icon": "src/assets/sprite.svg#icon-Discord-white"
+      "icon": "src/assets/sprite.svg#icon-DiscordWhite"
     }
   ]
 }

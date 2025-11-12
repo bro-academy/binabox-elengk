@@ -1,7 +1,7 @@
 {% macro button(class,value,palette,icon,alt,text) %}
 <button class='button button--{{ palette }} {{ class }}' type='button' value='{{ value }}'>
   {% if text == 'Discord' %}
-      <svg class="header__button-icon">
+    <svg class='header__button-icon'>
       <use href="{{ headerButtons.src }}"></use>
     </svg>
   {% else %}

@@ -33,9 +33,27 @@
     line-height: $lh-lg;
   }
 
+  &__author-icon {
+    width: $width-m;
+    height: $height-xs;
+    opacity: 1;
+  }
+
+  &__date-icon {
+    width: $width-m;
+    height: $height-xs;
+    opacity: 1;
+  }
+
   &__bullet-item {
     font-size: $fz-md;
     line-height: $lh-md;
+  }
+
+  &__icon {
+    width: $width-c;
+    height: $height-t;
+    opacity: 1;
   }
 
   &__quote {

@@ -11,13 +11,14 @@
     <h2 class='blog-article__title'>{{ blogArticles.title }}</h2>
     <p class='blog-article__label'>{{ blogArticles.label }}</p>
 
-   <svg class="blog-article__author-icon">
-        <use href="{{ blogArticles.author.icon.src | default('src/assets/sprite.svg#icon-User') }}"></use>
-      </svg>    <address class='blog-article__author-info'>
+    <svg class='blog-article__author-icon'>
+      <use href="{{ blogArticles.author.icon.src }}"></use>
+    </svg>
+    <address class='blog-article__author-info'>
       <p class='blog-article__author'>{{ blogArticles.author.name }}</p>
-      <svg class="blog-article__author-icon">
-          <use href="{{ blogArticles.date.icon.src | default('src/assets/sprite.svg#icon-Calendar') }}"></use>
-        </svg>
+      <svg class='blog-article__date-icon'>
+        <use href="{{ blogArticles.date.icon.src }}"></use>
+      </svg>
       <time class='blog-article__time' datetime='{{ blogArticles.date.datetime }}'>{{ blogArticles.date.text }}</time>
     </address>
 
@@ -30,6 +31,9 @@
     </ul>
 
     <ul class='blog-article__list'>
+      <svg class='blog-article__icon'>
+        <use href="{{ blogArticles.icon }}"></use>
+      </svg>
       {% for item in blogArticles.itemList %}
         <li class='blog-article__item'>{{ item }}</li>
       {% endfor %}
@@ -72,9 +76,10 @@
       {% for share in blogArticles.article.shares %}
         <li class='blog-article__share-item'>
           <a class='blog-article__share-link' href='{{ share.href }}'>
-  <svg class="blog-article__share-icon">
+            <svg class='blog-article__share-icon'>
               <use href="{{ share.icon }}"></use>
-            </svg>            {{ share.label }}
+            </svg>
+            {{ share.label }}
           </a>
         </li>
       {% endfor %}

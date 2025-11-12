@@ -43,11 +43,11 @@
     "catalogSeeAllHref": "#",
     "controls": {
       "previousArrow": {
-        "src": "src/assets/sprite.svg#icon-Left-arrow",
+        "src": "src/assets/sprite.svg#icon-LeftArrow",
         "alt": "Previous"
       },
       "nextArrow": {
-        "src": "src/assets/sprites.svg/Right-arrow",
+        "src": "src/assets/sprites.svg/RightArrow",
         "alt": "Next"
       }
     },
@@ -270,7 +270,8 @@
 
   "ctaButton": {
     "text": "Read more",
-    "link": "#"
+    "link": "#",
+    "icon": "src/assets/sprite.svg#rightArrow"
   },
 
   "aboutTitle": "About Us",
@@ -314,7 +315,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Facebook",
+            "src": "src/assets/sprite.svg#icon-FacebookWhite",
             "alt": "Facebook logo"
           }
         },
@@ -330,7 +331,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedIn-white.svg",
+            "src": "src/assets/sprite.svg#icon-LinkedInWhite.svg",
             "alt": "LinkedIn logo"
           }
         },
@@ -372,7 +373,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedIn-white",
+            "src": "src/assets/sprite.svg#icon-LinkedInWhite",
             "alt": "LinkedIn logo"
           }
         },
@@ -407,7 +408,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Facebook",
+            "src": "src/assets/sprite.svg#icon-FacebookWhite",
             "alt": "Facebook logo"
           }
         },
@@ -423,7 +424,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedIn-white",
+            "src": "src/assets/sprite.svg#icon-LinkedInWhite",
             "alt": "LinkedIn logo"
           }
         }
@@ -450,7 +451,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Facebook",
+            "src": "src/assets/sprite.svg#icon-FacebookWhite",
             "alt": "Facebook logo"
           }
         },
@@ -466,7 +467,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedIn-white",
+            "src": "src/assets/sprite.svg#icon-LinkedInWhite",
             "alt": "LinkedIn logo"
           }
         },
@@ -519,7 +520,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Facebook",
+            "src": "src/assets/sprite.svg#icon-FacebookWhite",
             "alt": "Facebook logo"
           }
         },
@@ -535,7 +536,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedIn-white",
+            "src": "src/assets/sprite.svg#icon-LinkedInWhite",
             "alt": "LinkedIn logo"
           }
         },
@@ -570,7 +571,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Facebook",
+            "src": "src/assets/sprite.svg#icon-FacebookWhite",
             "alt": "Facebook logo"
           }
         },
@@ -586,7 +587,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedIn-white",
+            "src": "src/assets/sprite.svg#icon-LinkedInWhite",
             "alt": "LinkedIn logo"
           }
         },

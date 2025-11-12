@@ -1,6 +1,6 @@
 <footer class='footer'>
   <a class='footer__logo' href='{{ index.navigation }} '>
-       <svg class="footer__logo-image">
+    <svg class='footer__logo-image'>
       <use href="{{ footer.logo_href }}"></use>
     </svg>
   </a>
@@ -34,9 +34,10 @@
     {% for social in footerSocials %}
       <li class='footer__social-item'>
         <a class='footer__social-link' href='{{ social.url }}'>
-          <svg class="footer__social-icon">
+          <svg class='footer__social-icon'>
             <use href="{{ social.icon }}"></use>
           </svg>
+        </a>
       </li>
     {% endfor %}
   </ul>
