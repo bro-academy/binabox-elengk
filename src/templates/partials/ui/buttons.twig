@@ -1,11 +1,9 @@
-{% macro button(class,value,palette,icon,alt,text) %}
+{% macro button(class, value, palette, icon, alt, text) %}
 <button class='button button--{{ palette }} {{ class }}' type='button' value='{{ value }}'>
-  {% if text == 'Discord' %}
-    <svg class='header__button-icon'>
-      <use href="{{ headerButtons.src }}"></use>
+  {% if icon %}
+    <svg class='header__button-icon' aria-hidden='true' focusable='false'>
+      <use href='{{ icon }}'></use>
     </svg>
-  {% else %}
-    <img class='header__button-icon' src='{{ icon }}' alt='{{ alt }}'>
   {% endif %}
   <span class='header__button-text'>{{ text }}</span>
 </button>

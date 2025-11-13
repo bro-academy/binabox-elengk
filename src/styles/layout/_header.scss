@@ -13,11 +13,9 @@
   }
 
   &__logo-image {
-    width: $width-p;
-    height: $height-p;
+    width: $width-nm;
+    height: $height-k;
     opacity: 1;
-    top: $top-b;
-    left: $left-b;
   }
 
   &__search-icon {
@@ -27,6 +25,13 @@
     top: $top-q;
     left: $left-q;
   }
+
+  &__button-icon {
+    width: $width-c;
+    height: $height-t;
+    opacity: 1;
+  }
+
   &__navigation {
     &-link {
       color: $primary;
@@ -36,7 +41,7 @@
       text-decoration: none;
     }
 
-    &__navigation-icon {
+    &-icon {
       width: $width-c;
       height: $height-t;
       opacity: 1;

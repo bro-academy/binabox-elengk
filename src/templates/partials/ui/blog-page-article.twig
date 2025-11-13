@@ -31,10 +31,10 @@
     </ul>
 
     <ul class='blog-article__list'>
-      <svg class='blog-article__icon'>
-        <use href="{{ blogArticles.icon }}"></use>
-      </svg>
       {% for item in blogArticles.itemList %}
+        <svg class='blog-article__icon'>
+          <use href="{{ blogArticles.icon }}"></use>
+        </svg>
         <li class='blog-article__item'>{{ item }}</li>
       {% endfor %}
     </ul>
@@ -79,7 +79,6 @@
             <svg class='blog-article__share-icon'>
               <use href="{{ share.icon }}"></use>
             </svg>
-            {{ share.label }}
           </a>
         </li>
       {% endfor %}

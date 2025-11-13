@@ -47,7 +47,7 @@
         "alt": "Previous"
       },
       "nextArrow": {
-        "src": "src/assets/sprites.svg/RightArrow",
+        "src": "src/assets/sprite.svg#icon-RightArrow",
         "alt": "Next"
       }
     },
@@ -205,7 +205,9 @@
       "label": "NFT",
       "src": "src/assets/images/Medusa.webp",
       "alt": "people face",
+      "image": "src/assets/sprite.svg#icon-User",
       "author": "NOVA RIVEN",
+      "icon": "src/assets/sprite.svg#icon-Calendar",
       "date": "2022-12-04",
       "dateText": "04 Dec 2022",
       "title": "Neural Drift",
@@ -216,7 +218,9 @@
       "label": "DROP",
       "src": "src/assets/images/Skeleton.webp",
       "alt": "skeleton skull",
+      "image": "src/assets/sprite.svg#icon-User",
       "author": "Kairo Null",
+      "icon": "src/assets/sprite.svg#icon-Calendar",
       "date": "2022-12-06",
       "dateText": "06 Dec 2022",
       "title": "Deadframe",
@@ -227,7 +231,9 @@
       "label": "NFT",
       "src": "src/assets/images/Cat.webp",
       "alt": "black cat green eyes",
+      "image": "src/assets/sprite.svg#icon-User",
       "author": "Synthya Void",
+      "icon": "src/assets/sprite.svg#icon-Calendar",
       "date": "2022-12-07",
       "dateText": "07 Dec 2022",
       "title": "Glitch Panther",
@@ -238,7 +244,9 @@
       "label": "RARE",
       "src": "src/assets/images/monkey.webp",
       "alt": "black ape",
+      "image": "src/assets/sprite.svg#icon-User",
       "author": "Dr.Wex Omega",
+      "icon": "src/assets/sprite.svg#icon-Calendar",
       "date": "2022-12-08",
       "dateText": "08 Dec 2022",
       "title": "Primal.exe",
@@ -249,7 +257,9 @@
       "label": "ARTIFACT",
       "src": "src/assets/images/Core.webp",
       "alt": "green core",
+      "image": "src/assets/sprite.svg#icon-User",
       "author": "Echo Zero",
+      "icon": "src/assets/sprite.svg#icon-Calendar",
       "date": "2022-12-09",
       "dateText": "09 Dec 2022",
       "title": "Retrocore",
@@ -260,7 +270,9 @@
       "label": "NFT",
       "src": "src/assets/images/duck.webp",
       "alt": "white duck",
+      "image": "src/assets/sprite.svg#icon-User",
       "author": "Tony Nguyen",
+      "icon": "src/assets/sprite.svg#icon-Calendar",
       "date": "2022-01-20",
       "dateText": "20 Jun 2022",
       "title": "White Protocol",
@@ -271,7 +283,7 @@
   "ctaButton": {
     "text": "Read more",
     "link": "#",
-    "icon": "src/assets/sprite.svg#rightArrow"
+    "icon": "src/assets/sprite.svg#icon-RightArrow"
   },
 
   "aboutTitle": "About Us",
@@ -331,7 +343,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedInWhite.svg",
+            "src": "src/assets/sprite.svg#icon-LinkedInWhite",
             "alt": "LinkedIn logo"
           }
         },
@@ -339,7 +351,7 @@
           "label": "Instagram",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Instagram.svg",
+            "src": "src/assets/sprite.svg#icon-Instagram",
             "alt": "Instagram logo"
           }
         }

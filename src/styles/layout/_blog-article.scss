@@ -7,7 +7,7 @@
     height: $height-m;
     gap: $gap;
     opacity: 1;
-    padding-top: $space-base $space-lg;
+    padding: $space-base $space-lg;
   }
   &__title {
     font-family: $ff-heading;
@@ -89,7 +89,7 @@
 
   &__tag-link {
     padding: $space-1xs $space-md;
-    border: 2px solid $separatorbold;
+    border: $border $separatorbold;
     font-size: $fz-xs;
     line-height: $lh-m;
     text-align: center;
@@ -103,5 +103,15 @@
     color: $primary;
     text-decoration: none;
     @include button-secondary-style;
+  }
+
+  &__share-icon {
+    width: $width-r;
+    height: $height-y;
+    gap: $gap-q;
+    opacity: 1;
+    border-width: $bw;
+    padding: $space-s;
+    border: $border $separatorbold;
   }
 }

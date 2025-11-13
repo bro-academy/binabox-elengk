@@ -13,12 +13,12 @@
         >
       </picture>
       <svg class='blog-card__author-icon'>
-        <use href="{{ blogPost.author.icon.src }}"></use>
+        <use href="{{ blogPost.image }}"></use>
       </svg>
       <address class='blog-card__author-info'>
         <p class='blog-card__author'>{{ blogPost.author }}</p>
         <svg class='blog-card__date-icon'>
-          <use href="{{ blogPost.date.icon.src }}"></use>
+          <use href="{{ blogPost.icon }}"></use>
         </svg>
         <time class='blog-card__time' datetime='{{ blogPost.date }}'>{{ blogPost.dateText }}</time>
       </address>
@@ -30,7 +30,7 @@
         <a class='blog-card__button-link button button--tertiary' href='{{ blogPost.link }}'>
           Read more
           <svg class='blog-card__link-icon'>
-            <use href="{{ blogPost.linkIcon.src }}"></use>
+            <use href='{{ ctaButton.icon }}'></use>
           </svg>
         </a>
       </div>

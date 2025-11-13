@@ -33,7 +33,7 @@
 
   "headerSearch": {
     "headerPlaceholder": "Search",
-    "headerIcon": "src/assets/sprite.svg#icon-search"
+    "headerIcon": "src/assets/sprite.svg#icon-Search"
   },
 
   "headerButtons": [
@@ -42,6 +42,7 @@
       "value": "Connect",
       "palette": "primary",
       "href": "#",
+      "icon": "src/assets/sprite.svg#icon-User",
       "icon_alt": "Connect icon",
       "text": "Connect",
       "type": "connect"
@@ -52,7 +53,7 @@
       "value": "Discord",
       "palette": "secondary",
       "href": "#",
-      "src": "src/assets/sprite.svg#icon-DiscordWhite",
+      "icon": "src/assets/sprite.svg#icon-DiscordWhite",
       "icon_alt": "Discord icon",
       "text": "Discord",
       "type": "Discord"
