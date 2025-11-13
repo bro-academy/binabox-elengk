@@ -168,7 +168,7 @@
       },
       {
         "label": "New",
-        "imgage": {
+        "image": {
           "src": "src/assets/images/Medusa.webp",
           "alt": "Medusa face"
         },
@@ -178,7 +178,7 @@
       },
       {
         "label": "New",
-        "imgage": {
+        "image": {
           "src": "src/assets/images/Medusa.webp",
           "alt": "Medusa face"
         },
