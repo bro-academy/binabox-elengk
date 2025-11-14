@@ -1,5 +1,5 @@
 <footer class='footer'>
-  <a class='footer__logo' href='{{ index.navigation }} '>
+  <a class='footer__logo' href='{{ footer.href }} '>
     <svg class='footer__logo-image'>
       <use href="{{ footer.logo_href }}"></use>
     </svg>
@@ -15,7 +15,7 @@
             class='footer-navigation__list-link'
             href='{{ link.href }}'
           >
-            {{- link.label -}}
+            {{ link.label }}
           </a>
         </li>
       {% endfor %}

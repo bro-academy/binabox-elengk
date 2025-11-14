@@ -43,11 +43,11 @@
     "catalogSeeAllHref": "#",
     "controls": {
       "previousArrow": {
-        "src": "src/assets/sprite.svg#icon-LeftArrow",
+        "src": "src/assets/sprite.svg#icon-left-arrow",
         "alt": "Previous"
       },
       "nextArrow": {
-        "src": "src/assets/sprite.svg#icon-RightArrow",
+        "src": "src/assets/sprite.svg#icon-right-arrow",
         "alt": "Next"
       }
     },
@@ -218,9 +218,9 @@
       "label": "DROP",
       "src": "src/assets/images/Skeleton.webp",
       "alt": "skeleton skull",
-      "image": "src/assets/sprite.svg#icon-User",
+      "image": "src/assets/sprite.svg#icon-user",
       "author": "Kairo Null",
-      "icon": "src/assets/sprite.svg#icon-Calendar",
+      "icon": "src/assets/sprite.svg#icon-calendar",
       "date": "2022-12-06",
       "dateText": "06 Dec 2022",
       "title": "Deadframe",
@@ -231,9 +231,9 @@
       "label": "NFT",
       "src": "src/assets/images/Cat.webp",
       "alt": "black cat green eyes",
-      "image": "src/assets/sprite.svg#icon-User",
+      "image": "src/assets/sprite.svg#icon-user",
       "author": "Synthya Void",
-      "icon": "src/assets/sprite.svg#icon-Calendar",
+      "icon": "src/assets/sprite.svg#icon-calendar",
       "date": "2022-12-07",
       "dateText": "07 Dec 2022",
       "title": "Glitch Panther",
@@ -244,9 +244,9 @@
       "label": "RARE",
       "src": "src/assets/images/monkey.webp",
       "alt": "black ape",
-      "image": "src/assets/sprite.svg#icon-User",
+      "image": "src/assets/sprite.svg#icon-user",
       "author": "Dr.Wex Omega",
-      "icon": "src/assets/sprite.svg#icon-Calendar",
+      "icon": "src/assets/sprite.svg#icon-calendar",
       "date": "2022-12-08",
       "dateText": "08 Dec 2022",
       "title": "Primal.exe",
@@ -257,9 +257,9 @@
       "label": "ARTIFACT",
       "src": "src/assets/images/Core.webp",
       "alt": "green core",
-      "image": "src/assets/sprite.svg#icon-User",
+      "image": "src/assets/sprite.svg#icon-user",
       "author": "Echo Zero",
-      "icon": "src/assets/sprite.svg#icon-Calendar",
+      "icon": "src/assets/sprite.svg#icon-calendar",
       "date": "2022-12-09",
       "dateText": "09 Dec 2022",
       "title": "Retrocore",
@@ -270,9 +270,9 @@
       "label": "NFT",
       "src": "src/assets/images/duck.webp",
       "alt": "white duck",
-      "image": "src/assets/sprite.svg#icon-User",
+      "image": "src/assets/sprite.svg#icon-user",
       "author": "Tony Nguyen",
-      "icon": "src/assets/sprite.svg#icon-Calendar",
+      "icon": "src/assets/sprite.svg#icon-calendar",
       "date": "2022-01-20",
       "dateText": "20 Jun 2022",
       "title": "White Protocol",
@@ -283,7 +283,7 @@
   "ctaButton": {
     "text": "Read more",
     "link": "#",
-    "icon": "src/assets/sprite.svg#icon-RightArrow"
+    "icon": "src/assets/sprite.svg#icon-right-arrow"
   },
 
   "aboutTitle": "About Us",
@@ -327,7 +327,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-FacebookWhite",
+            "src": "src/assets/sprite.svg#icon-facebook-white",
             "alt": "Facebook logo"
           }
         },
@@ -335,7 +335,7 @@
           "label": "Telegram",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Telegram",
+            "src": "src/assets/sprite.svg#icon-telegram",
             "alt": "Telegram logo"
           }
         },
@@ -343,7 +343,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedInWhite",
+            "src": "src/assets/sprite.svg#icon-linkedIn-white",
             "alt": "LinkedIn logo"
           }
         },
@@ -351,7 +351,7 @@
           "label": "Instagram",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Instagram",
+            "src": "src/assets/sprite.svg#icon-instagram",
             "alt": "Instagram logo"
           }
         }
@@ -369,7 +369,7 @@
           "label": "Twitter",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Twitter",
+            "src": "src/assets/sprite.svg#icon-twitter",
             "alt": "Twitter logo"
           }
         },
@@ -377,7 +377,7 @@
           "label": "Telegram",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Telegram",
+            "src": "src/assets/sprite.svg#icon-telegram",
             "alt": "Telegram logo"
           }
         },
@@ -385,7 +385,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedInWhite",
+            "src": "src/assets/sprite.svg#icon-linkedIn-white",
             "alt": "LinkedIn logo"
           }
         },
@@ -393,7 +393,7 @@
           "label": "Instagram",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Instagram",
+            "src": "src/assets/sprite.svg#icon-instagram",
             "alt": "Instagram logo"
           }
         }
@@ -412,7 +412,7 @@
           "label": "Twitter",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Twitter",
+            "src": "src/assets/sprite.svg#icon-twitter",
             "alt": "Twitter logo"
           }
         },
@@ -420,7 +420,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-FacebookWhite",
+            "src": "src/assets/sprite.svg#icon-facebook-white",
             "alt": "Facebook logo"
           }
         },
@@ -428,7 +428,7 @@
           "label": "Telegram",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Telegram",
+            "src": "src/assets/sprite.svg#icon-telegram",
             "alt": "Telegram logo"
           }
         },
@@ -436,7 +436,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedInWhite",
+            "src": "src/assets/sprite.svg#icon-linkedIn-white",
             "alt": "LinkedIn logo"
           }
         }
@@ -455,7 +455,7 @@
           "label": "Twitter",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Twitter",
+            "src": "src/assets/sprite.svg#icon-twitter",
             "alt": "Twitter logo"
           }
         },
@@ -463,7 +463,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-FacebookWhite",
+            "src": "src/assets/sprite.svg#icon-facebook-white",
             "alt": "Facebook logo"
           }
         },
@@ -471,7 +471,7 @@
           "label": "Telegram",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Telegram",
+            "src": "src/assets/sprite.svg#icon-telegram",
             "alt": "Telegram logo"
           }
         },
@@ -479,7 +479,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedInWhite",
+            "src": "src/assets/sprite.svg#icon-linkedIn-white",
             "alt": "LinkedIn logo"
           }
         },
@@ -487,7 +487,7 @@
           "label": "Instagram",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Instagram",
+            "src": "src/assets/sprite.svg#icon-instagram",
             "alt": "Instagram logo"
           }
         }
@@ -506,7 +506,7 @@
           "label": "Twitter",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Twitter",
+            "src": "src/assets/sprite.svg#icon-twitter",
             "alt": "Twitter logo"
           }
         }
@@ -524,7 +524,7 @@
           "label": "Twitter",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Twitter",
+            "src": "src/assets/sprite.svg#icon-twitter",
             "alt": "Twitter logo"
           }
         },
@@ -532,7 +532,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-FacebookWhite",
+            "src": "src/assets/sprite.svg#icon-facebook-white",
             "alt": "Facebook logo"
           }
         },
@@ -540,7 +540,7 @@
           "label": "Telegram",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Telegram",
+            "src": "src/assets/sprite.svg#icon-telegram",
             "alt": "Telegram logo"
           }
         },
@@ -548,7 +548,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedInWhite",
+            "src": "src/assets/sprite.svg#icon-linkedIn-white",
             "alt": "LinkedIn logo"
           }
         },
@@ -556,7 +556,7 @@
           "label": "Instagram",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Instagram",
+            "src": "src/assets/sprite.svg#icon-instagram",
             "alt": "Instagram logo"
           }
         }
@@ -575,7 +575,7 @@
           "label": "Twitter",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Twitter",
+            "src": "src/assets/sprite.svg#icon-twitter",
             "alt": "Twitter logo"
           }
         },
@@ -583,7 +583,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-FacebookWhite",
+            "src": "src/assets/sprite.svg#icon-facebook-white",
             "alt": "Facebook logo"
           }
         },
@@ -591,7 +591,7 @@
           "label": "Telegram",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Telegram",
+            "src": "src/assets/sprite.svg#icon-telegram",
             "alt": "Telegram logo"
           }
         },
@@ -599,7 +599,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-LinkedInWhite",
+            "src": "src/assets/sprite.svg#icon-linkedIn-white",
             "alt": "LinkedIn logo"
           }
         },
@@ -607,7 +607,7 @@
           "label": "Instagram",
           "href": "#",
           "icon": {
-            "src": "src/assets/sprite.svg#icon-Instagram",
+            "src": "src/assets/sprite.svg#icon-instagram",
             "alt": "Instagram logo"
           }
         }

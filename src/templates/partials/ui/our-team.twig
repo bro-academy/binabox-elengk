@@ -9,7 +9,7 @@
               {% if member.image.srcWebp is defined %}
                 <source srcset='{{ member.image.srcWebp }}' type='image/webp'>
               {% endif %}
-              <source srcset='{{ member.image.src }}' type='image/{{ member.image.src}}'>
+              <source srcset='{{ member.image.src }}'>
               <img
                 class='team-member__image'
                 src='{{ member.image.src }}'
