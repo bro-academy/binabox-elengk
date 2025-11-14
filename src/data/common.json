@@ -22,16 +22,18 @@
         "name": "Contact Us",
         "href": "contact.html"
       }
-    ]
+    ],
+    "navigationIcon": "src/assets/sprite.svg#icon-Icon"
   },
   "header": {
     "href": "index.html",
-    "logo_href": "#",
+    "logo_href": "src/assets/sprite.svg#icon-LogoWhite",
     "logo_alt": "BINABOX logo"
   },
 
   "headerSearch": {
-    "headerPlaceholder": "Search"
+    "headerPlaceholder": "Search",
+    "headerIcon": "src/assets/sprite.svg#icon-Search"
   },
 
   "headerButtons": [
@@ -40,6 +42,7 @@
       "value": "Connect",
       "palette": "primary",
       "href": "#",
+      "icon": "src/assets/sprite.svg#icon-User",
       "icon_alt": "Connect icon",
       "text": "Connect",
       "type": "connect"
@@ -50,6 +53,7 @@
       "value": "Discord",
       "palette": "secondary",
       "href": "#",
+      "icon": "src/assets/sprite.svg#icon-DiscordWhite",
       "icon_alt": "Discord icon",
       "text": "Discord",
       "type": "Discord"
@@ -58,7 +62,7 @@
 
   "footer": {
     "href": "index.html",
-    "logo_href": "#",
+    "logo_href": "src/assets/sprite.svg#icon-LogoBlue",
     "logo_alt": " BINABOX logo",
     "footer_description": " We are the best way to check the rarity of NFT collections."
   },
@@ -68,8 +72,8 @@
     "links": [
       { "label": "Home", "href": "index.html" },
       { "label": "Blog", "href": "blog-page.html" },
-      { "label": "Catalog", "href": "#" },
-      { "label": "Contact Us", "href": "#" },
+      { "label": "Catalog", "href": "catalog.html" },
+      { "label": "Contact Us", "href": "contact.html" },
       { "label": "Terms & Conditions", "href": "#" },
       { "label": "Privacy Policy", "href": "#" },
       { "label": "Whitepaper", "href": "#" },
@@ -87,28 +91,32 @@
     {
       "label": "Twitter",
       "href": "#",
-      "icon": "#"
+      "icon": "src/assets/sprite.svg#icon-Twitter"
     },
     {
       "label": "Facebook",
       "href": "#",
-      "icon": "#"
+      "icon": "src/assets/sprite.svg#icon-FacebookWhite"
     },
     {
       "label": "Telegram",
       "href": "#",
-      "icon": "#"
+      "icon": "src/assets/sprite.svg#icon-Telegram"
     },
     {
       "label": "YouTube",
       "href": "#",
-      "icon": "#"
+      "icon": "src/assets/sprite.svg#icon-YouTube"
     },
-    { "label": "TikTok", "href": "#", "icon": "#" },
+    {
+      "label": "TikTok",
+      "href": "#",
+      "icon": "src/assets/sprite.svg#icon-TikTok"
+    },
     {
       "label": "Discord",
       "href": "#",
-      "icon": "#"
+      "icon": "src/assets/sprite.svg#icon-DiscordWhite"
     }
   ]
 }

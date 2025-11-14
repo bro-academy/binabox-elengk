@@ -1,17 +1,24 @@
 <section class='blog'>
   <article class='blog-article'>
     <figure class='blog-article__figure'>
-      <img class='blog-article__image' src='{{  }}' alt='{{ blogArticles.figure.alt }}'>
+      <picture>
+        <source srcset='{{ blogArticles.figure.src }}' type='image/webp'>
+        <img class='blog-article__image' src='{{ blogArticles.figure.src }}' alt='{{ blogArticles.figure.alt }}'>
+      </picture>
       <figcaption class='blog-article__caption'>{{ blogArticles.figure.caption }}</figcaption>
     </figure>
 
     <h2 class='blog-article__title'>{{ blogArticles.title }}</h2>
     <p class='blog-article__label'>{{ blogArticles.label }}</p>
 
-    <img class='blog-article__author-icon' src='{{  }}' alt='{{ blogArticles.author.icon.alt }}'>
+    <svg class='blog-article__author-icon'>
+      <use href="{{ blogArticles.author.icon.src }}"></use>
+    </svg>
     <address class='blog-article__author-info'>
       <p class='blog-article__author'>{{ blogArticles.author.name }}</p>
-      <img class='blog-article__date-icon' src='{{  }}' alt='{{ blogArticles.date.icon.alt }}'>
+      <svg class='blog-article__date-icon'>
+        <use href="{{ blogArticles.date.icon.src }}"></use>
+      </svg>
       <time class='blog-article__time' datetime='{{ blogArticles.date.datetime }}'>{{ blogArticles.date.text }}</time>
     </address>
 
@@ -25,6 +32,9 @@
 
     <ul class='blog-article__list'>
       {% for item in blogArticles.itemList %}
+        <svg class='blog-article__icon'>
+          <use href="{{ blogArticles.icon }}"></use>
+        </svg>
         <li class='blog-article__item'>{{ item }}</li>
       {% endfor %}
     </ul>
@@ -37,8 +47,10 @@
 
     {% for figure in blogArticles.additionalFigures %}
       <figure class='blog-article__figure'>
-        <img class='blog-article__image' src='{{  }}' alt='{{ figure.alt }}'>
-        <figcaption class='blog-article__caption'>{{ figure.caption }}</figcaption>
+        <picture>
+          <source srcset='{{ figure.src }}' type='image/webp'>
+          <img class='blog-article__picture' src='{{ figure.src }}' alt='{{ figure.alt }}'>
+        </picture>
       </figure>
     {% endfor %}
 
@@ -64,8 +76,9 @@
       {% for share in blogArticles.article.shares %}
         <li class='blog-article__share-item'>
           <a class='blog-article__share-link' href='{{ share.href }}'>
-            <img class='blog-article__share-image' src='{{  }}' alt='{{ share.icon.alt }}'>
-            {{ share.label }}
+            <svg class='blog-article__share-icon'>
+              <use href="{{ share.icon }}"></use>
+            </svg>
           </a>
         </li>
       {% endfor %}

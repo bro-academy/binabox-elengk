@@ -1,6 +1,8 @@
 <header class='header'>
   <a class='header__logo' href='{{ index.html }}'>
-    <img class='header__logo-image' src='{{ }}' alt=' BINABOX logo '>
+    <svg class='header__logo-image'>
+      <use href='{{ header.logo_href }}'></use>
+    </svg>
   </a>
 
   {% include './nav.twig' %}
@@ -14,7 +16,7 @@
       'header__button',
       'Discord-secondary',
       'secondary',
-      '',
+      ' src/assets/sprite.svg#icon-DiscordWhite',
       '',
       'Discord'
       )
@@ -25,7 +27,7 @@
       'header__button',
       'Log In-primary',
       'primary',
-      '',
+      'src/assets/sprite.svg#icon-User',
       '',
       'Log In'
       )
