@@ -27,7 +27,8 @@
   },
   "header": {
     "href": "index.html",
-    "logo_href": "src/assets/sprite.svg#icon-logo-white",
+    "logo_href": "src/assets/sprite.svg#icon-s-logo",
+    "text": "BINABOX",
     "logo_alt": "BINABOX logo"
   },
 

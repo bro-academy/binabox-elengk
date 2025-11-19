@@ -4,27 +4,29 @@
 .header {
   padding: $space-1xl;
 
-  &__logo {
+  &__logo{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap:5px;
+  }
 
-    &:hover {
-      color: $marina600;
-    }
-    &:focus {
-      color: $marina400;
-      border: $border4 $marina600;
-    }
-    &:active {
-      color: $marina900;
-    }
-    &:disabled {
-      color: $disabled;
-    }
+  &__logo-text {
+    width: $width-p;
+    height: $height-p;
+    opacity: 1;
+    top: $top-b;
+    left: $left-b;
+    color: $baseIcon1;
+    font-size: $fz-lg;
   }
 
   &__logo-image {
     width: $width-nm;
     height: $height-k;
     opacity: 1;
+    color: $accent-link-invert;
+    display: block;
   }
 
   &__search-icon {

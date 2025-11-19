@@ -4,24 +4,6 @@
 .footer {
   background-color: $alternative;
   padding-inline: $space-4xl;
-  padding-block: $space-4xl $space-xl;
-
-  &__logo{
-    
-    &:hover {
-      color: $marina600;
-    }
-    &:focus {
-      color: $marina400;
-      border: $border4 $marina600;
-    }
-    &:active {
-      color: $marina900;
-    }
-    &:disabled {
-      color: $disabled;
-    }
-  }
 
   &__logo-image {
     width: $width-p;
@@ -29,6 +11,7 @@
     opacity: 1;
     top: $top-b;
     left: $left-b;
+    color: $marina800;
   }
 
   &__title {

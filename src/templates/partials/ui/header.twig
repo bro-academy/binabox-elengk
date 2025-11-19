@@ -3,6 +3,9 @@
     <svg class='header__logo-image'>
       <use href='{{ header.logo_href }}'></use>
     </svg>
+    <span class='header__logo-text'>
+      {{ header.text }}
+    </span>
   </a>
 
   {% include './nav.twig' %}
