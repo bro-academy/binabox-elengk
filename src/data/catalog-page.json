@@ -36,7 +36,7 @@
 
   "catalogFormSearch": {
     "catalogPlaceholder": "Search NFT",
-    "catalogIcon": "src/assets/sprite.svg#icon-Search"
+    "catalogIcon": "src/assets/sprite.svg#icon-search"
   },
 
   "aside": {

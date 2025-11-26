@@ -15,7 +15,7 @@
   ],
   "blogArticles": {
     "figure": {
-      "src": "src/assets/images/Basilisk-in-the-arena.webp",
+      "src": "src/assets/images/basilisk-in-the-arena.webp",
       "alt": "Basilisks in the arena",
       "caption": "A Basilisk enters the arena — its emerald scales shimmer with encoded rage."
     },
@@ -24,7 +24,7 @@
     "author": {
       "name": "Tony Nguyen",
       "icon": {
-        "src": "src/assets/sprite.svg#icon-User",
+        "src": "src/assets/sprite.svg#icon-user",
         "alt": "small human icon"
       }
     },
@@ -32,7 +32,7 @@
       "datetime": "2022-01-20",
       "text": "20 Jun 2022",
       "icon": {
-        "src": "src/assets/sprite.svg#icon-Calendar",
+        "src": "src/assets/sprite.svg#icon-calendar",
         "alt": "calendar"
       }
     },
@@ -58,12 +58,12 @@
     },
     "additionalFigures": [
       {
-        "src": "src/assets/images/Gen-3-Basilisk.webp",
+        "src": "src/assets/images/gen-3-basilisk.webp",
         "alt": "Gen-3 Basilisk",
         "caption": "RClose-up of a Gen-3 Basilisk. Eyes trained by code."
       },
       {
-        "src": "src/assets/images/Bonded-basilisk.webp",
+        "src": "src/assets/images/bonded-basilisk.webp",
         "alt": "Bonded Basilisk",
         "caption": "A bonded Basilisk with its summoner. Loyalty is minted — not earned."
       }
@@ -97,19 +97,19 @@
       "shares": [
         {
           "href": "#",
-          "icon": "src/assets/sprite.svg#icon-Twitter",
+          "icon": "src/assets/sprite.svg#icon-twitter",
           "alt": "Twitter logo",
           "label": "Twitter"
         },
         {
           "href": "#",
-          "icon": "src/assets/sprite.svg#icon-FacebookWhite",
+          "icon": "src/assets/sprite.svg#icon-facebook-white",
           "alt": "Facebook logo",
           "label": "Facebook"
         },
         {
           "href": "#",
-          "icon": "src/assets/sprite.svg#icon-Instagram",
+          "icon": "src/assets/sprite.svg#icon-instagram",
           "alt": "Instagram logo",
           "label": "Instagram"
         }

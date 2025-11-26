@@ -55,7 +55,7 @@
       {
         "label": "New",
         "image": {
-          "src": "src/assets/images/Skeleton.webp",
+          "src": "src/assets/images/skeleton.webp",
           "alt": "Skeleton"
         },
         "value": "$1990",
@@ -65,7 +65,7 @@
       {
         "label": "new",
         "image": {
-          "src": "src/assets/images/Cat.webp",
+          "src": "src/assets/images/cat.webp",
           "alt": "Cat"
         },
         "value": "$299,99",
@@ -75,7 +75,7 @@
       {
         "label": "Sold out",
         "image": {
-          "src": "src/assets/images/Scissor.webp",
+          "src": "src/assets/images/scissor.webp",
           "alt": "scissor"
         },
         "value": "$20",
@@ -85,7 +85,7 @@
       {
         "label": "new",
         "image": {
-          "src": "src/assets/images/Core.webp",
+          "src": "src/assets/images/core.webp",
           "alt": "core"
         },
         "value": "$1,000,000",
@@ -95,7 +95,7 @@
       {
         "label": "new",
         "image": {
-          "src": "src/assets/images/Consol.webp",
+          "src": "src/assets/images/consol.webp",
           "alt": "Consol"
         },
         "value": "$199,5",
@@ -106,7 +106,7 @@
       {
         "label": "New",
         "image": {
-          "src": "src/assets/images/Medusa.webp",
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -117,7 +117,7 @@
       {
         "label": "New",
         "image": {
-          "src": "src/assets/images/Medusa.webp",
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face "
         },
         "value": "$199",
@@ -128,7 +128,7 @@
       {
         "label": "Sold out",
         "image": {
-          "src": "src/assets/images/Medusa.webp",
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -139,7 +139,7 @@
       {
         "label": "New",
         "image": {
-          "src": "src/assets/images/Medusa.webp",
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -149,7 +149,7 @@
       {
         "label": "New",
         "image": {
-          "src": "src/assets/images/Medusa.webp",
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -159,7 +159,7 @@
       {
         "label": "New",
         "image": {
-          "src": "src/assets/images/Medusa.webp",
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -169,7 +169,7 @@
       {
         "label": "New",
         "image": {
-          "src": "src/assets/images/Medusa.webp",
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -179,7 +179,7 @@
       {
         "label": "New",
         "image": {
-          "src": "src/assets/images/Medusa.webp",
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -189,7 +189,7 @@
       {
         "label": "New",
         "image": {
-          "src": "src/assets/images/Medusa.webp",
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -203,11 +203,11 @@
     {
       "size": "large",
       "label": "NFT",
-      "src": "src/assets/images/Medusa.webp",
+      "src": "src/assets/images/medusa.webp",
       "alt": "people face",
-      "image": "src/assets/sprite.svg#icon-User",
+      "image": "src/assets/sprite.svg#icon-user",
       "author": "NOVA RIVEN",
-      "icon": "src/assets/sprite.svg#icon-Calendar",
+      "icon": "src/assets/sprite.svg#icon-calendar",
       "date": "2022-12-04",
       "dateText": "04 Dec 2022",
       "title": "Neural Drift",
@@ -216,7 +216,7 @@
     {
       "size": "small",
       "label": "DROP",
-      "src": "src/assets/images/Skeleton.webp",
+      "src": "src/assets/images/skeleton.webp",
       "alt": "skeleton skull",
       "image": "src/assets/sprite.svg#icon-user",
       "author": "Kairo Null",
@@ -229,7 +229,7 @@
     {
       "size": "small",
       "label": "NFT",
-      "src": "src/assets/images/Cat.webp",
+      "src": "src/assets/images/cat.webp",
       "alt": "black cat green eyes",
       "image": "src/assets/sprite.svg#icon-user",
       "author": "Synthya Void",
@@ -255,7 +255,7 @@
     {
       "size": "large",
       "label": "ARTIFACT",
-      "src": "src/assets/images/Core.webp",
+      "src": "src/assets/images/core.webp",
       "alt": "green core",
       "image": "src/assets/sprite.svg#icon-user",
       "author": "Echo Zero",
@@ -319,7 +319,7 @@
       "name": "Nova Riven",
       "role": "Creative Architect",
       "image": {
-        "src": "src/assets/images/Nova-Riven.webp",
+        "src": "src/assets/images/nova-riven.webp",
         "alt": "Nova Riven photo"
       },
       "socials": [
@@ -361,7 +361,7 @@
       "name": "Echo Zero",
       "role": "Tech Whisperer",
       "image": {
-        "src": "src/assets/images/Echo-Zero.webp",
+        "src": "src/assets/images/echo-zero.webp",
         "alt": "Echo Zero photo"
       },
       "socials": [
@@ -404,7 +404,7 @@
       "name": "Kairo Null",
       "role": "Lore Engineer",
       "image": {
-        "src": "src/assets/images/Kairo-null.webp",
+        "src": "src/assets/images/kairo-null.webp",
         "alt": "Kairo Null photo"
       },
       "socials": [
@@ -447,7 +447,7 @@
       "name": "Dr. Wex Omega",
       "role": "Visual Disruptor",
       "image": {
-        "src": "src/assets/images/Dr.Wex-omega.webp",
+        "src": "src/assets/images/dr.wex-omega.webp",
         "alt": "Dr.Wex Omega photo"
       },
       "socials": [
@@ -498,7 +498,7 @@
       "name": "Synthya Void",
       "role": "UX Seer",
       "image": {
-        "src": "src/assets/images/Synthya-Void.webp",
+        "src": "src/assets/images/synthya-void.webp",
         "alt": "Synthya Void photo"
       },
       "socials": [
@@ -516,7 +516,7 @@
       "name": "Mirlo Drift",
       "role": "Community Catalyst",
       "image": {
-        "src": "src/assets/images/Mirlo-Drift.webp",
+        "src": "src/assets/images/mirlo-drift.webp",
         "alt": "Mirlo Drift photo"
       },
       "socials": [
@@ -567,7 +567,7 @@
       "name": "Axon Rune",
       "role": "Security Ghost",
       "image": {
-        "src": "src/assets/images/Axon-Rune.webp",
+        "src": "src/assets/images/axon-rune.webp",
         "alt": "Axon Rune photo"
       },
       "socials": [
