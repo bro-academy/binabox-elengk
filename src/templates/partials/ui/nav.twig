@@ -4,6 +4,9 @@
       <li class='header__navigation-item {% if item.name == currentPage %}header__navigation-item--active{% endif %}'>
         <a class='header__navigation-link' href='{{ item.href }}'>
           {{ item.name }}
+          <svg class='header__navigation-icon'>
+            <use href="{{ index.navigationIcon }}"></use>
+          </svg>
         </a>
       </li>
     {% endfor %}

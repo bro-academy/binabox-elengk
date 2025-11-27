@@ -2,6 +2,13 @@
 @use "../base/mixins.scss" as *;
 
 .blog-article {
+  &__image {
+    width: $width-n;
+    height: $height-m;
+    gap: $gap;
+    opacity: 1;
+    padding: $space-base $space-lg;
+  }
   &__title {
     font-family: $ff-heading;
     font-weight: $fw-regular;
@@ -26,9 +33,28 @@
     line-height: $lh-lg;
   }
 
+  &__author-icon {
+    width: $width-m;
+    height: $height-xs;
+    opacity: 1;
+  }
+
+  &__date-icon {
+    width: $width-m;
+    height: $height-xs;
+    opacity: 1;
+  }
+
   &__bullet-item {
     font-size: $fz-md;
     line-height: $lh-md;
+  }
+
+  &__icon {
+    width: $width-c;
+    height: $height-t;
+    opacity: 1;
+    color: $accent-link-invert ;
   }
 
   &__quote {
@@ -37,9 +63,17 @@
     font-size: $fz-lg;
     line-height: $lh-lg;
     padding: $space-base;
-    border-radius: 16px;
+    border-radius: $br2;
     background-color: $marina1200;
-    color: rgba(248, 247, 255, 1);
+    color: $alternative-invert;
+  }
+
+  &__picture {
+    width: $width-r;
+    height: $height-r;
+    gap: $gap;
+    opacity: 1;
+    padding: $space-base;
   }
 
   &-value,
@@ -56,7 +90,7 @@
 
   &__tag-link {
     padding: $space-1xs $space-md;
-    border: 2px solid $separatorbold;
+    border: $border $separatorbold;
     font-size: $fz-xs;
     line-height: $lh-m;
     text-align: center;
@@ -70,5 +104,15 @@
     color: $primary;
     text-decoration: none;
     @include button-secondary-style;
+  }
+
+  &__share-icon {
+    width: $width-r;
+    height: $height-y;
+    gap: $gap-q;
+    opacity: 1;
+    border-width: $bw;
+    padding: $space-s;
+    border: $border $separatorbold;
   }
 }

@@ -43,9 +43,15 @@
 
 <button class='catalog-categories__button' type='{{ clearButton.type }}'>
   <span class='catalog-categories__button-title'>{{ clearButton.alt }}</span>
+  <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'>
+    <path stroke="#F5F8FB" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m18 15-6-6-6 6"/>
+  </svg>
 </button>
 
 <form class='catalog-forms__search' method='get'>
+  <svg class='catalog-forms__icon'>
+    <use href="{{ catalogFormSearch.catalogIcon }}"></use>
+  </svg>
   <input
     class='catalog-forms__search-bar'
     type='search'
