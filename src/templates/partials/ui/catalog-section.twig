@@ -5,18 +5,22 @@
 
   <div class='catalog__controls'>
     <button class='catalog__button button button--secondary' type='button'>
-      <img class='catalog__button-image' src='{{ catalog.previousArrow.src }}' alt='{{ catalog.previousArrow.alt }}'>
+      <svg class='catalog__icon catalog__icon--prev'>
+        <use href="{{ catalog.controls.previousArrow.src }}"></use>
+      </svg>
     </button>
     <button class='catalog__button button button--primary' type='button'>
-      <img class='catalog__button-image' src='{{ catalog.nextArrow.src }}' alt='{{ catalog.nextArrow.alt }}'>
+      <svg class='catalog__icon catalog__icon--next'>
+        <use href="{{ catalog.controls.nextArrow.src }}"></use>
+      </svg>
     </button>
   </div>
 
   <ul class='catalog__list'>
     {% for product in catalog.products %}
-      <li>
-        {% include './product-card.twig' with { product: product } %}
-      </li>
+      {% if product.section == 'homepage' %}
+        {% include './product-card.twig' %}
+      {% endif %}
     {% endfor %}
   </ul>
 </section>

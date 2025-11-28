@@ -15,4 +15,21 @@
     padding: $space-lg;
     background-color: $alternative2;
   }
+
+  &-card__author-icon {
+    width: $width-m;
+    height: $height-xs;
+    opacity: 1;
+  }
+
+  &-card__date-icon {
+    width: $width-m;
+    height: $height-xs;
+    opacity: 1;
+  }
+  &-card__link-icon {
+    width: $width-c;
+    height: $height-t;
+    opacity: 1;
+  }
 }
