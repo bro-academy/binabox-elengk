@@ -4,6 +4,45 @@
 .header {
   padding: $space-1xl;
 
+  &__logo{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap:5px;
+  }
+
+  &__logo-text {
+    width: $width-p;
+    height: $height-p;
+    opacity: 1;
+    top: $top-b;
+    left: $left-b;
+    color: $baseIcon1;
+    font-size: $fz-lg;
+  }
+
+  &__logo-image {
+    width: $width-nm;
+    height: $height-k;
+    opacity: 1;
+    color: $accent-link-invert;
+    display: block;
+  }
+
+  &__search-icon {
+    width: $widht-v;
+    height: $height-v;
+    opacity: 1;
+    top: $top-q;
+    left: $left-q;
+  }
+
+  &__button-icon {
+    width: $width-c;
+    height: $height-t;
+    opacity: 1;
+  }
+
   &__navigation {
     &-link {
       color: $primary;
@@ -13,11 +52,28 @@
       text-decoration: none;
     }
 
+    &-icon {
+      width: $width-c;
+      height: $height-t;
+      opacity: 1;
+    }
+
     &-item {
       &--active {
         border-bottom: $border $marina800;
       }
     }
+  }
+
+  &__search-bar {
+    font-family: $ff-body;
+    font-weight: $fw-regular;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+    letter-spacing: $ls-0;
+    background-color: $alternative;
+    border: $border;
+    border-color: $separatorbold;
   }
 
   &__button {

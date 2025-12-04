@@ -1,6 +1,8 @@
 <footer class='footer'>
-  <a class='footer__logo' href='{{ index.navigation }} '>
-    <img class='footer__image' src='{{ }}' alt='BINABOX logo'>
+  <a class='footer__logo' href='{{ footer.href }} '>
+    <svg class='footer__logo-image'>
+      <use href="{{ footer.logo_href }}"></use>
+    </svg>
   </a>
   <p class='footer__description'>{{ footer.description }}</p>
 
@@ -13,7 +15,7 @@
             class='footer-navigation__list-link'
             href='{{ link.href }}'
           >
-            {{- link.label -}}
+            {{ link.label }}
           </a>
         </li>
       {% endfor %}
@@ -32,7 +34,9 @@
     {% for social in footerSocials %}
       <li class='footer__social-item'>
         <a class='footer__social-link' href='{{ social.url }}'>
-          <img class='footer__social-image' src='{{ social.icon }}' alt='{{ social.label }} logo'> {{ social.label }}
+          <svg class='footer__social-icon'>
+            <use href="{{ social.icon }}"></use>
+          </svg>
         </a>
       </li>
     {% endfor %}

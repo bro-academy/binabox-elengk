@@ -4,12 +4,22 @@
   {% for blogPost in blogPosts %}
     <article class='blog-card blog-card--{{ blogPost.size }}'>
       <p class='blog-card__label'>{{ blogPost.label }}</p>
-      <img class='blog-card__image' src='{{ blogPost.image }}' alt='{{ blogPost.imageAlt }}'>
-
-      <img class='blog-card__author-icon' src='#' alt='small human icon'>
+      <picture>
+        {% if blogPost.src %}<source srcset='{{ blogPost.src }}' type='image/webp'>{% endif %}
+        <img
+          class='blog-card__image--{{ blogPost.size }}'
+          src='{{ blogPost.src }}'
+          alt='{{blogPost.alt }}'
+        >
+      </picture>
+      <svg class='blog-card__author-icon'>
+        <use href="{{ blogPost.image }}"></use>
+      </svg>
       <address class='blog-card__author-info'>
         <p class='blog-card__author'>{{ blogPost.author }}</p>
-        <img class='blog-card__date-icon' src='#' alt='calendar'>
+        <svg class='blog-card__date-icon'>
+          <use href="{{ blogPost.icon }}"></use>
+        </svg>
         <time class='blog-card__time' datetime='{{ blogPost.date }}'>{{ blogPost.dateText }}</time>
       </address>
 
@@ -19,7 +29,9 @@
       <div class='blog-card__button'>
         <a class='blog-card__button-link button button--tertiary' href='{{ blogPost.link }}'>
           Read more
-          <img class='blog-card__link-image' src='#' alt='next arrow'>
+          <svg class='blog-card__link-icon'>
+            <use href='{{ ctaButton.icon }}'></use>
+          </svg>
         </a>
       </div>
     </article>

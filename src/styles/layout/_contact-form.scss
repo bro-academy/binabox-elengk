@@ -27,17 +27,38 @@
     font-weight: $fw-regular;
     font-size: $fz-xs;
     line-height: $lh-m;
-
- 
   }
 
+  &__icon {
+    width: $width-z;
+    height: $height-z;
+    opacity: 1;
+    top: $top-q;
+    left: $left-w;
+  }
+
+  &__img {
+    width: $width-k;
+    height: $height-k;
+    opacity: 1;
+    top: $top-e;
+    left: $left-w;
+  }
+
+  &__image {
+    width: $widht-t;
+    height: $height-w;
+    opacity: 1;
+    top: $top-s;
+    left: $left-s;
+  }
 
   &__input {
-     -webkit-appearance: none;
+    -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border: $border $line; 
-    
+    border: $border $line;
+
     box-shadow: none;
     font-family: $ff-body;
     font-weight: $fw-regular;
@@ -46,26 +67,22 @@
     color: $alternative3-invert;
     background-color: transparent;
 
-
     &:hover {
       border-color: $marina600;
     }
 
     &:focus {
-        outline: none;
+      outline: none;
       box-shadow: none;
       border: $border0 $marina600;
     }
-
- 
   }
 
-  &__input[id='message'] {
-     resize: vertical;
-     }
+  &__input--message {
+    resize: vertical;
+  }
 
-
-  &__fieldset{
+  &__fieldset {
     border: none;
   }
 
@@ -82,7 +99,6 @@
     position: absolute;
     top: $top;
     left: $left-xs;
-    
 
     &:checked {
       &::before {
@@ -113,11 +129,10 @@
       border: $border $line;
       box-sizing: border-box;
       box-shadow: none;
-      
     }
 
     &:hover::after {
-      background-color:  $separatorbold-invert;
+      background-color: $separatorbold-invert;
       border-color: $line;
     }
 
@@ -128,23 +143,19 @@
     }
 
     &:focus::after {
-      box-shadow: inset 0 0 0 4px  $alternative3-invert;
+      box-shadow: inset 0 0 0 4px $alternative3-invert;
       border-color: $focus-invert;
-      
     }
 
     &:disabled::after {
       background-color: $separatorbold;
     }
-
-  
   }
   &__input-radio:checked::before {
-    
     border-color: $accent-link-invert;
 
-     &:hover::before {
-      box-shadow:inset 0 0 0 4px  $marina600;
+    &:hover::before {
+      box-shadow: inset 0 0 0 4px $marina600;
       border-color: $marina600;
     }
     &:active::before {
@@ -152,7 +163,7 @@
       border-color: $marina200;
     }
     &:focus::before {
-      box-shadow: inset 0 0 0 4px  $marina600;
+      box-shadow: inset 0 0 0 4px $marina600;
       border-color: $marina600;
     }
     &:disabled::before {
@@ -215,23 +226,22 @@
       border-color: $separatorbold;
     }
   }
-   &__terms-link {
-      color: $accent-link;
-      text-decoration: none;
-      &:hover {
-        color: $marina600;
-      }
-    }
-
-    &__error-message {
-      display: none;
-      color: $negative;
-      font-size: $fz-2xs;
-      margin-top: $space-xs;
-    }
-    &__input:user-invalid,
-    &__checkbox-input:user-invalid {
-      border-color: $negative;
+  &__terms-link {
+    color: $accent-link;
+    text-decoration: none;
+    &:hover {
+      color: $marina600;
     }
   }
 
+  &__error-message {
+    display: none;
+    color: $negative;
+    font-size: $fz-2xs;
+    margin-top: $space-xs;
+  }
+  &__input:user-invalid,
+  &__checkbox-input:user-invalid {
+    border-color: $negative;
+  }
+}

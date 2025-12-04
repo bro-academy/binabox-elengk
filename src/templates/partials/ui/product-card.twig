@@ -4,6 +4,10 @@
       {{ product.label }}
     </span>
   {% endif %}
+  <picture>
+    <source srcset='{{ product.image.src }}' type='image/webp'>
+    <img class='product-card__image' src='{{ product.image.src }}' alt='{{ product.image.alt }}'>
+  </picture>
 
   <h3 class='product-card__name'>{{ product.name }}</h3>
   <p class='product-card__value'>{{ product.value }}</p>

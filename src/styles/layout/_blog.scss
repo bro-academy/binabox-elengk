@@ -9,4 +9,56 @@
     font-size: $fz-ml;
     line-height: $lh-me;
   }
+  &-card {
+    position: relative;
+    background-color: $alternative2;
+  }
+
+  &-card__label {
+    position: absolute;
+    font-family: $ff-body;
+    font-weight: $fw-semibold;
+    font-size: $fz-xs;
+    line-height: $lh-m;
+    text-align: right;
+    color: $marina800;
+    background-color: $primary;
+    gap: $gap;
+    opacity: 1;
+    padding: $space-s $space-2s;
+  }
+
+  &-card__image {
+    &--large {
+      width: $width-mp;
+      height: $height-mp;
+      opacity: 1;
+      object-fit: cover;
+    }
+
+    &--small {
+      width: $width-mp;
+      height: $height-mm;
+      opacity: 1;
+      object-fit: center;
+    }
+  }
+
+  &-card__author-icon {
+    width: $width-m;
+    height: $height-xs;
+    opacity: 1;
+  }
+
+  &-card__date-icon {
+    width: $width-m;
+    height: $height-xs;
+    opacity: 1;
+  }
+
+  &-card__link-icon {
+    width: $width-c;
+    height: $height-t;
+    opacity: 1;
+  }
 }

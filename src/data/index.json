@@ -5,6 +5,10 @@
     "bannerTextSecond": " EXPLORE NFT COLLECTION",
     "bannerDescription": "We are the best way to check the rarity of NFT collection"
   },
+  "bannerImage": {
+    "src": "src/assets/images/binabox-cube.webp",
+    "alt": "Binabox 3D glowing cube"
+  },
 
   "bannerStats": [
     {
@@ -39,11 +43,11 @@
     "catalogSeeAllHref": "#",
     "controls": {
       "previousArrow": {
-        "src": "#",
+        "src": "src/assets/sprite.svg#icon-left-arrow",
         "alt": "Previous"
       },
       "nextArrow": {
-        "src": "#",
+        "src": "src/assets/sprite.svg#icon-right-arrow",
         "alt": "Next"
       }
     },
@@ -51,7 +55,7 @@
       {
         "label": "New",
         "image": {
-          "src": "#",
+          "src": "src/assets/images/skeleton.webp",
           "alt": "Skeleton"
         },
         "value": "$1990",
@@ -61,7 +65,7 @@
       {
         "label": "new",
         "image": {
-          "src": "#",
+          "src": "src/assets/images/cat.webp",
           "alt": "Cat"
         },
         "value": "$299,99",
@@ -71,7 +75,7 @@
       {
         "label": "Sold out",
         "image": {
-          "src": "#",
+          "src": "src/assets/images/scissor.webp",
           "alt": "scissor"
         },
         "value": "$20",
@@ -81,7 +85,7 @@
       {
         "label": "new",
         "image": {
-          "src": "#",
+          "src": "src/assets/images/core.webp",
           "alt": "core"
         },
         "value": "$1,000,000",
@@ -91,7 +95,7 @@
       {
         "label": "new",
         "image": {
-          "src": "#",
+          "src": "src/assets/images/consol.webp",
           "alt": "Consol"
         },
         "value": "$199,5",
@@ -101,8 +105,8 @@
 
       {
         "label": "New",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -112,8 +116,8 @@
 
       {
         "label": "New",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face "
         },
         "value": "$199",
@@ -123,8 +127,8 @@
 
       {
         "label": "Sold out",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -134,8 +138,8 @@
 
       {
         "label": "New",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -144,8 +148,8 @@
       },
       {
         "label": "New",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -154,8 +158,8 @@
       },
       {
         "label": "New",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -164,8 +168,8 @@
       },
       {
         "label": "New",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -174,8 +178,8 @@
       },
       {
         "label": "New",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -184,8 +188,8 @@
       },
       {
         "label": "New",
-        "imgage": {
-          "src": "#",
+        "image": {
+          "src": "src/assets/images/medusa.webp",
           "alt": "Medusa face"
         },
         "value": "$199",
@@ -199,9 +203,11 @@
     {
       "size": "large",
       "label": "NFT",
-      "src": "#",
-      "image": "people face",
+      "src": "src/assets/images/medusa.webp",
+      "alt": "people face",
+      "image": "src/assets/sprite.svg#icon-user",
       "author": "NOVA RIVEN",
+      "icon": "src/assets/sprite.svg#icon-calendar",
       "date": "2022-12-04",
       "dateText": "04 Dec 2022",
       "title": "Neural Drift",
@@ -210,9 +216,11 @@
     {
       "size": "small",
       "label": "DROP",
-      "src": "#",
-      "image": "skeleton skull",
+      "src": "src/assets/images/skeleton.webp",
+      "alt": "skeleton skull",
+      "image": "src/assets/sprite.svg#icon-user",
       "author": "Kairo Null",
+      "icon": "src/assets/sprite.svg#icon-calendar",
       "date": "2022-12-06",
       "dateText": "06 Dec 2022",
       "title": "Deadframe",
@@ -221,9 +229,11 @@
     {
       "size": "small",
       "label": "NFT",
-      "image": "#",
-      "imageAlt": "black cat green eyes",
+      "src": "src/assets/images/cat.webp",
+      "alt": "black cat green eyes",
+      "image": "src/assets/sprite.svg#icon-user",
       "author": "Synthya Void",
+      "icon": "src/assets/sprite.svg#icon-calendar",
       "date": "2022-12-07",
       "dateText": "07 Dec 2022",
       "title": "Glitch Panther",
@@ -232,9 +242,11 @@
     {
       "size": "small",
       "label": "RARE",
-      "image": "#",
-      "imageAlt": "black ape",
+      "src": "src/assets/images/monkey.webp",
+      "alt": "black ape",
+      "image": "src/assets/sprite.svg#icon-user",
       "author": "Dr.Wex Omega",
+      "icon": "src/assets/sprite.svg#icon-calendar",
       "date": "2022-12-08",
       "dateText": "08 Dec 2022",
       "title": "Primal.exe",
@@ -243,9 +255,11 @@
     {
       "size": "large",
       "label": "ARTIFACT",
-      "image": "#",
-      "imageAlt": "green core",
+      "src": "src/assets/images/core.webp",
+      "alt": "green core",
+      "image": "src/assets/sprite.svg#icon-user",
       "author": "Echo Zero",
+      "icon": "src/assets/sprite.svg#icon-calendar",
       "date": "2022-12-09",
       "dateText": "09 Dec 2022",
       "title": "Retrocore",
@@ -254,9 +268,11 @@
     {
       "size": "small",
       "label": "NFT",
-      "image": "#",
-      "imageAlt": "white duck",
+      "src": "src/assets/images/duck.webp",
+      "alt": "white duck",
+      "image": "src/assets/sprite.svg#icon-user",
       "author": "Tony Nguyen",
+      "icon": "src/assets/sprite.svg#icon-calendar",
       "date": "2022-01-20",
       "dateText": "20 Jun 2022",
       "title": "White Protocol",
@@ -266,7 +282,8 @@
 
   "ctaButton": {
     "text": "Read more",
-    "link": "#"
+    "link": "#",
+    "icon": "src/assets/sprite.svg#icon-right-arrow"
   },
 
   "aboutTitle": "About Us",
@@ -302,7 +319,7 @@
       "name": "Nova Riven",
       "role": "Creative Architect",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/nova-riven.webp",
         "alt": "Nova Riven photo"
       },
       "socials": [
@@ -310,7 +327,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-facebook-white",
             "alt": "Facebook logo"
           }
         },
@@ -318,7 +335,7 @@
           "label": "Telegram",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-telegram",
             "alt": "Telegram logo"
           }
         },
@@ -326,7 +343,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-linkedIn-white",
             "alt": "LinkedIn logo"
           }
         },
@@ -334,7 +351,7 @@
           "label": "Instagram",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-instagram",
             "alt": "Instagram logo"
           }
         }
@@ -344,7 +361,7 @@
       "name": "Echo Zero",
       "role": "Tech Whisperer",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/echo-zero.webp",
         "alt": "Echo Zero photo"
       },
       "socials": [
@@ -352,7 +369,7 @@
           "label": "Twitter",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-twitter",
             "alt": "Twitter logo"
           }
         },
@@ -360,7 +377,7 @@
           "label": "Telegram",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-telegram",
             "alt": "Telegram logo"
           }
         },
@@ -368,7 +385,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-linkedIn-white",
             "alt": "LinkedIn logo"
           }
         },
@@ -376,7 +393,7 @@
           "label": "Instagram",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-instagram",
             "alt": "Instagram logo"
           }
         }
@@ -387,7 +404,7 @@
       "name": "Kairo Null",
       "role": "Lore Engineer",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/kairo-null.webp",
         "alt": "Kairo Null photo"
       },
       "socials": [
@@ -395,7 +412,7 @@
           "label": "Twitter",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-twitter",
             "alt": "Twitter logo"
           }
         },
@@ -403,7 +420,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-facebook-white",
             "alt": "Facebook logo"
           }
         },
@@ -411,7 +428,7 @@
           "label": "Telegram",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-telegram",
             "alt": "Telegram logo"
           }
         },
@@ -419,7 +436,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-linkedIn-white",
             "alt": "LinkedIn logo"
           }
         }
@@ -430,7 +447,7 @@
       "name": "Dr. Wex Omega",
       "role": "Visual Disruptor",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/dr.wex-omega.webp",
         "alt": "Dr.Wex Omega photo"
       },
       "socials": [
@@ -438,7 +455,7 @@
           "label": "Twitter",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-twitter",
             "alt": "Twitter logo"
           }
         },
@@ -446,7 +463,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-facebook-white",
             "alt": "Facebook logo"
           }
         },
@@ -454,7 +471,7 @@
           "label": "Telegram",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-telegram",
             "alt": "Telegram logo"
           }
         },
@@ -462,7 +479,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-linkedIn-white",
             "alt": "LinkedIn logo"
           }
         },
@@ -470,7 +487,7 @@
           "label": "Instagram",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-instagram",
             "alt": "Instagram logo"
           }
         }
@@ -481,7 +498,7 @@
       "name": "Synthya Void",
       "role": "UX Seer",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/synthya-void.webp",
         "alt": "Synthya Void photo"
       },
       "socials": [
@@ -489,7 +506,7 @@
           "label": "Twitter",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-twitter",
             "alt": "Twitter logo"
           }
         }
@@ -499,7 +516,7 @@
       "name": "Mirlo Drift",
       "role": "Community Catalyst",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/mirlo-drift.webp",
         "alt": "Mirlo Drift photo"
       },
       "socials": [
@@ -507,7 +524,7 @@
           "label": "Twitter",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-twitter",
             "alt": "Twitter logo"
           }
         },
@@ -515,7 +532,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-facebook-white",
             "alt": "Facebook logo"
           }
         },
@@ -523,7 +540,7 @@
           "label": "Telegram",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-telegram",
             "alt": "Telegram logo"
           }
         },
@@ -531,7 +548,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-linkedIn-white",
             "alt": "LinkedIn logo"
           }
         },
@@ -539,7 +556,7 @@
           "label": "Instagram",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-instagram",
             "alt": "Instagram logo"
           }
         }
@@ -550,7 +567,7 @@
       "name": "Axon Rune",
       "role": "Security Ghost",
       "image": {
-        "src": "#",
+        "src": "src/assets/images/axon-rune.webp",
         "alt": "Axon Rune photo"
       },
       "socials": [
@@ -558,7 +575,7 @@
           "label": "Twitter",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-twitter",
             "alt": "Twitter logo"
           }
         },
@@ -566,7 +583,7 @@
           "label": "Facebook",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-facebook-white",
             "alt": "Facebook logo"
           }
         },
@@ -574,7 +591,7 @@
           "label": "Telegram",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-telegram",
             "alt": "Telegram logo"
           }
         },
@@ -582,7 +599,7 @@
           "label": "LinkedIn",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-linkedIn-white",
             "alt": "LinkedIn logo"
           }
         },
@@ -590,7 +607,7 @@
           "label": "Instagram",
           "href": "#",
           "icon": {
-            "src": "#",
+            "src": "src/assets/sprite.svg#icon-instagram",
             "alt": "Instagram logo"
           }
         }

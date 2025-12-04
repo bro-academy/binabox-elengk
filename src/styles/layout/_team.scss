@@ -10,12 +10,25 @@
     letter-spacing: $ls-xs;
     text-align: center;
   }
+  &-member {
+    background-color: $alternative2;
+  }
 
   &-member__name {
     font-family: $ff-heading;
     font-size: $fz-ml;
     line-height: $lh-me;
     color: $grey1;
+  }
+
+  &-member__image {
+    width: $width-l;
+    height: $height-c;
+    top: $top-a;
+    left: $top-a;
+    opacity: 1;
+    border-radius: 50%;
+    display: block;
   }
 
   &-member__role {
@@ -25,5 +38,12 @@
     line-height: $lh-md;
     letter-spacing: $ls-0;
     color: $secondary;
+  }
+
+  &-member__social-icon {
+    width: $width-c;
+    height: $height-t;
+    opacity: 1;
+    color: $primary;
   }
 }

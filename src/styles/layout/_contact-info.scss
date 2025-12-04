@@ -20,4 +20,10 @@
     line-height: $lh-base;
     text-align: center;
   }
+
+  &__icon {
+    width: $width-b;
+    height: $height-b;
+    opacity: 1;
+  }
 }

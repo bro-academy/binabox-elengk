@@ -19,4 +19,5 @@ export default defineConfig({
     postcss(),
     imageOptimizer(),
   ],
+  resolve: { alias: { '@': '/src' } }
 });
